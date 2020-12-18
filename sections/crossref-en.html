@@ -1,0 +1,589 @@
+<h2 id="crossreference" class="list">Cross reference for CTO classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by CTO.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+      </li>
+      <li>
+         <a href="#ModificationTask" title="https://w3id.org/cto#ModificationTask">a modification task</a>
+      </li>
+      <li>
+         <a href="#RemovalTask" title="https://w3id.org/cto#RemovalTask">a removal task</a>
+      </li>
+      <li>
+         <a href="#RepairTask" title="https://w3id.org/cto#RepairTask">a repair task</a>
+      </li>
+      <li>
+         <a href="#TaskMethod" title="https://w3id.org/cto#TaskMethod">a task (execution) method</a>
+      </li>
+      <li>
+         <a href="#TaskContext" title="https://w3id.org/cto#TaskContext">a task context</a>
+      </li>
+      <li>
+         <a href="#InspectionTask" title="https://w3id.org/cto#InspectionTask">an inspection task</a>
+      </li>
+      <li>
+         <a href="#InstallmentTask" title="https://w3id.org/cto#InstallmentTask">an installment task</a>
+      </li>
+   </ul>
+   <div class="entity" id="Task">
+      <h3>a construction task<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#Task</p>
+      <div class="comment">
+         <span class="markdown">A generic class for defining (planned or executed) construction tasks. Instances of this class are connected with the construction element(s), spatial zone(s) or construction damages they operate on (cto:isSubjectOfTask). In addition, they might also be linked to a (planned or executed) moment or time span of performance (prov:atTime/prov:startedAtTime/prov:endedAtTime) and one or more task contexts (cto:hasTaskContext), task methods (cto:hasTaskMethod), assigned persons and/or organizations (prov:wasAssociatedWith), other tasks that must be finalized before the task can start (cto:afterFinishedTask) and reified statements that are added or deleted (cto:resultsInAddedStatement or cto:resultsInDeletedStatement).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#ModificationTask" title="https://w3id.org/cto#ModificationTask">a modification task</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#RemovalTask" title="https://w3id.org/cto#RemovalTask">a removal task</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#RepairTask" title="https://w3id.org/cto#RepairTask">a repair task</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#InspectionTask" title="https://w3id.org/cto#InspectionTask">an inspection task</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#InstallmentTask" title="https://w3id.org/cto#InstallmentTask">an installment task</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#afterFinishedTask" title="https://w3id.org/cto#afterFinishedTask">after finished task</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasTaskContext" title="https://w3id.org/cto#hasTaskContext">has task context</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasTaskMethod" title="https://w3id.org/cto#hasTaskMethod">has task method</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#resultsInAddedStatement" title="https://w3id.org/cto#resultsInAddedStatement">results in added statement</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#resultsInDeletedStatement" title="https://w3id.org/cto#resultsInDeletedStatement">results in deleted statement</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#resultsInStatement" title="https://w3id.org/cto#resultsInStatement">results in statement</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#afterFinishedTask" title="https://w3id.org/cto#afterFinishedTask">after finished task</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isSubjectOfTask" title="https://w3id.org/cto#isSubjectOfTask">is subject of task</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="ModificationTask">
+      <h3>a modification task<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#ModificationTask</p>
+      <div class="comment">
+         <span class="markdown">A specialized type of a (planned or executed) construction task that physically modifies a construction component, spatial zone or damage. The modification results in a change to one or more properties and/or geometry descriptions of the modified subject. It should not be used to repair a damaged construction element or spatial zone as cto:RepairTask should be used instead.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RemovalTask">
+      <h3>a removal task<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#RemovalTask</p>
+      <div class="comment">
+         <span class="markdown">A specialized type of a (planned or executed) construction task that physically removes a construction component from the construction. The removal results in the removal of all the (directly or indirectly) asserted triples related to the thing that is subject of this task, including triples that use terminology from BOT (building topology), DOT (damage topology), OMG/FOG (geometry, properties, etc.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="RepairTask">
+      <h3>a repair task<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#RepairTask</p>
+      <div class="comment">
+         <span class="markdown">A specialized type of a (planned or executed) construction task that repairs a damaged construction element or spatial zone. The subjects of this type of task are construction damages. Depending on the degree of modeling, a repair task can either directly result in the lifting of a damage (and its influence on properties of the damaged object) or subtasks can be defined e.g. to remove a damaged construction component and replace it by a new one.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TaskMethod">
+      <h3>a task (execution) method<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#TaskMethod</p>
+      <div class="comment">
+         <span class="markdown">A task method description defines how a task should be or was executed, depending on the construction dataset context (planning or progress monitoring). The cto:hasTaskMethod property connects a task to instances of this class that in turn point to a task method described in text using the cto:hasSimpleTaskMethodDescription. If RDF-based task method descriptions are applied instead of text, they can be connected using cto:hasComplexTaskMethodDescription.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasSimpleTaskMethodDescription"
+               title="https://w3id.org/cto#hasSimpleTaskMethodDescription">has simple task method description</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TaskContext">
+      <h3>a task context<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#TaskContext</p>
+      <div class="comment">
+         <span class="markdown">A task context allows to group certain tasks that are related. Examples are tasks that fall under the responsibility of a certain organization, tasks grouped per activity or project (e.g. inspections, demolition, construction, etc.), work item (cost estimation) or a larger task that can be subdivided in smaller tasks.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasTaskContext" title="https://w3id.org/cto#hasTaskContext">has task context</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InspectionTask">
+      <h3>an inspection task<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#InspectionTask</p>
+      <div class="comment">
+         <span class="markdown">A specialized type of a (planned or executed) construction task that indicates that a construction element, spatial zone and/or damage are inspected. When a construction component or spatial zone is inspected and a damage is detected, the result of the inspection task is the damage description connected to the inspected object. Note that existing known damage, e.g. covered by previous inspections, can be the subject of subsequent inspection tasks.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="InstallmentTask">
+      <h3>an installment task<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#InstallmentTask</p>
+      <div class="comment">
+         <span class="markdown">A specialized type of a (planned or executed) construction task that physically installs a construction component as part of the construction. The installment results in the addition of asserted triple(s) connecting the installed object to other construction elements and/or spatial zones and other triples describing the object through classification, properties and/or geometry.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#afterFinishedTask" title="https://w3id.org/cto#afterFinishedTask">after finished task</a>
+      </li>
+      <li>
+         <a href="#hasComplexTaskMethodDescription"
+            title="https://w3id.org/cto#hasComplexTaskMethodDescription">has complex task method description</a>
+      </li>
+      <li>
+         <a href="#hasTaskContext" title="https://w3id.org/cto#hasTaskContext">has task context</a>
+      </li>
+      <li>
+         <a href="#hasTaskMethod" title="https://w3id.org/cto#hasTaskMethod">has task method</a>
+      </li>
+      <li>
+         <a href="#isSubjectOfTask" title="https://w3id.org/cto#isSubjectOfTask">is subject of task</a>
+      </li>
+      <li>
+         <a href="#resultsInAddedStatement" title="https://w3id.org/cto#resultsInAddedStatement">results in added statement</a>
+      </li>
+      <li>
+         <a href="#resultsInDeletedStatement" title="https://w3id.org/cto#resultsInDeletedStatement">results in deleted statement</a>
+      </li>
+      <li>
+         <a href="#resultsInStatement" title="https://w3id.org/cto#resultsInStatement">results in statement</a>
+      </li>
+   </ul>
+   <div class="entity" id="afterFinishedTask">
+      <h3>after finished task<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#afterFinishedTask</p>
+      <div class="comment">
+         <span class="markdown">Connects the subject task to one ore more other tasks have to be finished before it is allowed to start.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasComplexTaskMethodDescription">
+      <h3>has complex task method description<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#hasComplexTaskMethodDescription</p>
+      <div class="comment">
+         <span class="markdown">Property to connect a certain construction task (cto:Task) to the topnode of an RDF-based description of a task method. 
+Depending on the property level used, this property get's a different location. In case of L1, a task is directly connected with the task method description. When using L2, a task is first connected to an intermediate property node via cp:hasTaskMethod. The intermediate node is then connected using cp:hasComplexTaskMethodDescription. In case of L3, the first intermediate node from L2 receives an outgoing opm:hasPropertyState property. The property state node is then connected to the task method description using cp:hasComplexTaskMethodDescrription. A task method description contains a step-by-step description of the procedure, used materials and equipment.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="hasTaskContext">
+      <h3>has task context<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#hasTaskContext</p>
+      <div class="comment">
+         <span class="markdown">Connects a task to a task context that forms a group of tasks with shared properties.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#TaskContext" title="https://w3id.org/cto#TaskContext">a task context</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasTaskMethod">
+      <h3>has task method<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#hasTaskMethod</p>
+      <div class="comment">
+         <span class="markdown">Property to connect a certain construction task (cto:Task) to an intermediate property node when applied on property level 2 or 3. The intermediate property node then connects to a task method description directly using cto:hasSimpleTaskMethodDescription or cto:hasComplexTaskMethodDescription (L2) or to a property state using opm:hasPropertyState (L3) to indicate a versioned task method description connected using cto:hasSimpleTaskMethodDescription or cto:hasComplexTaskMethodDescription. A task method description contains a step-by-step description of the procedure, used materials and equipment.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isSubjectOfTask">
+      <h3>is subject of task<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#isSubjectOfTask</p>
+      <div class="comment">
+         <span class="markdown">Connects a construction component (e.g. bot:Element instance), a spatial zone (e.g. bot:Zone instance) or a construction damage (e.g. dot:Damage instance) to a (planned or executed) task that is related to it.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>domain includes</dt>
+            <dd>
+               <span class="dotted" title="https://w3id.org/bot#Element">element</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="dotted" title="https://w3id.org/bot#Zone">zone</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="dotted" title="https://w3id.org/dot#Damage">damage</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="resultsInAddedStatement">
+      <h3>results in added statement<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#resultsInAddedStatement</p>
+      <div class="comment">
+         <span class="markdown">Connects a (planned or executed) task to a reified statement that is added to the construction description as a result of the task.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#resultsInStatement" title="https://w3id.org/cto#resultsInStatement">results in statement</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">statement</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="resultsInDeletedStatement">
+      <h3>results in deleted statement<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#resultsInDeletedStatement</p>
+      <div class="comment">
+         <span class="markdown">Connects a (planned or executed) task to a reified statement that is deleted from the construction description as a result of the task.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#resultsInStatement" title="https://w3id.org/cto#resultsInStatement">results in statement</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">statement</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="resultsInStatement">
+      <h3>results in statement<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#resultsInStatement</p>
+      <div class="comment">
+         <span class="markdown">Connects a (planned or executed) task to a reified statement that is either added or deleted as a result of the task. The subproperties of this property (cto:resultsInAddedStatement and cto:resultsInDeletedStatement) should be used to express the consequence of the task to the statement. A cto:InstalmentTask and dot:Inspection task typically result in the use of cto:resultsInAddedStatement, a cto:RemovalTask typically results in the use of cto:resultsInDeletedStatement while a cto:ModificationTask results in the use of cto:resultsInAddedStatement and/or cto:resultsInDeletedStatement.</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#resultsInAddedStatement" title="https://w3id.org/cto#resultsInAddedStatement">results in added statement</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#resultsInDeletedStatement" title="https://w3id.org/cto#resultsInDeletedStatement">results in deleted statement</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Task" title="https://w3id.org/cto#Task">a construction task</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">statement</span>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#hasSimpleTaskMethodDescription"
+            title="https://w3id.org/cto#hasSimpleTaskMethodDescription">has simple task method description</a>
+      </li>
+   </ul>
+   <div class="entity" id="hasSimpleTaskMethodDescription">
+      <h3>has simple task method description<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/cto#hasSimpleTaskMethodDescription</p>
+      <div class="comment">
+         <span class="markdown">Property to connect a construction task method node to an RDF literal containing either a text description for human interpretation (rdf:langString with language tag) and/or embedded or referenced file content (diagrams, movies, webpages, etc.). In case of a referenced external file, the literal contain the reference is of datatype xsd:anyURI. When the content of a file is embedded in the literal and file format is text-based the xsd:string datatype is used. If the file format is binary, a binary-to-text encoded version is located inside the RDF literal combined with a datatype to indicate the encoding scheme (xsd:base64Binary, xsd:hexBinary, or a custom datatype for other encoding schemes).</span>
+      </div>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="https://w3id.org/cto">https://w3id.org/cto</a>
+         </dd>
+      </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#TaskMethod" title="https://w3id.org/cto#TaskMethod">a task (execution) method</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>range includes</dt>
+            <dd>
+               <span class="dotted"
+                     title="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">lang string</span>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#anyURI">any u r i</span>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#base64Binary">base64 binary</span>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#hexBinary">hex binary</span>
+            </dd>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
