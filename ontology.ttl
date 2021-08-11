@@ -50,6 +50,10 @@ bot:Zone
       vcard:hasURL <https://www.kuleuven.be/wieiswie/nl/person/00110827> ;
       vcard:hasURL <https://www.researchgate.net/profile/Mathias_Bonduel> ;
     ] ;
+  dcterms:contributor [
+      rdf:type foaf:Person ;
+      foaf:name "Al-Hakam Hamdan" ;
+    ] ;
   dct:description """The Construction Tasks Ontology (CTO) describes tasks operating on construction elements, spatial zones and/or damages.  The tasks are either planned or executed depending on the dataset metadata context of the dataset its used in. Five different types of tasks are defined: instalment, removal, modification, repair and inspection. 
 Consequences of tasks on the dataset, i.e. added and/or deleted triples, are modeled using reified statements. The tasks can link to a reified statement using the CTO relations."""@en ;
   dct:issued "2020-12-18"^^xsd:date ;
@@ -189,6 +193,17 @@ cto:resultsInStatement
   rdfs:isDefinedBy <https://w3id.org/cto> ;
   rdfs:label "results in statement"@en ;
   rdfs:range rdf:Statement ;
+.
+cto:hasRecommendedTask
+  rdf:type owl:ObjectProperty ;
+  rdfs:subPropertyOf cto:isSubjectOfTask ;
+  schema:domainIncludes bot:Element ;
+  schema:domainIncludes bot:Zone ;
+  schema:domainIncludes dot:Damage ;
+  rdfs:comment "Connects a construction component (e.g. bot:Element instance), a spatial zone (e.g. bot:Zone instance) or a construction damage (e.g. dot:Damage instance) to a recommendation of a task that is related to it. This property could be used by expert- or recommendation-systems."@en ;
+  rdfs:isDefinedBy <https://w3id.org/cto> ;
+  rdfs:label "has recommended task"@en ;
+  rdfs:range cto:Task ;
 .
 dot:Damage
   rdf:type owl:Class ;
