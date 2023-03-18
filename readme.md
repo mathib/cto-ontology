@@ -11,14 +11,14 @@
 
 The most recent version of CTO is always available in this Github repository
 
-## Introduction to CTO
+## Introduction to CDRIO
 
-The CTO ontology contains contains terminology to describe construction tasks and their impact on a construction description.
+The CDRIO ontology contains terminology to describe the context of construction projects and their related risks.
 
-## Contributing to CTO
+## Contributing to CDRIO
 
 Errors and requests for additional terminology can be reported using Github issues.
 
 ## Contributors
 
-[Mathias Bonduel](https://github.com/mathib) - KU Leuven
+[Emad Mohamed](https://github.com/EmadHHM) - Ualberta
