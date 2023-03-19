@@ -1,0 +1,1662 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cdrio#"
+     xml:base="http://www.semanticweb.org/cdrio"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cdrio">
+        <rdfs:comment>The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Cause -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cdrio#Cause">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cdrio#CausedBy"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Risk_Driver"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cdrio#Risk_Factor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#CausedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cdrio#CausedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Risk_Factor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cdrio#Risk_Driver"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#OccuredIn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cdrio#OccuredIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Risk_Factor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cdrio#Project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#hasConsequenceOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cdrio#hasConsequenceOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Risk_Factor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cdrio#Project_Objective"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#hasEffectOn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cdrio#hasEffectOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Risk_Factor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#hasResponse -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cdrio#hasResponse">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Risk_Factor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cdrio#Response_Strategy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#hasType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cdrio#hasType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Risk_Factor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cdrio#Risk_Classification"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_Area_Size -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Affected_Area_Size">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Land_Use"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Approval_Status -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Approval_Status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Regulatory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Artifact_Name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Artifact_Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Archaeological_Heritage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Attitude_Toward_Project -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Attitude_Toward_Project">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Social"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Average_Daily_Traffic -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Average_Daily_Traffic">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Artificial_Road_Railway"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Average_Rainfall -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Average_Rainfall">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Precipitation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Average_Snowfall -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Average_Snowfall">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Precipitation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Average_Wind_Speed -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Average_Wind_Speed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Wind"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Average_Winter_Temperature -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Average_Winter_Temperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Temperature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Botany_Name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Botany_Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Natural_Botany"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Breed_in_Project_Area -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Breed_in_Project_Area">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Clear_Responsibility -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Clear_Responsibility">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Organizational_Structure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Closest_Construction_Activity -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Closest_Construction_Activity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Archaeological_Heritage"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Artificial_Existing_Building"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Artificial_Utility"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Botany"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Hydrography"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Consultation_Participation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Consultation_Participation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Social"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Cooperation_Level -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Cooperation_Level">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Organizational_Structure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Archaeological_Heritage"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Artificial_Existing_Building"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Artificial_Utility"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Botany"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Hydrography"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Groundwater_Level -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Groundwater_Level">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Soil"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Heritage_Significance -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Heritage_Significance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Archaeological_Heritage"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Artificial_Existing_Building"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Magnitude -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Magnitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Natural_Seismicity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Maximum_Rainfall -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Maximum_Rainfall">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Precipitation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Maximum_Snowfall -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Maximum_Snowfall">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Precipitation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Maximum_Wind_Speed -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Maximum_Wind_Speed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Wind"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Temperature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Temperature"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Natural_Hydrography"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Overall_Stability -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Overall_Stability">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Politic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Permit_Name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Permit_Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Regulatory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Project_Duration -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Project_Duration">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Project_Location -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Project_Location">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Project_Name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Project_Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Project_Size -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Project_Size">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Purpose -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Purpose">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Land_Use"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Response_Description -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Response_Description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Response_Strategy"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Responsible_Agency -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Responsible_Agency">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Regulatory"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Return_Period -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Return_Period">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Natural_Seismicity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Attitude -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Risk_Attitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Organizational_Structure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Road_Category -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Road_Category">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Artificial_Road_Railway"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Road_Name -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Road_Name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Artificial_Road_Railway"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Support_for_Project -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Support_for_Project">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Politic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Type -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cdrio#Type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cdrio#Natural_Geology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Aboriginal_Community -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Aboriginal_Community">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Social"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/cdrio#Local_Community"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_Collection_System -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Affected_Collection_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_Commissioning -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Affected_Commissioning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_Foundation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Affected_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_Site_Preparation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Affected_Site_Preparation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Amphibian -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Amphibian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Archaeological_Heritage -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Archaeological_Heritage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Designated_Area"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/cdrio#Land_Use"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Artificial_Existing_Building -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Artificial_Existing_Building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Artificial_Road_Railway -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Artificial_Road_Railway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Artificial_Utility -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Artificial_Utility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Birds -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Birds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Cables -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Cables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Artificial_Utility"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/cdrio#Pipelines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Regulatory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Collection_System -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Collection_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Commissioning -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Commissioning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Consultants -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Consultants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Organizational_Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Consumer_Price_Index -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Consumer_Price_Index">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Economic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Contractor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Contractor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Organizational_Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Cost_Objective -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Cost_Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Earthquakes -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Earthquakes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Seismicity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Economic -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Economic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#External_Project_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Environmental_Objective -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Environmental_Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Environmental_Related_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Environmental_Related_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Local_External_Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Exchange_Rate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Exchange_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Economic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#External_Project_Environment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#External_Project_Environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Risk_Driver"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/cdrio#Internal_Project_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Federal_Government -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Federal_Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Politic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Financial_Project_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Financial_Project_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Internal_Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Financial_Related_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Financial_Related_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Local_External_Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#First_Nations -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#First_Nations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Organizational_Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Fish -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Fish">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Foundations -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Foundations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Global_External_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Global_External_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Risk_Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Inflation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Inflation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Economic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Insect -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Insect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Interest_Rate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Interest_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Economic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Internal_Project_Environment -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Internal_Project_Environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Risk_Driver"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Internal_Risk_Factor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Internal_Risk_Factor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Risk_Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Labour_Conditions -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Labour_Conditions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Economic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Land_Use -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Land_Use">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Designated_Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Legal_Related_Risks -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Legal_Related_Risks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Local_External_Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Local_Community -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Local_Community">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Local_External_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Local_External_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Risk_Classification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Mammals -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Mammals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Managerial_Related_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Managerial_Related_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Internal_Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Muncipal -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Muncipal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Politic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Muncipality_ByLaw -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Muncipality_ByLaw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Regulatory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Natural_Botany -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Natural_Botany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Natural_Climate -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Natural_Climate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Natural_Designated_Area -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Natural_Designated_Area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Natural_Geology -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Natural_Geology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Natural_Hydrography -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Natural_Hydrography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Natural_Seismicity -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Natural_Seismicity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Natural_Zoology -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Natural_Zoology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Physical"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Organizational_Structure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Organizational_Structure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Internal_Project_Environment"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Owner -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Organizational_Structure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Physical -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Physical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#External_Project_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Pipelines -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Pipelines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Artificial_Utility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Politic -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Politic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#External_Project_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Political_Related_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Political_Related_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Local_External_Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#PreConstruction_Work -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#PreConstruction_Work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Precipitation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Precipitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Climate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Processes -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Processes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Internal_Project_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Project -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Project">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Project_Objective -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Project_Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Project_Workpackage -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Project_Workpackage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Provincial_Government -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Provincial_Government">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Politic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Provincial_Legislations -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Provincial_Legislations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Regulatory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Quality_Objective -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Quality_Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Regulatory -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Regulatory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#External_Project_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Reptiles -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Reptiles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Response_Strategy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Response_Strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Acceptance -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Risk_Acceptance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Response_Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Classification -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Risk_Classification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Driver -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Risk_Driver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Eliminaion -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Risk_Eliminaion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Response_Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Factor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Risk_Factor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cdrio#CausedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/cdrio#Risk_Driver"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Reduction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Risk_Reduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Response_Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Retention -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Risk_Retention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Response_Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Risk_Transfer -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Risk_Transfer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Response_Strategy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Safety_Objective -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Safety_Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Site_Preparation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Site_Preparation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Site_Rehabilitation -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Site_Rehabilitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Site_Related_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Site_Related_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Internal_Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Social -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Social">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#External_Project_Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Social_Related_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Social_Related_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Local_External_Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Soil -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Soil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Geology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Technical_Related_Risk -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Technical_Related_Risk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Internal_Risk_Factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Temperature -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Climate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Time_Objective -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Time_Objective">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Project_Objective"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Turbine_Assembly -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Turbine_Assembly">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Turbine_Delivery -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Turbine_Delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cdrio#Wind -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cdrio#Wind">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cdrio#Natural_Climate"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Affected_Collection_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Affected_Commissioning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Affected_Foundation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Affected_Site_Preparation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Amphibian"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Birds"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Fish"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Insect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Mammals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Reptiles"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Artificial_Existing_Building"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Artificial_Road_Railway"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Artificial_Utility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Botany"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Climate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Designated_Area"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Geology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Hydrography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Seismicity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Natural_Zoology"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Muncipality_ByLaw"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Provincial_Legislations"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Collection_System"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Commissioning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Foundations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#PreConstruction_Work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Site_Preparation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Site_Rehabilitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Turbine_Assembly"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Turbine_Delivery"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Consultants"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Contractor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#First_Nations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Owner"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Consumer_Price_Index"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Exchange_Rate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Inflation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Interest_Rate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Labour_Conditions"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Cost_Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Environmental_Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Quality_Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Safety_Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Time_Objective"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Economic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Physical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Politic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Regulatory"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Social"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Environmental_Related_Risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Financial_Related_Risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Legal_Related_Risks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Political_Related_Risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Social_Related_Risk"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Federal_Government"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Muncipal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Provincial_Government"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Financial_Project_Risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Managerial_Related_Risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Site_Related_Risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Technical_Related_Risk"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Global_External_Risk"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Internal_Risk_Factor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Local_External_Risk"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Precipitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Temperature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Wind"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Project"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Project_Objective"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Project_Workpackage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Response_Strategy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Risk_Classification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Risk_Driver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Risk_Factor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Risk_Acceptance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Risk_Eliminaion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Risk_Reduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Risk_Retention"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cdrio#Risk_Transfer"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
