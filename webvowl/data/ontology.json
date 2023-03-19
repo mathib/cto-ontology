@@ -1,0 +1,4802 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.semanticweb.org/cdrio", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/cdrio",
+    "comments" : {
+      "undefined" : "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project"
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "217",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "214",
+    "type" : "owl:Class"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "199",
+    "type" : "owl:Class"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "273",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "279",
+    "type" : "owl:Class"
+  }, {
+    "id" : "211",
+    "type" : "owl:Class"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "285",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "317",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "303",
+    "type" : "owl:Class"
+  }, {
+    "id" : "314",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "240",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "373",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:Class"
+  }, {
+    "id" : "301",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "355",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "176",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "258",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "302",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "241",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "233",
+    "type" : "owl:Class"
+  }, {
+    "id" : "255",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "instances" : 0,
+    "union" : [ "4", "5", "6", "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "7", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Local_Community",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Local_Community"
+    },
+    "id" : "46",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "50",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_Collection_System",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Collection_System"
+    },
+    "id" : "22",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "5", "6", "7", "8", "9" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Natural_Hydrography",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Hydrography"
+    },
+    "id" : "8",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Artificial_Utility",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artificial_Utility"
+    },
+    "subClasses" : [ "96", "97" ],
+    "id" : "5",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Muncipality_ByLaw",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Muncipality_ByLaw"
+    },
+    "id" : "98",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Regulatory",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Regulatory"
+    },
+    "subClasses" : [ "98", "101", "102" ],
+    "id" : "99",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Response_Strategy",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Response_Strategy"
+    },
+    "subClasses" : [ "105", "106", "107", "108", "109" ],
+    "id" : "103",
+    "superClasses" : [ "104" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "137",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "140",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Archaeological_Heritage",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Archaeological_Heritage"
+    },
+    "id" : "7",
+    "superClasses" : [ "145" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Federal_Government",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Federal_Government"
+    },
+    "id" : "151",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Amphibian",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Amphibian"
+    },
+    "id" : "75",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Owner",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Owner"
+    },
+    "id" : "158",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Environmental_Related_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Environmental_Related_Risk"
+    },
+    "id" : "180",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Interest_Rate",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interest_Rate"
+    },
+    "id" : "183",
+    "superClasses" : [ "128" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Factor",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Factor"
+    },
+    "id" : "44",
+    "superClasses" : [ "104" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Inflation",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inflation"
+    },
+    "id" : "217",
+    "superClasses" : [ "128" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Site_Preparation",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Preparation"
+    },
+    "id" : "2",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "36",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "182",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "242",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Fish",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fish"
+    },
+    "id" : "79",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Consultants",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consultants"
+    },
+    "id" : "154",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Turbine_Delivery"
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "263",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "265",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Precipitation",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Precipitation"
+    },
+    "id" : "214",
+    "superClasses" : [ "190" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "268",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "226",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Legal_Related_Risks",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Legal_Related_Risks"
+    },
+    "id" : "199",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "271",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "273",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "276",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Eliminaion",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Eliminaion"
+    },
+    "id" : "107",
+    "superClasses" : [ "103" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Driver",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Driver"
+    },
+    "subClasses" : [ "148", "100" ],
+    "id" : "45",
+    "superClasses" : [ "104" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Aboriginal_Community",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aboriginal_Community"
+    },
+    "id" : "279",
+    "superClasses" : [ "47" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Land_Use",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Land_Use"
+    },
+    "id" : "211",
+    "superClasses" : [ "145" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "253",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "281",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "285",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Environmental_Objective",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Environmental_Objective"
+    },
+    "id" : "142",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Contractor",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Contractor"
+    },
+    "id" : "164",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_PreConstruction_Work"
+    },
+    "id" : "49",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Natural_Designated_Area",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Designated_Area"
+    },
+    "subClasses" : [ "7", "211" ],
+    "id" : "145",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Natural_Climate",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Climate"
+    },
+    "subClasses" : [ "214", "189", "193" ],
+    "id" : "190",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Internal_Risk_Factor",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_Risk_Factor"
+    },
+    "subClasses" : [ "197", "301", "302", "303" ],
+    "id" : "120",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Social_Related_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Social_Related_Risk"
+    },
+    "id" : "317",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Commissioning",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Commissioning"
+    },
+    "id" : "63",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Provincial_Legislations",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Provincial_Legislations"
+    },
+    "id" : "102",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Earthquakes",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Earthquakes"
+    },
+    "id" : "167",
+    "superClasses" : [ "168" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Cost_Objective",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cost_Objective"
+    },
+    "id" : "133",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Physical",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical"
+    },
+    "subClasses" : [ "168", "4", "5", "314", "255", "145", "6", "190", "8", "9" ],
+    "id" : "95",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Site_Related_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Related_Risk"
+    },
+    "id" : "303",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Natural_Geology",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Geology"
+    },
+    "subClasses" : [ "355" ],
+    "id" : "314",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Time_Objective",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Time_Objective"
+    },
+    "id" : "139",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Pipelines",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pipelines"
+    },
+    "id" : "96",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#PreConstruction_Work",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PreConstruction_Work"
+    },
+    "id" : "1",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Processes",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Processes"
+    },
+    "subClasses" : [ "54", "2", "24", "14", "117", "63", "1", "19" ],
+    "id" : "147",
+    "superClasses" : [ "148" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Local_External_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Local_External_Risk"
+    },
+    "subClasses" : [ "199", "180", "195", "373", "317" ],
+    "id" : "66",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Reduction",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Reduction"
+    },
+    "id" : "105",
+    "superClasses" : [ "103" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Foundations",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Foundations"
+    },
+    "id" : "54",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Exchange_Rate",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exchange_Rate"
+    },
+    "id" : "240",
+    "superClasses" : [ "128" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Natural_Botany",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Botany"
+    },
+    "id" : "6",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_Foundation",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Foundation"
+    },
+    "id" : "61",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Onshore_Wind_Farm_Risk_Identification"
+    },
+    "subClasses" : [ "233", "112", "45", "44", "67", "103", "12" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Economic",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economic"
+    },
+    "subClasses" : [ "217", "258", "240", "241", "183" ],
+    "id" : "128",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Social",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Social"
+    },
+    "subClasses" : [ "279", "46" ],
+    "id" : "47",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Organizational_Structure",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organizational_Structure"
+    },
+    "subClasses" : [ "154", "158", "161", "164" ],
+    "id" : "155",
+    "superClasses" : [ "148" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Turbine_Delivery",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Turbine_Delivery"
+    },
+    "id" : "24",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_Commissioning",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Commissioning"
+    },
+    "id" : "17",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Political_Related_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Political_Related_Risk"
+    },
+    "id" : "373",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Natural_Seismicity",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Seismicity"
+    },
+    "subClasses" : [ "167" ],
+    "id" : "168",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Wind",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wind"
+    },
+    "id" : "189",
+    "superClasses" : [ "190" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Safety_Objective",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Safety_Objective"
+    },
+    "id" : "111",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Technical_Related_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Technical_Related_Risk"
+    },
+    "id" : "301",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Acceptance",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Acceptance"
+    },
+    "id" : "106",
+    "superClasses" : [ "103" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Global_External_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Global_External_Risk"
+    },
+    "id" : "115",
+    "superClasses" : [ "67" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Birds",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Birds"
+    },
+    "id" : "83",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Politic",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Politic"
+    },
+    "subClasses" : [ "151", "173", "176" ],
+    "id" : "123",
+    "superClasses" : [ "100" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Soil",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Soil"
+    },
+    "id" : "355",
+    "superClasses" : [ "314" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Turbine_Assembly",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Turbine_Assembly"
+    },
+    "id" : "19",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Managerial_Related_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Managerial_Related_Risk"
+    },
+    "id" : "197",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Internal_Project_Environment",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_Project_Environment"
+    },
+    "subClasses" : [ "155", "147" ],
+    "id" : "148",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#External_Project_Environment",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "External_Project_Environment"
+    },
+    "subClasses" : [ "47", "123", "99", "128", "95" ],
+    "id" : "100",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Reptiles",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reptiles"
+    },
+    "id" : "71",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Collection_System",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Collection_System"
+    },
+    "id" : "117",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Retention",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Retention"
+    },
+    "id" : "109",
+    "superClasses" : [ "103" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Provincial_Government",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Provincial_Government"
+    },
+    "id" : "176",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_Site_Preparation",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Site_Preparation"
+    },
+    "id" : "57",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Temperature",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temperature"
+    },
+    "id" : "193",
+    "superClasses" : [ "190" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Project_Objective",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project_Objective"
+    },
+    "subClasses" : [ "133", "136", "139", "142", "111" ],
+    "id" : "112",
+    "superClasses" : [ "104" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Quality_Objective",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Quality_Objective"
+    },
+    "id" : "136",
+    "superClasses" : [ "112" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Consumer_Price_Index",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consumer_Price_Index"
+    },
+    "id" : "258",
+    "superClasses" : [ "128" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Artificial_Existing_Building",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artificial_Existing_Building"
+    },
+    "id" : "9",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Site_Rehabilitation",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Rehabilitation"
+    },
+    "id" : "14",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Financial_Project_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Financial_Project_Risk"
+    },
+    "id" : "302",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Transfer",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Transfer"
+    },
+    "id" : "108",
+    "superClasses" : [ "103" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Turbine_Assembly"
+    },
+    "id" : "27",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Canadian_Federal_Legislations"
+    },
+    "id" : "101",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Cables",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cables"
+    },
+    "id" : "97",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Classification",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Classification"
+    },
+    "subClasses" : [ "115", "120", "66" ],
+    "id" : "67",
+    "superClasses" : [ "104" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Insect",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Insect"
+    },
+    "id" : "87",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Natural_Zoology",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Zoology"
+    },
+    "subClasses" : [ "71", "75", "79", "83", "87", "91" ],
+    "id" : "4",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Labour_Conditions",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Labour_Conditions"
+    },
+    "id" : "241",
+    "superClasses" : [ "128" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Muncipal",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Muncipal"
+    },
+    "id" : "173",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Site_Rehabilitation"
+    },
+    "id" : "52",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Financial_Related_Risk",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Financial_Related_Risk"
+    },
+    "id" : "195",
+    "superClasses" : [ "66" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#First_Nations",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "First_Nations"
+    },
+    "id" : "161",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Mammals",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mammals"
+    },
+    "id" : "91",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Project",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project"
+    },
+    "id" : "233",
+    "superClasses" : [ "104" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Artificial_Road_Railway",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artificial_Road_Railway"
+    },
+    "id" : "255",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Project_Workpackage",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project_Workpackage"
+    },
+    "subClasses" : [ "49", "52", "57", "61", "11", "17", "22", "27" ],
+    "id" : "12",
+    "superClasses" : [ "104" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "30",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "32",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "34",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "35",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "58",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "94",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "181",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "184",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "187",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "192",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "213",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "225",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "227",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "228",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "243",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "254",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "260",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "266",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "269",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "272",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "274",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "277",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "287",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "288",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "289",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "290",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "291",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "294",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "295",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "298",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "299",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "300",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "307",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "308",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "309",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "310",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "311",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "312",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "313",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "315",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "316",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "318",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "319",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "320",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "321",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "322",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "323",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "324",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "325",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "326",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "327",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "328",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "329",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "330",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "331",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "332",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "333",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "334",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "335",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "336",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "337",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "338",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "339",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "340",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "341",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "342",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "343",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "344",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "345",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "346",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "347",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "348",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "349",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "350",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "351",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "352",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "353",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "354",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "356",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "357",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "358",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "359",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "360",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "361",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "362",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "363",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "364",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "365",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "366",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "367",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "368",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "369",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "370",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "371",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "372",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "376",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "377",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "378",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "379",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "380",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "381",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "382",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "383",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "384",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "385",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "386",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "387",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "388",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "389",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "390",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "391",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "392",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "393",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "394",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "395",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "396",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "397",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "398",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "399",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "400",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "401",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "402",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "403",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "404",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "405",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "406",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "407",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "408",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "409",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "410",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "411",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "412",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "413",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "414",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "415",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "416",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "417",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "418",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "419",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "420",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "421",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "422",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "423",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "424",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "425",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "426",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "427",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "428",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "429",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "430",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "431",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "432",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "433",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "434",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "435",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "436",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "437",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "438",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "439",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "440",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "441",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "442",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "443",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "444",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "445",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "446",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "447",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "448",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "449",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "450",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "451",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "452",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "453",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "454",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "455",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "456",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "457",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "458",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "459",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "460",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "461",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "462",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "463",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "464",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "465",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "466",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "467",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "468",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "469",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "470",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "471",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "472",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "473",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "474",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "475",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "476",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "477",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "478",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "479",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "480",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "481",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "482",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "483",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "484",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "485",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "486",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "487",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "488",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "489",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "490",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "491",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "492",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "493",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "494",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "495",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "496",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "497",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "498",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "499",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "500",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "501",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "502",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "503",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "10"
+  }, {
+    "range" : "14",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "12",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "16"
+  }, {
+    "range" : "19",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
+  }, {
+    "range" : "12",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "24",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "12",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "14",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "19",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "24",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "19",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "36",
+    "subproperty" : [ "37", "38", "39", "40", "41", "42", "43" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#CausedBy",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "CausedBy"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "41"
+  }, {
+    "range" : "12",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "12",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "19",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "12",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "24",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "range" : "12",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "60"
+  }, {
+    "range" : "54",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "67",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "1",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "range" : "4",
+    "domain" : "71",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "range" : "2",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "4",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "14",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "4",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "range" : "19",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "4",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "24",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "84"
+  }, {
+    "range" : "4",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "86"
+  }, {
+    "range" : "1",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "range" : "4",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "range" : "2",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "92"
+  }, {
+    "range" : "14",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "94"
+  }, {
+    "range" : "112",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "range" : "67",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "24",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "116"
+  }, {
+    "range" : "67",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "119"
+  }, {
+    "range" : "109",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "121"
+  }, {
+    "range" : "100",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "108",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "range" : "100",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "109",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "100",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "127"
+  }, {
+    "range" : "108",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "100",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "130"
+  }, {
+    "range" : "108",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "112",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#CausedBy",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "CausedBy"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "44",
+    "attributes" : [ "someValues", "object" ],
+    "id" : "134"
+  }, {
+    "range" : "112",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "112",
+    "domain" : "139",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "112",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Heritage_Significance",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "Heritage_Significance"
+    },
+    "domain" : "25",
+    "attributes" : [ "datatype" ],
+    "id" : "144"
+  }, {
+    "range" : "148",
+    "domain" : "147",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "105",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "range" : "100",
+    "domain" : "47",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "150"
+  }, {
+    "range" : "67",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "152"
+  }, {
+    "range" : "155",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "153"
+  }, {
+    "range" : "45",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "155",
+    "domain" : "158",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "range" : "44",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "159"
+  }, {
+    "range" : "155",
+    "domain" : "161",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "45",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "155",
+    "domain" : "164",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "163"
+  }, {
+    "range" : "44",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "range" : "168",
+    "domain" : "167",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "166"
+  }, {
+    "range" : "44",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
+  }, {
+    "range" : "123",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "170"
+  }, {
+    "range" : "107",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
+  }, {
+    "range" : "123",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "172"
+  }, {
+    "range" : "105",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "123",
+    "domain" : "176",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "109",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "148",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "108",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "182",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "36",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Approval_Status",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "Approval_Status"
+    },
+    "domain" : "99",
+    "attributes" : [ "datatype" ],
+    "id" : "184"
+  }, {
+    "range" : "47",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Closest_Construction_Activity",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "Closest_Construction_Activity"
+    },
+    "domain" : "93",
+    "attributes" : [ "datatype" ],
+    "id" : "186"
+  }, {
+    "range" : "47",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "range" : "190",
+    "domain" : "189",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "188"
+  }, {
+    "range" : "47",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "191"
+  }, {
+    "range" : "190",
+    "domain" : "193",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "192"
+  }, {
+    "range" : "195",
+    "domain" : "180",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "120",
+    "domain" : "197",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "196"
+  }, {
+    "range" : "199",
+    "domain" : "180",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "198"
+  }, {
+    "range" : "103",
+    "domain" : "108",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "200"
+  }, {
+    "range" : "99",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "103",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "202"
+  }, {
+    "range" : "47",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "range" : "45",
+    "domain" : "148",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "204"
+  }, {
+    "range" : "123",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "45",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "99",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "145",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "47",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "145",
+    "domain" : "211",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "99",
+    "domain" : "123",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
+  }, {
+    "range" : "190",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "213"
+  }, {
+    "range" : "111",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "215"
+  }, {
+    "range" : "99",
+    "domain" : "102",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
+  }, {
+    "range" : "139",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "218"
+  }, {
+    "range" : "103",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
+  }, {
+    "range" : "139",
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "220"
+  }, {
+    "range" : "103",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
+  }, {
+    "range" : "95",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "222"
+  }, {
+    "range" : "103",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "123",
+    "domain" : "128",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Overall_Stability",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "226",
+    "label" : {
+      "IRI-based" : "Overall_Stability"
+    },
+    "domain" : "123",
+    "attributes" : [ "datatype" ],
+    "id" : "225"
+  }, {
+    "range" : "111",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "227"
+  }, {
+    "range" : "139",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
+  }, {
+    "range" : "5",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "229"
+  }, {
+    "range" : "136",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
+  }, {
+    "range" : "5",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Project_Location",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "Project_Location"
+    },
+    "domain" : "233",
+    "attributes" : [ "datatype" ],
+    "id" : "232"
+  }, {
+    "range" : "111",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "235"
+  }, {
+    "range" : "99",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "range" : "139",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "99",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
+  }, {
+    "range" : "241",
+    "domain" : "240",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
+  }, {
+    "range" : "183",
+    "domain" : "217",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "range" : "241",
+    "domain" : "217",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "245"
+  }, {
+    "range" : "241",
+    "domain" : "183",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "247"
+  }, {
+    "range" : "142",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "249"
+  }, {
+    "range" : "136",
+    "domain" : "133",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "251"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#hasEffectOn",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasEffectOn"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Maximum_Snowfall",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "253",
+    "label" : {
+      "IRI-based" : "Maximum_Snowfall"
+    },
+    "domain" : "214",
+    "attributes" : [ "datatype" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Average_Daily_Traffic",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "Average_Daily_Traffic"
+    },
+    "domain" : "255",
+    "attributes" : [ "datatype" ],
+    "id" : "254"
+  }, {
+    "range" : "183",
+    "domain" : "258",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "257"
+  }, {
+    "range" : "241",
+    "domain" : "258",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "260"
+  }, {
+    "range" : "217",
+    "domain" : "240",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "183",
+    "domain" : "240",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Average_Rainfall",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "Average_Rainfall"
+    },
+    "domain" : "214",
+    "attributes" : [ "datatype" ],
+    "id" : "266"
+  }, {
+    "range" : "161",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "range" : "158",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "range" : "161",
+    "domain" : "164",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "range" : "158",
+    "domain" : "164",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "272"
+  }, {
+    "range" : "158",
+    "domain" : "161",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "274"
+  }, {
+    "range" : "240",
+    "domain" : "258",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "275"
+  }, {
+    "range" : "217",
+    "domain" : "258",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Average_Wind_Speed",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "Average_Wind_Speed"
+    },
+    "domain" : "189",
+    "attributes" : [ "datatype" ],
+    "id" : "278"
+  }, {
+    "range" : "24",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "range" : "24",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "282"
+  }, {
+    "range" : "164",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
+  }, {
+    "range" : "79",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "range" : "83",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "287"
+  }, {
+    "range" : "11",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "288"
+  }, {
+    "range" : "11",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "289"
+  }, {
+    "range" : "27",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "290"
+  }, {
+    "range" : "11",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "291"
+  }, {
+    "range" : "27",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "292"
+  }, {
+    "range" : "27",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "293"
+  }, {
+    "range" : "52",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "294"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Response_Description",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "261",
+    "label" : {
+      "IRI-based" : "Response_Description"
+    },
+    "domain" : "103",
+    "attributes" : [ "datatype" ],
+    "id" : "295"
+  }, {
+    "range" : "52",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "296"
+  }, {
+    "range" : "11",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "297"
+  }, {
+    "range" : "11",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "298"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Return_Period",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "265",
+    "label" : {
+      "IRI-based" : "Return_Period"
+    },
+    "domain" : "168",
+    "attributes" : [ "datatype" ],
+    "id" : "299"
+  }, {
+    "range" : "27",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "300"
+  }, {
+    "range" : "57",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "304"
+  }, {
+    "range" : "49",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "305"
+  }, {
+    "range" : "11",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "306"
+  }, {
+    "range" : "52",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "307"
+  }, {
+    "range" : "57",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "308"
+  }, {
+    "range" : "57",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "309"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Project_Name",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "Project_Name"
+    },
+    "domain" : "233",
+    "attributes" : [ "datatype" ],
+    "id" : "310"
+  }, {
+    "range" : "27",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "311"
+  }, {
+    "range" : "52",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "312"
+  }, {
+    "range" : "314",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "313"
+  }, {
+    "range" : "168",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "315"
+  }, {
+    "range" : "8",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "316"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "318"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "319"
+  }, {
+    "range" : "145",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "320"
+  }, {
+    "range" : "190",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "321"
+  }, {
+    "range" : "71",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "322"
+  }, {
+    "range" : "71",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "323"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Responsible_Agency",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "263",
+    "label" : {
+      "IRI-based" : "Responsible_Agency"
+    },
+    "domain" : "99",
+    "attributes" : [ "datatype" ],
+    "id" : "324"
+  }, {
+    "range" : "255",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "325"
+  }, {
+    "range" : "211",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "326"
+  }, {
+    "range" : "91",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "327"
+  }, {
+    "range" : "71",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "328"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Risk_Attitude",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "242",
+    "label" : {
+      "IRI-based" : "Risk_Attitude"
+    },
+    "domain" : "155",
+    "attributes" : [ "datatype" ],
+    "id" : "329"
+  }, {
+    "range" : "91",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "330"
+  }, {
+    "range" : "91",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "331"
+  }, {
+    "range" : "87",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "332"
+  }, {
+    "range" : "87",
+    "domain" : "79",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "333"
+  }, {
+    "range" : "71",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "334"
+  }, {
+    "range" : "91",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "335"
+  }, {
+    "range" : "87",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "336"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Magnitude",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "Magnitude"
+    },
+    "domain" : "168",
+    "attributes" : [ "datatype" ],
+    "id" : "337"
+  }, {
+    "range" : "79",
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "338"
+  }, {
+    "range" : "71",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "339"
+  }, {
+    "range" : "8",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "340"
+  }, {
+    "range" : "104",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "341"
+  }, {
+    "range" : "314",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "342"
+  }, {
+    "range" : "104",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "343"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "344"
+  }, {
+    "range" : "104",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "345"
+  }, {
+    "range" : "168",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "346"
+  }, {
+    "range" : "104",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "347"
+  }, {
+    "range" : "128",
+    "domain" : "217",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "348"
+  }, {
+    "range" : "128",
+    "domain" : "258",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "349"
+  }, {
+    "range" : "145",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "350"
+  }, {
+    "range" : "128",
+    "domain" : "240",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "351"
+  }, {
+    "range" : "128",
+    "domain" : "241",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "352"
+  }, {
+    "range" : "128",
+    "domain" : "183",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "353"
+  }, {
+    "range" : "47",
+    "domain" : "279",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "354"
+  }, {
+    "range" : "190",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "356"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "283",
+    "label" : {
+      "IRI-based" : "Maximum_Winter_Temperature"
+    },
+    "domain" : "193",
+    "attributes" : [ "datatype" ],
+    "id" : "357"
+  }, {
+    "range" : "4",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "358"
+  }, {
+    "range" : "314",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "359"
+  }, {
+    "range" : "145",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "360"
+  }, {
+    "range" : "168",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "361"
+  }, {
+    "range" : "8",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "362"
+  }, {
+    "range" : "4",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "363"
+  }, {
+    "range" : "168",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "364"
+  }, {
+    "range" : "147",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "365"
+  }, {
+    "range" : "190",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "366"
+  }, {
+    "range" : "147",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "367"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "368"
+  }, {
+    "range" : "66",
+    "domain" : "199",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "369"
+  }, {
+    "range" : "66",
+    "domain" : "180",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "370"
+  }, {
+    "range" : "66",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "371"
+  }, {
+    "range" : "66",
+    "domain" : "373",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "372"
+  }, {
+    "range" : "66",
+    "domain" : "317",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "374"
+  }, {
+    "range" : "104",
+    "domain" : "233",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "375"
+  }, {
+    "range" : "104",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "376"
+  }, {
+    "range" : "104",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "377"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Maximum_Wind_Speed",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "281",
+    "label" : {
+      "IRI-based" : "Maximum_Wind_Speed"
+    },
+    "domain" : "189",
+    "attributes" : [ "datatype" ],
+    "id" : "378"
+  }, {
+    "range" : "314",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "379"
+  }, {
+    "range" : "145",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "380"
+  }, {
+    "range" : "8",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "381"
+  }, {
+    "range" : "5",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "382"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "383"
+  }, {
+    "range" : "190",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "384"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Average_Snowfall",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "Average_Snowfall"
+    },
+    "domain" : "214",
+    "attributes" : [ "datatype" ],
+    "id" : "385"
+  }, {
+    "range" : "6",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "386"
+  }, {
+    "range" : "63",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "387"
+  }, {
+    "range" : "102",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "388"
+  }, {
+    "range" : "1",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "389"
+  }, {
+    "range" : "54",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "390"
+  }, {
+    "range" : "96",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "391"
+  }, {
+    "range" : "102",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "392"
+  }, {
+    "range" : "98",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "393"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Breed_in_Project_Area",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "Breed_in_Project_Area"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "394"
+  }, {
+    "range" : "168",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "395"
+  }, {
+    "range" : "4",
+    "domain" : "314",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "396"
+  }, {
+    "range" : "4",
+    "domain" : "168",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "397"
+  }, {
+    "range" : "4",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "398"
+  }, {
+    "range" : "4",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "399"
+  }, {
+    "range" : "168",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "400"
+  }, {
+    "range" : "168",
+    "domain" : "314",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "401"
+  }, {
+    "range" : "8",
+    "domain" : "314",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "402"
+  }, {
+    "range" : "8",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "403"
+  }, {
+    "range" : "314",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "404"
+  }, {
+    "range" : "4",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "405"
+  }, {
+    "range" : "314",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "406"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Clear_Responsibility",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "Clear_Responsibility"
+    },
+    "domain" : "155",
+    "attributes" : [ "datatype" ],
+    "id" : "407"
+  }, {
+    "range" : "145",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "408"
+  }, {
+    "range" : "168",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "409"
+  }, {
+    "range" : "8",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "410"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "Distance_To_Closest_Activity"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "411"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Road_Category",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "244",
+    "label" : {
+      "IRI-based" : "Road_Category"
+    },
+    "domain" : "255",
+    "attributes" : [ "datatype" ],
+    "id" : "412"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#OccuredIn",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "233",
+    "label" : {
+      "IRI-based" : "OccuredIn"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#hasType",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "hasType"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "44",
+    "attributes" : [ "object", "functional" ],
+    "id" : "39"
+  }, {
+    "range" : "14",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "413"
+  }, {
+    "range" : "2",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "414"
+  }, {
+    "range" : "19",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "415"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Cooperation_Level",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "Cooperation_Level"
+    },
+    "domain" : "155",
+    "attributes" : [ "datatype" ],
+    "id" : "416"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "285",
+    "label" : {
+      "IRI-based" : "Minimum_Winter_Temperature"
+    },
+    "domain" : "193",
+    "attributes" : [ "datatype" ],
+    "id" : "417"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Groundwater_Level",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "Groundwater_Level"
+    },
+    "domain" : "355",
+    "attributes" : [ "datatype" ],
+    "id" : "418"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#hasConsequenceOn",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "hasConsequenceOn"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Average_Winter_Temperature",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "Average_Winter_Temperature"
+    },
+    "domain" : "193",
+    "attributes" : [ "datatype" ],
+    "id" : "419"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Botany_Name",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "Botany_Name"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "420"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Consultation_Participation",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "Consultation_Participation"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype" ],
+    "id" : "421"
+  }, {
+    "range" : "44",
+    "domain" : "233",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "422"
+  }, {
+    "range" : "12",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "423"
+  }, {
+    "range" : "103",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "424"
+  }, {
+    "range" : "67",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "425"
+  }, {
+    "range" : "45",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "426"
+  }, {
+    "range" : "44",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "427"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Name",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "268",
+    "label" : {
+      "IRI-based" : "Name"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "428"
+  }, {
+    "range" : "103",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "429"
+  }, {
+    "range" : "67",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "430"
+  }, {
+    "range" : "45",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "431"
+  }, {
+    "range" : "44",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "432"
+  }, {
+    "range" : "45",
+    "domain" : "233",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "433"
+  }, {
+    "range" : "66",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "434"
+  }, {
+    "range" : "147",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "435"
+  }, {
+    "range" : "193",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "436"
+  }, {
+    "range" : "189",
+    "domain" : "214",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "437"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Artifact_Name",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "Artifact_Name"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "438"
+  }, {
+    "range" : "189",
+    "domain" : "193",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "439"
+  }, {
+    "range" : "112",
+    "domain" : "233",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "440"
+  }, {
+    "range" : "12",
+    "domain" : "233",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "441"
+  }, {
+    "range" : "103",
+    "domain" : "233",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "442"
+  }, {
+    "range" : "67",
+    "domain" : "233",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "443"
+  }, {
+    "range" : "120",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "444"
+  }, {
+    "range" : "147",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "445"
+  }, {
+    "range" : "66",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "446"
+  }, {
+    "range" : "95",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "447"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Purpose",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "259",
+    "label" : {
+      "IRI-based" : "Purpose"
+    },
+    "domain" : "211",
+    "attributes" : [ "datatype" ],
+    "id" : "448"
+  }, {
+    "range" : "176",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "449"
+  }, {
+    "range" : "95",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "450"
+  }, {
+    "range" : "176",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "451"
+  }, {
+    "range" : "95",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "452"
+  }, {
+    "range" : "197",
+    "domain" : "302",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "453"
+  }, {
+    "range" : "314",
+    "domain" : "355",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "454"
+  }, {
+    "range" : "303",
+    "domain" : "302",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "455"
+  }, {
+    "range" : "147",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "456"
+  }, {
+    "range" : "301",
+    "domain" : "302",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "457"
+  }, {
+    "range" : "147",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "458"
+  }, {
+    "range" : "303",
+    "domain" : "197",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "459"
+  }, {
+    "range" : "147",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "460"
+  }, {
+    "range" : "301",
+    "domain" : "197",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "461"
+  }, {
+    "range" : "147",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "462"
+  }, {
+    "range" : "301",
+    "domain" : "303",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "463"
+  }, {
+    "range" : "147",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "464"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Project_Duration",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "273",
+    "label" : {
+      "IRI-based" : "Project_Duration"
+    },
+    "domain" : "233",
+    "attributes" : [ "datatype" ],
+    "id" : "465"
+  }, {
+    "range" : "317",
+    "domain" : "373",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "466"
+  }, {
+    "range" : "95",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "467"
+  }, {
+    "range" : "148",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "468"
+  }, {
+    "range" : "95",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "469"
+  }, {
+    "range" : "173",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "470"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Affected_Area_Size",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "137",
+    "label" : {
+      "IRI-based" : "Affected_Area_Size"
+    },
+    "domain" : "211",
+    "attributes" : [ "datatype" ],
+    "id" : "471"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Attitude_Toward_Project",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "113",
+    "label" : {
+      "IRI-based" : "Attitude_Toward_Project"
+    },
+    "domain" : "47",
+    "attributes" : [ "datatype" ],
+    "id" : "472"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Road_Name",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "246",
+    "label" : {
+      "IRI-based" : "Road_Name"
+    },
+    "domain" : "255",
+    "attributes" : [ "datatype" ],
+    "id" : "473"
+  }, {
+    "range" : "120",
+    "domain" : "301",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "474"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Cause",
+    "inverse" : "41",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "Cause"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "45",
+    "attributes" : [ "object" ],
+    "id" : "40"
+  }, {
+    "range" : "373",
+    "domain" : "180",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "475"
+  }, {
+    "range" : "120",
+    "domain" : "302",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "476"
+  }, {
+    "range" : "317",
+    "domain" : "180",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "477"
+  }, {
+    "range" : "120",
+    "domain" : "303",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "478"
+  }, {
+    "range" : "199",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "479"
+  }, {
+    "range" : "95",
+    "domain" : "168",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "480"
+  }, {
+    "range" : "373",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "481"
+  }, {
+    "range" : "95",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "482"
+  }, {
+    "range" : "317",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "483"
+  }, {
+    "range" : "95",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "484"
+  }, {
+    "range" : "373",
+    "domain" : "199",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "485"
+  }, {
+    "range" : "95",
+    "domain" : "314",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "486"
+  }, {
+    "range" : "317",
+    "domain" : "199",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "487"
+  }, {
+    "range" : "95",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "488"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Type",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "250",
+    "label" : {
+      "IRI-based" : "Type"
+    },
+    "domain" : "314",
+    "attributes" : [ "datatype" ],
+    "id" : "489"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#hasResponse",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "hasResponse"
+    },
+    "superproperty" : [ "35" ],
+    "domain" : "44",
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Project_Size",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "256",
+    "label" : {
+      "IRI-based" : "Project_Size"
+    },
+    "domain" : "233",
+    "attributes" : [ "datatype" ],
+    "id" : "490"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Maximum_Rainfall",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "Maximum_Rainfall"
+    },
+    "domain" : "214",
+    "attributes" : [ "datatype" ],
+    "id" : "491"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Support_for_Project",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "248",
+    "label" : {
+      "IRI-based" : "Support_for_Project"
+    },
+    "domain" : "123",
+    "attributes" : [ "datatype" ],
+    "id" : "492"
+  }, {
+    "range" : "61",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "493"
+  }, {
+    "range" : "49",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "494"
+  }, {
+    "range" : "57",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "495"
+  }, {
+    "range" : "52",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "496"
+  }, {
+    "range" : "27",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "497"
+  }, {
+    "range" : "11",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "498"
+  }, {
+    "range" : "61",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "499"
+  }, {
+    "range" : "49",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "500"
+  }, {
+    "range" : "46",
+    "domain" : "279",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "501"
+  }, {
+    "range" : "17",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "502"
+  }, {
+    "iri" : "http://www.semanticweb.org/cdrio#Permit_Name",
+    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "range" : "271",
+    "label" : {
+      "IRI-based" : "Permit_Name"
+    },
+    "domain" : "99",
+    "attributes" : [ "datatype" ],
+    "id" : "503"
+  } ]
+}
