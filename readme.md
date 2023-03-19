@@ -2,7 +2,7 @@
 
 ## HTML documentation and raw ontology per serialisation
 
-* base URI: [https://w3id.org/CDRIO#](https://EmadHHM.github.io/cdrio-ontology/#)
+* base URI: [https://w3id.org/cdrio#](https://EmadHHM.github.io/cdrio-ontology/#)
 * Canonical URI for the HTML representation: [https://w3id.org/cto/cto.html](https://mathib.github.io/cto-ontology/#)
 * Canonical URI for the Turtle representation: [https://w3id.org/cto/cto.ttl](https://mathib.github.io/cto-ontology/ontology.ttl)
 * Canonical URI for the n-triples representation: [https://w3id.org/cto/cto.nt](https://mathib.github.io/cto-ontology/ontology.nt)
