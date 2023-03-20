@@ -7,9 +7,8 @@ About CDRIO
 * base URI: [https://w3id.org/cdrio#](https://github.com/EmadHHM/cdrio-ontology//#)
 * Canonical URI for the HTML representation: [https://w3id.org/cto/cto.html](https://mathib.github.io/cto-ontology/#)
 * Canonical URI for the Turtle representation: [https://w3id.org/cto/cto.ttl](https://mathib.github.io/cto-ontology/ontology.ttl)
-* Canonical URI for the n-triples representation: [https://w3id.org/cto/cto.nt](https://mathib.github.io/cto-ontology/ontology.nt)
 * Canonical URI for the json-ld representation: [https://w3id.org/cto/cto.jsonld](https://github.com/EmadHHM/cdrio-ontology/blob/master/ontology.jsonld)
-* Canonical URI for the RDF representation: [https://w3id.org/cto/cto.rdf](https://github.com/EmadHHM/cdrio-ontology/ontology.rdf)
+* Canonical URI for the RDF representation: [https://w3id.org/cto/cto.rdf](https://github.com/EmadHHM/cdrio-ontology/blob/master/ontology.rdf)
 
 The most recent version of CDRIO is always available in this Github repository
 
