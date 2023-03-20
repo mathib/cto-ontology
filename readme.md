@@ -4,7 +4,7 @@ About CDRIO
 
 ## HTML documentation and raw ontology per serialisation
 
-* base URI: [https://w3id.org/cdrio#](https://github.com/EmadHHM/cdrio-ontology/#)
+* base URI: [https://w3id.org/cdrio](https://github.com/EmadHHM/cdrio-ontology)
 * Canonical URI for the HTML representation: [https://w3id.org/cdrio/cdrio.html](https://github.com/EmadHHM/cdrio-ontology/#)
 * Canonical URI for the Turtle representation: [https://w3id.org/cdrio/cdrio.ttl](https://github.com/EmadHHM/cdrio-ontology/blob/master/ontology.ttl)
 * Canonical URI for the json-ld representation: [https://w3id.org/cdrio/cdrio.jsonld](https://github.com/EmadHHM/cdrio-ontology/blob/master/ontology.jsonld)
