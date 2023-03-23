@@ -1,5 +1,5 @@
-<http://www.semanticweb.org/cdrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.semanticweb.org/cdrio> <http://www.w3.org/2000/01/rdf-schema#comment> "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project" .
+<https://w3id.org/cdrio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/cdrio> <http://www.w3.org/2000/01/rdf-schema#comment> "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project" .
 # 
 # 
 # #################################################################
@@ -9,49 +9,49 @@
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/cdrio#Cause
-<http://www.semanticweb.org/cdrio#Cause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/cdrio#Cause> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/cdrio#Cause> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/cdrio#CausedBy> .
-<http://www.semanticweb.org/cdrio#Cause> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Risk_Driver> .
-<http://www.semanticweb.org/cdrio#Cause> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cdrio#Risk_Factor> .
+# https://w3id.org/cdrio#Cause
+<https://w3id.org/cdrio#Cause> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cdrio#Cause> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/cdrio#Cause> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/cdrio#CausedBy> .
+<https://w3id.org/cdrio#Cause> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Risk_Driver> .
+<https://w3id.org/cdrio#Cause> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cdrio#Risk_Factor> .
 # 
-# http://www.semanticweb.org/cdrio#CausedBy
-<http://www.semanticweb.org/cdrio#CausedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/cdrio#CausedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/cdrio#CausedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Risk_Factor> .
-<http://www.semanticweb.org/cdrio#CausedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cdrio#Risk_Driver> .
+# https://w3id.org/cdrio#CausedBy
+<https://w3id.org/cdrio#CausedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cdrio#CausedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/cdrio#CausedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Risk_Factor> .
+<https://w3id.org/cdrio#CausedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cdrio#Risk_Driver> .
 # 
-# http://www.semanticweb.org/cdrio#OccuredIn
-<http://www.semanticweb.org/cdrio#OccuredIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/cdrio#OccuredIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/cdrio#OccuredIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Risk_Factor> .
-<http://www.semanticweb.org/cdrio#OccuredIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cdrio#Project> .
+# https://w3id.org/cdrio#OccuredIn
+<https://w3id.org/cdrio#OccuredIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cdrio#OccuredIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/cdrio#OccuredIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Risk_Factor> .
+<https://w3id.org/cdrio#OccuredIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cdrio#Project> .
 # 
-# http://www.semanticweb.org/cdrio#hasConsequenceOn
-<http://www.semanticweb.org/cdrio#hasConsequenceOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/cdrio#hasConsequenceOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/cdrio#hasConsequenceOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Risk_Factor> .
-<http://www.semanticweb.org/cdrio#hasConsequenceOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cdrio#Project_Objective> .
+# https://w3id.org/cdrio#hasConsequenceOn
+<https://w3id.org/cdrio#hasConsequenceOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cdrio#hasConsequenceOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/cdrio#hasConsequenceOn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Risk_Factor> .
+<https://w3id.org/cdrio#hasConsequenceOn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cdrio#Project_Objective> .
 # 
-# http://www.semanticweb.org/cdrio#hasEffectOn
-<http://www.semanticweb.org/cdrio#hasEffectOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/cdrio#hasEffectOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/cdrio#hasEffectOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Risk_Factor> .
-<http://www.semanticweb.org/cdrio#hasEffectOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
+# https://w3id.org/cdrio#hasEffectOn
+<https://w3id.org/cdrio#hasEffectOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cdrio#hasEffectOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/cdrio#hasEffectOn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Risk_Factor> .
+<https://w3id.org/cdrio#hasEffectOn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cdrio#Project_Workpackage> .
 # 
-# http://www.semanticweb.org/cdrio#hasResponse
-<http://www.semanticweb.org/cdrio#hasResponse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/cdrio#hasResponse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/cdrio#hasResponse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Risk_Factor> .
-<http://www.semanticweb.org/cdrio#hasResponse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cdrio#Response_Strategy> .
+# https://w3id.org/cdrio#hasResponse
+<https://w3id.org/cdrio#hasResponse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cdrio#hasResponse> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/cdrio#hasResponse> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Risk_Factor> .
+<https://w3id.org/cdrio#hasResponse> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cdrio#Response_Strategy> .
 # 
-# http://www.semanticweb.org/cdrio#hasType
-<http://www.semanticweb.org/cdrio#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.semanticweb.org/cdrio#hasType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
-<http://www.semanticweb.org/cdrio#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://www.semanticweb.org/cdrio#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Risk_Factor> .
-<http://www.semanticweb.org/cdrio#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cdrio#Risk_Classification> .
+# https://w3id.org/cdrio#hasType
+<https://w3id.org/cdrio#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/cdrio#hasType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/cdrio#hasType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/cdrio#hasType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Risk_Factor> .
+<https://w3id.org/cdrio#hasType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/cdrio#Risk_Classification> .
 # 
 # 
 # 
@@ -62,82 +62,82 @@
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/cdrio#Affected_Area_Size
-<http://www.semanticweb.org/cdrio#Affected_Area_Size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Affected_Area_Size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Affected_Area_Size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Land_Use> .
-<http://www.semanticweb.org/cdrio#Affected_Area_Size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Affected_Area_Size
+<https://w3id.org/cdrio#Affected_Area_Size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Affected_Area_Size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Affected_Area_Size> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Land_Use> .
+<https://w3id.org/cdrio#Affected_Area_Size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Approval_Status
-<http://www.semanticweb.org/cdrio#Approval_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Approval_Status> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Approval_Status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Regulatory> .
-<http://www.semanticweb.org/cdrio#Approval_Status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# https://w3id.org/cdrio#Approval_Status
+<https://w3id.org/cdrio#Approval_Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Approval_Status> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Approval_Status> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Regulatory> .
+<https://w3id.org/cdrio#Approval_Status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
-# http://www.semanticweb.org/cdrio#Artifact_Name
-<http://www.semanticweb.org/cdrio#Artifact_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Artifact_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Artifact_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Archaeological_Heritage> .
-<http://www.semanticweb.org/cdrio#Artifact_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Artifact_Name
+<https://w3id.org/cdrio#Artifact_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Artifact_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Artifact_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Archaeological_Heritage> .
+<https://w3id.org/cdrio#Artifact_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Attitude_Toward_Project
-<http://www.semanticweb.org/cdrio#Attitude_Toward_Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Attitude_Toward_Project> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Attitude_Toward_Project> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Social> .
-<http://www.semanticweb.org/cdrio#Attitude_Toward_Project> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Attitude_Toward_Project
+<https://w3id.org/cdrio#Attitude_Toward_Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Attitude_Toward_Project> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Attitude_Toward_Project> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Social> .
+<https://w3id.org/cdrio#Attitude_Toward_Project> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Average_Daily_Traffic
-<http://www.semanticweb.org/cdrio#Average_Daily_Traffic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Average_Daily_Traffic> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Average_Daily_Traffic> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Artificial_Road_Railway> .
-<http://www.semanticweb.org/cdrio#Average_Daily_Traffic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Average_Daily_Traffic
+<https://w3id.org/cdrio#Average_Daily_Traffic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Average_Daily_Traffic> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Average_Daily_Traffic> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Artificial_Road_Railway> .
+<https://w3id.org/cdrio#Average_Daily_Traffic> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Average_Rainfall
-<http://www.semanticweb.org/cdrio#Average_Rainfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Average_Rainfall> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Average_Rainfall> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Precipitation> .
-<http://www.semanticweb.org/cdrio#Average_Rainfall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Average_Rainfall
+<https://w3id.org/cdrio#Average_Rainfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Average_Rainfall> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Average_Rainfall> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Precipitation> .
+<https://w3id.org/cdrio#Average_Rainfall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Average_Snowfall
-<http://www.semanticweb.org/cdrio#Average_Snowfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Average_Snowfall> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Average_Snowfall> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Precipitation> .
-<http://www.semanticweb.org/cdrio#Average_Snowfall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Average_Snowfall
+<https://w3id.org/cdrio#Average_Snowfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Average_Snowfall> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Average_Snowfall> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Precipitation> .
+<https://w3id.org/cdrio#Average_Snowfall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Average_Wind_Speed
-<http://www.semanticweb.org/cdrio#Average_Wind_Speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Average_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Average_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Wind> .
-<http://www.semanticweb.org/cdrio#Average_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Average_Wind_Speed
+<https://w3id.org/cdrio#Average_Wind_Speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Average_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Average_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Wind> .
+<https://w3id.org/cdrio#Average_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Average_Winter_Temperature
-<http://www.semanticweb.org/cdrio#Average_Winter_Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Average_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Average_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Temperature> .
-<http://www.semanticweb.org/cdrio#Average_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Average_Winter_Temperature
+<https://w3id.org/cdrio#Average_Winter_Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Average_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Average_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Temperature> .
+<https://w3id.org/cdrio#Average_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Botany_Name
-<http://www.semanticweb.org/cdrio#Botany_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Botany_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Botany_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Natural_Botany> .
-<http://www.semanticweb.org/cdrio#Botany_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Botany_Name
+<https://w3id.org/cdrio#Botany_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Botany_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Botany_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Natural_Botany> .
+<https://w3id.org/cdrio#Botany_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Breed_in_Project_Area
-<http://www.semanticweb.org/cdrio#Breed_in_Project_Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Breed_in_Project_Area> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Breed_in_Project_Area> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
-<http://www.semanticweb.org/cdrio#Breed_in_Project_Area> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# https://w3id.org/cdrio#Breed_in_Project_Area
+<https://w3id.org/cdrio#Breed_in_Project_Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Breed_in_Project_Area> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Breed_in_Project_Area> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Natural_Zoology> .
+<https://w3id.org/cdrio#Breed_in_Project_Area> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
-# http://www.semanticweb.org/cdrio#Clear_Responsibility
-<http://www.semanticweb.org/cdrio#Clear_Responsibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Clear_Responsibility> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Clear_Responsibility> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Organizational_Structure> .
-<http://www.semanticweb.org/cdrio#Clear_Responsibility> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# https://w3id.org/cdrio#Clear_Responsibility
+<https://w3id.org/cdrio#Clear_Responsibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Clear_Responsibility> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Clear_Responsibility> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Organizational_Structure> .
+<https://w3id.org/cdrio#Clear_Responsibility> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
-# http://www.semanticweb.org/cdrio#Closest_Construction_Activity
-<http://www.semanticweb.org/cdrio#Closest_Construction_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Closest_Construction_Activity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Closest_Construction_Activity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+# https://w3id.org/cdrio#Closest_Construction_Activity
+<https://w3id.org/cdrio#Closest_Construction_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Closest_Construction_Activity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Closest_Construction_Activity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
 _:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid7 .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
@@ -145,37 +145,37 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Zoology> .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Hydrography> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Hydrography> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Botany> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Botany> .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Artificial_Utility> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Artificial_Utility> .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Artificial_Existing_Building> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Artificial_Existing_Building> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Archaeological_Heritage> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Archaeological_Heritage> .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Closest_Construction_Activity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/cdrio#Closest_Construction_Activity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Consultation_Participation
-<http://www.semanticweb.org/cdrio#Consultation_Participation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Consultation_Participation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Consultation_Participation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Social> .
-<http://www.semanticweb.org/cdrio#Consultation_Participation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# https://w3id.org/cdrio#Consultation_Participation
+<https://w3id.org/cdrio#Consultation_Participation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Consultation_Participation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Consultation_Participation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Social> .
+<https://w3id.org/cdrio#Consultation_Participation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
-# http://www.semanticweb.org/cdrio#Cooperation_Level
-<http://www.semanticweb.org/cdrio#Cooperation_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Cooperation_Level> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Cooperation_Level> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Organizational_Structure> .
-<http://www.semanticweb.org/cdrio#Cooperation_Level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Cooperation_Level
+<https://w3id.org/cdrio#Cooperation_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Cooperation_Level> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Cooperation_Level> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Organizational_Structure> .
+<https://w3id.org/cdrio#Cooperation_Level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity
-<http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid8 .
+# https://w3id.org/cdrio#Distance_To_Closest_Activity
+<https://w3id.org/cdrio#Distance_To_Closest_Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Distance_To_Closest_Activity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Distance_To_Closest_Activity> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid8 .
 _:genid8 <http://www.w3.org/2002/07/owl#unionOf> _:genid14 .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
@@ -183,172 +183,172 @@ _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Zoology> .
 _:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Hydrography> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Hydrography> .
 _:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Botany> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Botany> .
 _:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Artificial_Utility> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Artificial_Utility> .
 _:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Artificial_Existing_Building> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Artificial_Existing_Building> .
 _:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Archaeological_Heritage> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Archaeological_Heritage> .
 _:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/cdrio#Distance_To_Closest_Activity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Groundwater_Level
-<http://www.semanticweb.org/cdrio#Groundwater_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Groundwater_Level> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Groundwater_Level> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Soil> .
-<http://www.semanticweb.org/cdrio#Groundwater_Level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Groundwater_Level
+<https://w3id.org/cdrio#Groundwater_Level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Groundwater_Level> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Groundwater_Level> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Soil> .
+<https://w3id.org/cdrio#Groundwater_Level> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Heritage_Significance
-<http://www.semanticweb.org/cdrio#Heritage_Significance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Heritage_Significance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Heritage_Significance> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
+# https://w3id.org/cdrio#Heritage_Significance
+<https://w3id.org/cdrio#Heritage_Significance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Heritage_Significance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Heritage_Significance> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid15 .
 _:genid15 <http://www.w3.org/2002/07/owl#unionOf> _:genid17 .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Artificial_Existing_Building> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Artificial_Existing_Building> .
 _:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Archaeological_Heritage> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Archaeological_Heritage> .
 _:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Heritage_Significance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/cdrio#Heritage_Significance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
-# http://www.semanticweb.org/cdrio#Magnitude
-<http://www.semanticweb.org/cdrio#Magnitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Magnitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Magnitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Natural_Seismicity> .
-<http://www.semanticweb.org/cdrio#Magnitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Magnitude
+<https://w3id.org/cdrio#Magnitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Magnitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Magnitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Natural_Seismicity> .
+<https://w3id.org/cdrio#Magnitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Maximum_Rainfall
-<http://www.semanticweb.org/cdrio#Maximum_Rainfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Maximum_Rainfall> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Maximum_Rainfall> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Precipitation> .
-<http://www.semanticweb.org/cdrio#Maximum_Rainfall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Maximum_Rainfall
+<https://w3id.org/cdrio#Maximum_Rainfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Maximum_Rainfall> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Maximum_Rainfall> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Precipitation> .
+<https://w3id.org/cdrio#Maximum_Rainfall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Maximum_Snowfall
-<http://www.semanticweb.org/cdrio#Maximum_Snowfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Maximum_Snowfall> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Maximum_Snowfall> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Precipitation> .
-<http://www.semanticweb.org/cdrio#Maximum_Snowfall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Maximum_Snowfall
+<https://w3id.org/cdrio#Maximum_Snowfall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Maximum_Snowfall> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Maximum_Snowfall> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Precipitation> .
+<https://w3id.org/cdrio#Maximum_Snowfall> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Maximum_Wind_Speed
-<http://www.semanticweb.org/cdrio#Maximum_Wind_Speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Maximum_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Maximum_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Wind> .
-<http://www.semanticweb.org/cdrio#Maximum_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Maximum_Wind_Speed
+<https://w3id.org/cdrio#Maximum_Wind_Speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Maximum_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Maximum_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Wind> .
+<https://w3id.org/cdrio#Maximum_Wind_Speed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature
-<http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Temperature> .
-<http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Maximum_Winter_Temperature
+<https://w3id.org/cdrio#Maximum_Winter_Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Maximum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Maximum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Temperature> .
+<https://w3id.org/cdrio#Maximum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature
-<http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Temperature> .
-<http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Minimum_Winter_Temperature
+<https://w3id.org/cdrio#Minimum_Winter_Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Minimum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Minimum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Temperature> .
+<https://w3id.org/cdrio#Minimum_Winter_Temperature> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Name
-<http://www.semanticweb.org/cdrio#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Natural_Hydrography> .
-<http://www.semanticweb.org/cdrio#Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Name
+<https://w3id.org/cdrio#Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Natural_Hydrography> .
+<https://w3id.org/cdrio#Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Overall_Stability
-<http://www.semanticweb.org/cdrio#Overall_Stability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Overall_Stability> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Overall_Stability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Politic> .
-<http://www.semanticweb.org/cdrio#Overall_Stability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# https://w3id.org/cdrio#Overall_Stability
+<https://w3id.org/cdrio#Overall_Stability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Overall_Stability> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Overall_Stability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Politic> .
+<https://w3id.org/cdrio#Overall_Stability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
-# http://www.semanticweb.org/cdrio#Permit_Name
-<http://www.semanticweb.org/cdrio#Permit_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Permit_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Permit_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Regulatory> .
-<http://www.semanticweb.org/cdrio#Permit_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Permit_Name
+<https://w3id.org/cdrio#Permit_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Permit_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Permit_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Regulatory> .
+<https://w3id.org/cdrio#Permit_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Project_Duration
-<http://www.semanticweb.org/cdrio#Project_Duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Project_Duration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Project_Duration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Project> .
-<http://www.semanticweb.org/cdrio#Project_Duration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Project_Duration
+<https://w3id.org/cdrio#Project_Duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Project_Duration> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Project_Duration> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Project> .
+<https://w3id.org/cdrio#Project_Duration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Project_Location
-<http://www.semanticweb.org/cdrio#Project_Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Project_Location> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Project_Location> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Project> .
-<http://www.semanticweb.org/cdrio#Project_Location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Project_Location
+<https://w3id.org/cdrio#Project_Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Project_Location> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Project_Location> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Project> .
+<https://w3id.org/cdrio#Project_Location> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Project_Name
-<http://www.semanticweb.org/cdrio#Project_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Project_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Project_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Project> .
-<http://www.semanticweb.org/cdrio#Project_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Project_Name
+<https://w3id.org/cdrio#Project_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Project_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Project_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Project> .
+<https://w3id.org/cdrio#Project_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Project_Size
-<http://www.semanticweb.org/cdrio#Project_Size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Project_Size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Project_Size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Project> .
-<http://www.semanticweb.org/cdrio#Project_Size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+# https://w3id.org/cdrio#Project_Size
+<https://w3id.org/cdrio#Project_Size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Project_Size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Project_Size> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Project> .
+<https://w3id.org/cdrio#Project_Size> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 # 
-# http://www.semanticweb.org/cdrio#Purpose
-<http://www.semanticweb.org/cdrio#Purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Purpose> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Purpose> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Land_Use> .
-<http://www.semanticweb.org/cdrio#Purpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Purpose
+<https://w3id.org/cdrio#Purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Purpose> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Purpose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Land_Use> .
+<https://w3id.org/cdrio#Purpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Response_Description
-<http://www.semanticweb.org/cdrio#Response_Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Response_Description> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Response_Description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Response_Strategy> .
-<http://www.semanticweb.org/cdrio#Response_Description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Response_Description
+<https://w3id.org/cdrio#Response_Description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Response_Description> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Response_Description> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Response_Strategy> .
+<https://w3id.org/cdrio#Response_Description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Responsible_Agency
-<http://www.semanticweb.org/cdrio#Responsible_Agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Responsible_Agency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Responsible_Agency> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Regulatory> .
-<http://www.semanticweb.org/cdrio#Responsible_Agency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Responsible_Agency
+<https://w3id.org/cdrio#Responsible_Agency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Responsible_Agency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Responsible_Agency> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Regulatory> .
+<https://w3id.org/cdrio#Responsible_Agency> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Return_Period
-<http://www.semanticweb.org/cdrio#Return_Period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Return_Period> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Return_Period> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Natural_Seismicity> .
-<http://www.semanticweb.org/cdrio#Return_Period> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# https://w3id.org/cdrio#Return_Period
+<https://w3id.org/cdrio#Return_Period> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Return_Period> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Return_Period> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Natural_Seismicity> .
+<https://w3id.org/cdrio#Return_Period> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
 # 
-# http://www.semanticweb.org/cdrio#Risk_Attitude
-<http://www.semanticweb.org/cdrio#Risk_Attitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Risk_Attitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Risk_Attitude> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Organizational_Structure> .
-<http://www.semanticweb.org/cdrio#Risk_Attitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Risk_Attitude
+<https://w3id.org/cdrio#Risk_Attitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Risk_Attitude> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Risk_Attitude> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Organizational_Structure> .
+<https://w3id.org/cdrio#Risk_Attitude> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Road_Category
-<http://www.semanticweb.org/cdrio#Road_Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Road_Category> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Road_Category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Artificial_Road_Railway> .
-<http://www.semanticweb.org/cdrio#Road_Category> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Road_Category
+<https://w3id.org/cdrio#Road_Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Road_Category> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Road_Category> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Artificial_Road_Railway> .
+<https://w3id.org/cdrio#Road_Category> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Road_Name
-<http://www.semanticweb.org/cdrio#Road_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Road_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Road_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Artificial_Road_Railway> .
-<http://www.semanticweb.org/cdrio#Road_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Road_Name
+<https://w3id.org/cdrio#Road_Name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Road_Name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Road_Name> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Artificial_Road_Railway> .
+<https://w3id.org/cdrio#Road_Name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
-# http://www.semanticweb.org/cdrio#Support_for_Project
-<http://www.semanticweb.org/cdrio#Support_for_Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Support_for_Project> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Support_for_Project> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Politic> .
-<http://www.semanticweb.org/cdrio#Support_for_Project> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# https://w3id.org/cdrio#Support_for_Project
+<https://w3id.org/cdrio#Support_for_Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Support_for_Project> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Support_for_Project> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Politic> .
+<https://w3id.org/cdrio#Support_for_Project> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
 # 
-# http://www.semanticweb.org/cdrio#Type
-<http://www.semanticweb.org/cdrio#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.semanticweb.org/cdrio#Type> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
-<http://www.semanticweb.org/cdrio#Type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cdrio#Natural_Geology> .
-<http://www.semanticweb.org/cdrio#Type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# https://w3id.org/cdrio#Type
+<https://w3id.org/cdrio#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/cdrio#Type> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/cdrio#Type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/cdrio#Natural_Geology> .
+<https://w3id.org/cdrio#Type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
 # 
 # 
 # 
@@ -359,402 +359,402 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 # #################################################################
 # 
 # 
-# http://www.semanticweb.org/cdrio#Aboriginal_Community
-<http://www.semanticweb.org/cdrio#Aboriginal_Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Aboriginal_Community> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Social> .
-<http://www.semanticweb.org/cdrio#Aboriginal_Community> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/cdrio#Local_Community> .
-# 
-# http://www.semanticweb.org/cdrio#Affected_Collection_System
-<http://www.semanticweb.org/cdrio#Affected_Collection_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Affected_Collection_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
-# 
-# http://www.semanticweb.org/cdrio#Affected_Commissioning
-<http://www.semanticweb.org/cdrio#Affected_Commissioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Affected_Commissioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
-# 
-# http://www.semanticweb.org/cdrio#Affected_Foundation
-<http://www.semanticweb.org/cdrio#Affected_Foundation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Affected_Foundation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
-# 
-# http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work
-<http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
-# 
-# http://www.semanticweb.org/cdrio#Affected_Site_Preparation
-<http://www.semanticweb.org/cdrio#Affected_Site_Preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Affected_Site_Preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
-# 
-# http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation
-<http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
-# 
-# http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly
-<http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
-# 
-# http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery
-<http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
-# 
-# http://www.semanticweb.org/cdrio#Amphibian
-<http://www.semanticweb.org/cdrio#Amphibian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Amphibian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
-# 
-# http://www.semanticweb.org/cdrio#Archaeological_Heritage
-<http://www.semanticweb.org/cdrio#Archaeological_Heritage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Archaeological_Heritage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Designated_Area> .
-<http://www.semanticweb.org/cdrio#Archaeological_Heritage> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/cdrio#Land_Use> .
-# 
-# http://www.semanticweb.org/cdrio#Artificial_Existing_Building
-<http://www.semanticweb.org/cdrio#Artificial_Existing_Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Artificial_Existing_Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Artificial_Road_Railway
-<http://www.semanticweb.org/cdrio#Artificial_Road_Railway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Artificial_Road_Railway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Artificial_Utility
-<http://www.semanticweb.org/cdrio#Artificial_Utility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Artificial_Utility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Birds
-<http://www.semanticweb.org/cdrio#Birds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Birds> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
-# 
-# http://www.semanticweb.org/cdrio#Cables
-<http://www.semanticweb.org/cdrio#Cables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Cables> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Artificial_Utility> .
-<http://www.semanticweb.org/cdrio#Cables> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/cdrio#Pipelines> .
-# 
-# http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations
-<http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Regulatory> .
-# 
-# http://www.semanticweb.org/cdrio#Collection_System
-<http://www.semanticweb.org/cdrio#Collection_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Collection_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Processes> .
-# 
-# http://www.semanticweb.org/cdrio#Commissioning
-<http://www.semanticweb.org/cdrio#Commissioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Commissioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Processes> .
-# 
-# http://www.semanticweb.org/cdrio#Consultants
-<http://www.semanticweb.org/cdrio#Consultants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Consultants> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Organizational_Structure> .
-# 
-# http://www.semanticweb.org/cdrio#Consumer_Price_Index
-<http://www.semanticweb.org/cdrio#Consumer_Price_Index> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Consumer_Price_Index> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Economic> .
-# 
-# http://www.semanticweb.org/cdrio#Contractor
-<http://www.semanticweb.org/cdrio#Contractor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Contractor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Organizational_Structure> .
-# 
-# http://www.semanticweb.org/cdrio#Cost_Objective
-<http://www.semanticweb.org/cdrio#Cost_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Cost_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Objective> .
-# 
-# http://www.semanticweb.org/cdrio#Earthquakes
-<http://www.semanticweb.org/cdrio#Earthquakes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Earthquakes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Seismicity> .
-# 
-# http://www.semanticweb.org/cdrio#Economic
-<http://www.semanticweb.org/cdrio#Economic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Economic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#External_Project_Environment> .
-# 
-# http://www.semanticweb.org/cdrio#Environmental_Objective
-<http://www.semanticweb.org/cdrio#Environmental_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Environmental_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Objective> .
-# 
-# http://www.semanticweb.org/cdrio#Environmental_Related_Risk
-<http://www.semanticweb.org/cdrio#Environmental_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Environmental_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Local_External_Risk> .
-# 
-# http://www.semanticweb.org/cdrio#Exchange_Rate
-<http://www.semanticweb.org/cdrio#Exchange_Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Exchange_Rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Economic> .
-# 
-# http://www.semanticweb.org/cdrio#External_Project_Environment
-<http://www.semanticweb.org/cdrio#External_Project_Environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#External_Project_Environment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Risk_Driver> .
-<http://www.semanticweb.org/cdrio#External_Project_Environment> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/cdrio#Internal_Project_Environment> .
-# 
-# http://www.semanticweb.org/cdrio#Federal_Government
-<http://www.semanticweb.org/cdrio#Federal_Government> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Federal_Government> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Politic> .
-# 
-# http://www.semanticweb.org/cdrio#Financial_Project_Risk
-<http://www.semanticweb.org/cdrio#Financial_Project_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Financial_Project_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Internal_Risk_Factor> .
-# 
-# http://www.semanticweb.org/cdrio#Financial_Related_Risk
-<http://www.semanticweb.org/cdrio#Financial_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Financial_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Local_External_Risk> .
-# 
-# http://www.semanticweb.org/cdrio#First_Nations
-<http://www.semanticweb.org/cdrio#First_Nations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#First_Nations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Organizational_Structure> .
-# 
-# http://www.semanticweb.org/cdrio#Fish
-<http://www.semanticweb.org/cdrio#Fish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Fish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
-# 
-# http://www.semanticweb.org/cdrio#Foundations
-<http://www.semanticweb.org/cdrio#Foundations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Foundations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Processes> .
-# 
-# http://www.semanticweb.org/cdrio#Global_External_Risk
-<http://www.semanticweb.org/cdrio#Global_External_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Global_External_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Risk_Classification> .
-# 
-# http://www.semanticweb.org/cdrio#Inflation
-<http://www.semanticweb.org/cdrio#Inflation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Inflation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Economic> .
-# 
-# http://www.semanticweb.org/cdrio#Insect
-<http://www.semanticweb.org/cdrio#Insect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Insect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
-# 
-# http://www.semanticweb.org/cdrio#Interest_Rate
-<http://www.semanticweb.org/cdrio#Interest_Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Interest_Rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Economic> .
-# 
-# http://www.semanticweb.org/cdrio#Internal_Project_Environment
-<http://www.semanticweb.org/cdrio#Internal_Project_Environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Internal_Project_Environment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Risk_Driver> .
-# 
-# http://www.semanticweb.org/cdrio#Internal_Risk_Factor
-<http://www.semanticweb.org/cdrio#Internal_Risk_Factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Internal_Risk_Factor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Risk_Classification> .
-# 
-# http://www.semanticweb.org/cdrio#Labour_Conditions
-<http://www.semanticweb.org/cdrio#Labour_Conditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Labour_Conditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Economic> .
-# 
-# http://www.semanticweb.org/cdrio#Land_Use
-<http://www.semanticweb.org/cdrio#Land_Use> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Land_Use> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Designated_Area> .
-# 
-# http://www.semanticweb.org/cdrio#Legal_Related_Risks
-<http://www.semanticweb.org/cdrio#Legal_Related_Risks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Legal_Related_Risks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Local_External_Risk> .
-# 
-# http://www.semanticweb.org/cdrio#Local_Community
-<http://www.semanticweb.org/cdrio#Local_Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Local_Community> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Social> .
-# 
-# http://www.semanticweb.org/cdrio#Local_External_Risk
-<http://www.semanticweb.org/cdrio#Local_External_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Local_External_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Risk_Classification> .
-# 
-# http://www.semanticweb.org/cdrio#Mammals
-<http://www.semanticweb.org/cdrio#Mammals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Mammals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
-# 
-# http://www.semanticweb.org/cdrio#Managerial_Related_Risk
-<http://www.semanticweb.org/cdrio#Managerial_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Managerial_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Internal_Risk_Factor> .
-# 
-# http://www.semanticweb.org/cdrio#Muncipal
-<http://www.semanticweb.org/cdrio#Muncipal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Muncipal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Politic> .
-# 
-# http://www.semanticweb.org/cdrio#Muncipality_ByLaw
-<http://www.semanticweb.org/cdrio#Muncipality_ByLaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Muncipality_ByLaw> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Regulatory> .
-# 
-# http://www.semanticweb.org/cdrio#Natural_Botany
-<http://www.semanticweb.org/cdrio#Natural_Botany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Natural_Botany> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Natural_Climate
-<http://www.semanticweb.org/cdrio#Natural_Climate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Natural_Climate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Natural_Designated_Area
-<http://www.semanticweb.org/cdrio#Natural_Designated_Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Natural_Designated_Area> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Natural_Geology
-<http://www.semanticweb.org/cdrio#Natural_Geology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Natural_Geology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Natural_Hydrography
-<http://www.semanticweb.org/cdrio#Natural_Hydrography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Natural_Hydrography> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Natural_Seismicity
-<http://www.semanticweb.org/cdrio#Natural_Seismicity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Natural_Seismicity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Natural_Zoology
-<http://www.semanticweb.org/cdrio#Natural_Zoology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Natural_Zoology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Physical> .
-# 
-# http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification
-<http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-# 
-# http://www.semanticweb.org/cdrio#Organizational_Structure
-<http://www.semanticweb.org/cdrio#Organizational_Structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Organizational_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Internal_Project_Environment> .
-<http://www.semanticweb.org/cdrio#Organizational_Structure> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/cdrio#Processes> .
-# 
-# http://www.semanticweb.org/cdrio#Owner
-<http://www.semanticweb.org/cdrio#Owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Owner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Organizational_Structure> .
-# 
-# http://www.semanticweb.org/cdrio#Physical
-<http://www.semanticweb.org/cdrio#Physical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Physical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#External_Project_Environment> .
-# 
-# http://www.semanticweb.org/cdrio#Pipelines
-<http://www.semanticweb.org/cdrio#Pipelines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Pipelines> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Artificial_Utility> .
-# 
-# http://www.semanticweb.org/cdrio#Politic
-<http://www.semanticweb.org/cdrio#Politic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Politic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#External_Project_Environment> .
-# 
-# http://www.semanticweb.org/cdrio#Political_Related_Risk
-<http://www.semanticweb.org/cdrio#Political_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Political_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Local_External_Risk> .
-# 
-# http://www.semanticweb.org/cdrio#PreConstruction_Work
-<http://www.semanticweb.org/cdrio#PreConstruction_Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#PreConstruction_Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Processes> .
-# 
-# http://www.semanticweb.org/cdrio#Precipitation
-<http://www.semanticweb.org/cdrio#Precipitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Precipitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Climate> .
-# 
-# http://www.semanticweb.org/cdrio#Processes
-<http://www.semanticweb.org/cdrio#Processes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Processes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Internal_Project_Environment> .
-# 
-# http://www.semanticweb.org/cdrio#Project
-<http://www.semanticweb.org/cdrio#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
-# 
-# http://www.semanticweb.org/cdrio#Project_Objective
-<http://www.semanticweb.org/cdrio#Project_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Project_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
-# 
-# http://www.semanticweb.org/cdrio#Project_Workpackage
-<http://www.semanticweb.org/cdrio#Project_Workpackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Project_Workpackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
-# 
-# http://www.semanticweb.org/cdrio#Provincial_Government
-<http://www.semanticweb.org/cdrio#Provincial_Government> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Provincial_Government> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Politic> .
-# 
-# http://www.semanticweb.org/cdrio#Provincial_Legislations
-<http://www.semanticweb.org/cdrio#Provincial_Legislations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Provincial_Legislations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Regulatory> .
-# 
-# http://www.semanticweb.org/cdrio#Quality_Objective
-<http://www.semanticweb.org/cdrio#Quality_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Quality_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Objective> .
-# 
-# http://www.semanticweb.org/cdrio#Regulatory
-<http://www.semanticweb.org/cdrio#Regulatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Regulatory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#External_Project_Environment> .
-# 
-# http://www.semanticweb.org/cdrio#Reptiles
-<http://www.semanticweb.org/cdrio#Reptiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Reptiles> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
-# 
-# http://www.semanticweb.org/cdrio#Response_Strategy
-<http://www.semanticweb.org/cdrio#Response_Strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Response_Strategy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
-# 
-# http://www.semanticweb.org/cdrio#Risk_Acceptance
-<http://www.semanticweb.org/cdrio#Risk_Acceptance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Risk_Acceptance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Response_Strategy> .
-# 
-# http://www.semanticweb.org/cdrio#Risk_Classification
-<http://www.semanticweb.org/cdrio#Risk_Classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Risk_Classification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
-# 
-# http://www.semanticweb.org/cdrio#Risk_Driver
-<http://www.semanticweb.org/cdrio#Risk_Driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Risk_Driver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
-# 
-# http://www.semanticweb.org/cdrio#Risk_Eliminaion
-<http://www.semanticweb.org/cdrio#Risk_Eliminaion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Risk_Eliminaion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Response_Strategy> .
-# 
-# http://www.semanticweb.org/cdrio#Risk_Factor
-<http://www.semanticweb.org/cdrio#Risk_Factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Risk_Factor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
-<http://www.semanticweb.org/cdrio#Risk_Factor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
-_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/cdrio#Risk_Driver> .
-_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cdrio#CausedBy> .
+# https://w3id.org/cdrio#Aboriginal_Community
+<https://w3id.org/cdrio#Aboriginal_Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Aboriginal_Community> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Social> .
+<https://w3id.org/cdrio#Aboriginal_Community> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/cdrio#Local_Community> .
+# 
+# https://w3id.org/cdrio#Affected_Collection_System
+<https://w3id.org/cdrio#Affected_Collection_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Affected_Collection_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Workpackage> .
+# 
+# https://w3id.org/cdrio#Affected_Commissioning
+<https://w3id.org/cdrio#Affected_Commissioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Affected_Commissioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Workpackage> .
+# 
+# https://w3id.org/cdrio#Affected_Foundation
+<https://w3id.org/cdrio#Affected_Foundation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Affected_Foundation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Workpackage> .
+# 
+# https://w3id.org/cdrio#Affected_PreConstruction_Work
+<https://w3id.org/cdrio#Affected_PreConstruction_Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Affected_PreConstruction_Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Workpackage> .
+# 
+# https://w3id.org/cdrio#Affected_Site_Preparation
+<https://w3id.org/cdrio#Affected_Site_Preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Affected_Site_Preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Workpackage> .
+# 
+# https://w3id.org/cdrio#Affected_Site_Rehabilitation
+<https://w3id.org/cdrio#Affected_Site_Rehabilitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Affected_Site_Rehabilitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Workpackage> .
+# 
+# https://w3id.org/cdrio#Affected_Turbine_Assembly
+<https://w3id.org/cdrio#Affected_Turbine_Assembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Affected_Turbine_Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Workpackage> .
+# 
+# https://w3id.org/cdrio#Affected_Turbine_Delivery
+<https://w3id.org/cdrio#Affected_Turbine_Delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Affected_Turbine_Delivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Workpackage> .
+# 
+# https://w3id.org/cdrio#Amphibian
+<https://w3id.org/cdrio#Amphibian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Amphibian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Zoology> .
+# 
+# https://w3id.org/cdrio#Archaeological_Heritage
+<https://w3id.org/cdrio#Archaeological_Heritage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Archaeological_Heritage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Designated_Area> .
+<https://w3id.org/cdrio#Archaeological_Heritage> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/cdrio#Land_Use> .
+# 
+# https://w3id.org/cdrio#Artificial_Existing_Building
+<https://w3id.org/cdrio#Artificial_Existing_Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Artificial_Existing_Building> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Artificial_Road_Railway
+<https://w3id.org/cdrio#Artificial_Road_Railway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Artificial_Road_Railway> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Artificial_Utility
+<https://w3id.org/cdrio#Artificial_Utility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Artificial_Utility> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Birds
+<https://w3id.org/cdrio#Birds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Birds> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Zoology> .
+# 
+# https://w3id.org/cdrio#Cables
+<https://w3id.org/cdrio#Cables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Cables> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Artificial_Utility> .
+<https://w3id.org/cdrio#Cables> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/cdrio#Pipelines> .
+# 
+# https://w3id.org/cdrio#Canadian_Federal_Legislations
+<https://w3id.org/cdrio#Canadian_Federal_Legislations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Canadian_Federal_Legislations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Regulatory> .
+# 
+# https://w3id.org/cdrio#Collection_System
+<https://w3id.org/cdrio#Collection_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Collection_System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Processes> .
+# 
+# https://w3id.org/cdrio#Commissioning
+<https://w3id.org/cdrio#Commissioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Commissioning> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Processes> .
+# 
+# https://w3id.org/cdrio#Consultants
+<https://w3id.org/cdrio#Consultants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Consultants> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Organizational_Structure> .
+# 
+# https://w3id.org/cdrio#Consumer_Price_Index
+<https://w3id.org/cdrio#Consumer_Price_Index> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Consumer_Price_Index> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Economic> .
+# 
+# https://w3id.org/cdrio#Contractor
+<https://w3id.org/cdrio#Contractor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Contractor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Organizational_Structure> .
+# 
+# https://w3id.org/cdrio#Cost_Objective
+<https://w3id.org/cdrio#Cost_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Cost_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Objective> .
+# 
+# https://w3id.org/cdrio#Earthquakes
+<https://w3id.org/cdrio#Earthquakes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Earthquakes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Seismicity> .
+# 
+# https://w3id.org/cdrio#Economic
+<https://w3id.org/cdrio#Economic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Economic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#External_Project_Environment> .
+# 
+# https://w3id.org/cdrio#Environmental_Objective
+<https://w3id.org/cdrio#Environmental_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Environmental_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Objective> .
+# 
+# https://w3id.org/cdrio#Environmental_Related_Risk
+<https://w3id.org/cdrio#Environmental_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Environmental_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Local_External_Risk> .
+# 
+# https://w3id.org/cdrio#Exchange_Rate
+<https://w3id.org/cdrio#Exchange_Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Exchange_Rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Economic> .
+# 
+# https://w3id.org/cdrio#External_Project_Environment
+<https://w3id.org/cdrio#External_Project_Environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#External_Project_Environment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Risk_Driver> .
+<https://w3id.org/cdrio#External_Project_Environment> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/cdrio#Internal_Project_Environment> .
+# 
+# https://w3id.org/cdrio#Federal_Government
+<https://w3id.org/cdrio#Federal_Government> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Federal_Government> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Politic> .
+# 
+# https://w3id.org/cdrio#Financial_Project_Risk
+<https://w3id.org/cdrio#Financial_Project_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Financial_Project_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Internal_Risk_Factor> .
+# 
+# https://w3id.org/cdrio#Financial_Related_Risk
+<https://w3id.org/cdrio#Financial_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Financial_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Local_External_Risk> .
+# 
+# https://w3id.org/cdrio#First_Nations
+<https://w3id.org/cdrio#First_Nations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#First_Nations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Organizational_Structure> .
+# 
+# https://w3id.org/cdrio#Fish
+<https://w3id.org/cdrio#Fish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Fish> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Zoology> .
+# 
+# https://w3id.org/cdrio#Foundations
+<https://w3id.org/cdrio#Foundations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Foundations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Processes> .
+# 
+# https://w3id.org/cdrio#Global_External_Risk
+<https://w3id.org/cdrio#Global_External_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Global_External_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Risk_Classification> .
+# 
+# https://w3id.org/cdrio#Inflation
+<https://w3id.org/cdrio#Inflation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Inflation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Economic> .
+# 
+# https://w3id.org/cdrio#Insect
+<https://w3id.org/cdrio#Insect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Insect> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Zoology> .
+# 
+# https://w3id.org/cdrio#Interest_Rate
+<https://w3id.org/cdrio#Interest_Rate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Interest_Rate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Economic> .
+# 
+# https://w3id.org/cdrio#Internal_Project_Environment
+<https://w3id.org/cdrio#Internal_Project_Environment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Internal_Project_Environment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Risk_Driver> .
+# 
+# https://w3id.org/cdrio#Internal_Risk_Factor
+<https://w3id.org/cdrio#Internal_Risk_Factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Internal_Risk_Factor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Risk_Classification> .
+# 
+# https://w3id.org/cdrio#Labour_Conditions
+<https://w3id.org/cdrio#Labour_Conditions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Labour_Conditions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Economic> .
+# 
+# https://w3id.org/cdrio#Land_Use
+<https://w3id.org/cdrio#Land_Use> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Land_Use> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Designated_Area> .
+# 
+# https://w3id.org/cdrio#Legal_Related_Risks
+<https://w3id.org/cdrio#Legal_Related_Risks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Legal_Related_Risks> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Local_External_Risk> .
+# 
+# https://w3id.org/cdrio#Local_Community
+<https://w3id.org/cdrio#Local_Community> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Local_Community> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Social> .
+# 
+# https://w3id.org/cdrio#Local_External_Risk
+<https://w3id.org/cdrio#Local_External_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Local_External_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Risk_Classification> .
+# 
+# https://w3id.org/cdrio#Mammals
+<https://w3id.org/cdrio#Mammals> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Mammals> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Zoology> .
+# 
+# https://w3id.org/cdrio#Managerial_Related_Risk
+<https://w3id.org/cdrio#Managerial_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Managerial_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Internal_Risk_Factor> .
+# 
+# https://w3id.org/cdrio#Muncipal
+<https://w3id.org/cdrio#Muncipal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Muncipal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Politic> .
+# 
+# https://w3id.org/cdrio#Muncipality_ByLaw
+<https://w3id.org/cdrio#Muncipality_ByLaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Muncipality_ByLaw> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Regulatory> .
+# 
+# https://w3id.org/cdrio#Natural_Botany
+<https://w3id.org/cdrio#Natural_Botany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Natural_Botany> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Natural_Climate
+<https://w3id.org/cdrio#Natural_Climate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Natural_Climate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Natural_Designated_Area
+<https://w3id.org/cdrio#Natural_Designated_Area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Natural_Designated_Area> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Natural_Geology
+<https://w3id.org/cdrio#Natural_Geology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Natural_Geology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Natural_Hydrography
+<https://w3id.org/cdrio#Natural_Hydrography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Natural_Hydrography> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Natural_Seismicity
+<https://w3id.org/cdrio#Natural_Seismicity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Natural_Seismicity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Natural_Zoology
+<https://w3id.org/cdrio#Natural_Zoology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Natural_Zoology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Physical> .
+# 
+# https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification
+<https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# https://w3id.org/cdrio#Organizational_Structure
+<https://w3id.org/cdrio#Organizational_Structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Organizational_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Internal_Project_Environment> .
+<https://w3id.org/cdrio#Organizational_Structure> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/cdrio#Processes> .
+# 
+# https://w3id.org/cdrio#Owner
+<https://w3id.org/cdrio#Owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Owner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Organizational_Structure> .
+# 
+# https://w3id.org/cdrio#Physical
+<https://w3id.org/cdrio#Physical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Physical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#External_Project_Environment> .
+# 
+# https://w3id.org/cdrio#Pipelines
+<https://w3id.org/cdrio#Pipelines> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Pipelines> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Artificial_Utility> .
+# 
+# https://w3id.org/cdrio#Politic
+<https://w3id.org/cdrio#Politic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Politic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#External_Project_Environment> .
+# 
+# https://w3id.org/cdrio#Political_Related_Risk
+<https://w3id.org/cdrio#Political_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Political_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Local_External_Risk> .
+# 
+# https://w3id.org/cdrio#PreConstruction_Work
+<https://w3id.org/cdrio#PreConstruction_Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#PreConstruction_Work> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Processes> .
+# 
+# https://w3id.org/cdrio#Precipitation
+<https://w3id.org/cdrio#Precipitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Precipitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Climate> .
+# 
+# https://w3id.org/cdrio#Processes
+<https://w3id.org/cdrio#Processes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Processes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Internal_Project_Environment> .
+# 
+# https://w3id.org/cdrio#Project
+<https://w3id.org/cdrio#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Project> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
+# 
+# https://w3id.org/cdrio#Project_Objective
+<https://w3id.org/cdrio#Project_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Project_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
+# 
+# https://w3id.org/cdrio#Project_Workpackage
+<https://w3id.org/cdrio#Project_Workpackage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Project_Workpackage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
+# 
+# https://w3id.org/cdrio#Provincial_Government
+<https://w3id.org/cdrio#Provincial_Government> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Provincial_Government> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Politic> .
+# 
+# https://w3id.org/cdrio#Provincial_Legislations
+<https://w3id.org/cdrio#Provincial_Legislations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Provincial_Legislations> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Regulatory> .
+# 
+# https://w3id.org/cdrio#Quality_Objective
+<https://w3id.org/cdrio#Quality_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Quality_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Objective> .
+# 
+# https://w3id.org/cdrio#Regulatory
+<https://w3id.org/cdrio#Regulatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Regulatory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#External_Project_Environment> .
+# 
+# https://w3id.org/cdrio#Reptiles
+<https://w3id.org/cdrio#Reptiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Reptiles> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Zoology> .
+# 
+# https://w3id.org/cdrio#Response_Strategy
+<https://w3id.org/cdrio#Response_Strategy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Response_Strategy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
+# 
+# https://w3id.org/cdrio#Risk_Acceptance
+<https://w3id.org/cdrio#Risk_Acceptance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Risk_Acceptance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Response_Strategy> .
+# 
+# https://w3id.org/cdrio#Risk_Classification
+<https://w3id.org/cdrio#Risk_Classification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Risk_Classification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
+# 
+# https://w3id.org/cdrio#Risk_Driver
+<https://w3id.org/cdrio#Risk_Driver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Risk_Driver> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
+# 
+# https://w3id.org/cdrio#Risk_Eliminaion
+<https://w3id.org/cdrio#Risk_Eliminaion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Risk_Eliminaion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Response_Strategy> .
+# 
+# https://w3id.org/cdrio#Risk_Factor
+<https://w3id.org/cdrio#Risk_Factor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Risk_Factor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification> .
+<https://w3id.org/cdrio#Risk_Factor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/cdrio#Risk_Driver> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/cdrio#CausedBy> .
 _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 # 
-# http://www.semanticweb.org/cdrio#Risk_Reduction
-<http://www.semanticweb.org/cdrio#Risk_Reduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Risk_Reduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Response_Strategy> .
+# https://w3id.org/cdrio#Risk_Reduction
+<https://w3id.org/cdrio#Risk_Reduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Risk_Reduction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Response_Strategy> .
 # 
-# http://www.semanticweb.org/cdrio#Risk_Retention
-<http://www.semanticweb.org/cdrio#Risk_Retention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Risk_Retention> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Response_Strategy> .
+# https://w3id.org/cdrio#Risk_Retention
+<https://w3id.org/cdrio#Risk_Retention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Risk_Retention> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Response_Strategy> .
 # 
-# http://www.semanticweb.org/cdrio#Risk_Transfer
-<http://www.semanticweb.org/cdrio#Risk_Transfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Risk_Transfer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Response_Strategy> .
+# https://w3id.org/cdrio#Risk_Transfer
+<https://w3id.org/cdrio#Risk_Transfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Risk_Transfer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Response_Strategy> .
 # 
-# http://www.semanticweb.org/cdrio#Safety_Objective
-<http://www.semanticweb.org/cdrio#Safety_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Safety_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Objective> .
+# https://w3id.org/cdrio#Safety_Objective
+<https://w3id.org/cdrio#Safety_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Safety_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Objective> .
 # 
-# http://www.semanticweb.org/cdrio#Site_Preparation
-<http://www.semanticweb.org/cdrio#Site_Preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Site_Preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Processes> .
+# https://w3id.org/cdrio#Site_Preparation
+<https://w3id.org/cdrio#Site_Preparation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Site_Preparation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Processes> .
 # 
-# http://www.semanticweb.org/cdrio#Site_Rehabilitation
-<http://www.semanticweb.org/cdrio#Site_Rehabilitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Site_Rehabilitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Processes> .
+# https://w3id.org/cdrio#Site_Rehabilitation
+<https://w3id.org/cdrio#Site_Rehabilitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Site_Rehabilitation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Processes> .
 # 
-# http://www.semanticweb.org/cdrio#Site_Related_Risk
-<http://www.semanticweb.org/cdrio#Site_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Site_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Internal_Risk_Factor> .
+# https://w3id.org/cdrio#Site_Related_Risk
+<https://w3id.org/cdrio#Site_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Site_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Internal_Risk_Factor> .
 # 
-# http://www.semanticweb.org/cdrio#Social
-<http://www.semanticweb.org/cdrio#Social> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Social> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#External_Project_Environment> .
+# https://w3id.org/cdrio#Social
+<https://w3id.org/cdrio#Social> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Social> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#External_Project_Environment> .
 # 
-# http://www.semanticweb.org/cdrio#Social_Related_Risk
-<http://www.semanticweb.org/cdrio#Social_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Social_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Local_External_Risk> .
+# https://w3id.org/cdrio#Social_Related_Risk
+<https://w3id.org/cdrio#Social_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Social_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Local_External_Risk> .
 # 
-# http://www.semanticweb.org/cdrio#Soil
-<http://www.semanticweb.org/cdrio#Soil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Soil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Geology> .
+# https://w3id.org/cdrio#Soil
+<https://w3id.org/cdrio#Soil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Soil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Geology> .
 # 
-# http://www.semanticweb.org/cdrio#Technical_Related_Risk
-<http://www.semanticweb.org/cdrio#Technical_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Technical_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Internal_Risk_Factor> .
+# https://w3id.org/cdrio#Technical_Related_Risk
+<https://w3id.org/cdrio#Technical_Related_Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Technical_Related_Risk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Internal_Risk_Factor> .
 # 
-# http://www.semanticweb.org/cdrio#Temperature
-<http://www.semanticweb.org/cdrio#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Climate> .
+# https://w3id.org/cdrio#Temperature
+<https://w3id.org/cdrio#Temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Temperature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Climate> .
 # 
-# http://www.semanticweb.org/cdrio#Time_Objective
-<http://www.semanticweb.org/cdrio#Time_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Time_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Project_Objective> .
+# https://w3id.org/cdrio#Time_Objective
+<https://w3id.org/cdrio#Time_Objective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Time_Objective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Project_Objective> .
 # 
-# http://www.semanticweb.org/cdrio#Turbine_Assembly
-<http://www.semanticweb.org/cdrio#Turbine_Assembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Turbine_Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Processes> .
+# https://w3id.org/cdrio#Turbine_Assembly
+<https://w3id.org/cdrio#Turbine_Assembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Turbine_Assembly> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Processes> .
 # 
-# http://www.semanticweb.org/cdrio#Turbine_Delivery
-<http://www.semanticweb.org/cdrio#Turbine_Delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Turbine_Delivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Processes> .
+# https://w3id.org/cdrio#Turbine_Delivery
+<https://w3id.org/cdrio#Turbine_Delivery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Turbine_Delivery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Processes> .
 # 
-# http://www.semanticweb.org/cdrio#Wind
-<http://www.semanticweb.org/cdrio#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.semanticweb.org/cdrio#Wind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cdrio#Natural_Climate> .
+# https://w3id.org/cdrio#Wind
+<https://w3id.org/cdrio#Wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/cdrio#Wind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/cdrio#Natural_Climate> .
 # 
 # 
 # 
@@ -775,21 +775,21 @@ _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Affected_Turbine_Delivery> .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Affected_Turbine_Assembly> .
 _:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Affected_Site_Rehabilitation> .
 _:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Affected_Site_Preparation> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Affected_Site_Preparation> .
 _:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Affected_PreConstruction_Work> .
 _:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Affected_Foundation> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Affected_Foundation> .
 _:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Affected_Commissioning> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Affected_Commissioning> .
 _:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Affected_Collection_System> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Affected_Collection_System> .
 _:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -800,17 +800,17 @@ _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
 _:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Reptiles> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Reptiles> .
 _:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Mammals> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Mammals> .
 _:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Insect> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Insect> .
 _:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Fish> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Fish> .
 _:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Birds> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Birds> .
 _:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Amphibian> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Amphibian> .
 _:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -825,25 +825,25 @@ _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
 _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
 _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Zoology> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Zoology> .
 _:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Seismicity> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Seismicity> .
 _:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Hydrography> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Hydrography> .
 _:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Geology> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Geology> .
 _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Designated_Area> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Designated_Area> .
 _:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Climate> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Climate> .
 _:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Natural_Botany> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Natural_Botany> .
 _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Artificial_Utility> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Artificial_Utility> .
 _:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Artificial_Road_Railway> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Artificial_Road_Railway> .
 _:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Artificial_Existing_Building> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Artificial_Existing_Building> .
 _:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -851,11 +851,11 @@ _:genid46 <http://www.w3.org/2002/07/owl#members> _:genid49 .
 _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
 _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
 _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Provincial_Legislations> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Provincial_Legislations> .
 _:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Muncipality_ByLaw> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Muncipality_ByLaw> .
 _:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Canadian_Federal_Legislations> .
 _:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -868,21 +868,21 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
 _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
 _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
 _:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Turbine_Delivery> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Turbine_Delivery> .
 _:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Turbine_Assembly> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Turbine_Assembly> .
 _:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Site_Rehabilitation> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Site_Rehabilitation> .
 _:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Site_Preparation> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Site_Preparation> .
 _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#PreConstruction_Work> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#PreConstruction_Work> .
 _:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Foundations> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Foundations> .
 _:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Commissioning> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Commissioning> .
 _:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Collection_System> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Collection_System> .
 _:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -891,13 +891,13 @@ _:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
 _:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
 _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
 _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Owner> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Owner> .
 _:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#First_Nations> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#First_Nations> .
 _:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Contractor> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Contractor> .
 _:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Consultants> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Consultants> .
 _:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -907,15 +907,15 @@ _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
 _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
 _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
 _:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Labour_Conditions> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Labour_Conditions> .
 _:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Interest_Rate> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Interest_Rate> .
 _:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Inflation> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Inflation> .
 _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Exchange_Rate> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Exchange_Rate> .
 _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Consumer_Price_Index> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Consumer_Price_Index> .
 _:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -925,15 +925,15 @@ _:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
 _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
 _:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Time_Objective> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Time_Objective> .
 _:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Safety_Objective> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Safety_Objective> .
 _:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Quality_Objective> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Quality_Objective> .
 _:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Environmental_Objective> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Environmental_Objective> .
 _:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Cost_Objective> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Cost_Objective> .
 _:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -943,15 +943,15 @@ _:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
 _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
 _:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
 _:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Social> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Social> .
 _:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Regulatory> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Regulatory> .
 _:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Politic> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Politic> .
 _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Physical> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Physical> .
 _:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Economic> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Economic> .
 _:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -961,15 +961,15 @@ _:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
 _:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
 _:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
 _:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Social_Related_Risk> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Social_Related_Risk> .
 _:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Political_Related_Risk> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Political_Related_Risk> .
 _:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Legal_Related_Risks> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Legal_Related_Risks> .
 _:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Financial_Related_Risk> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Financial_Related_Risk> .
 _:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Environmental_Related_Risk> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Environmental_Related_Risk> .
 _:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -977,11 +977,11 @@ _:genid88 <http://www.w3.org/2002/07/owl#members> _:genid91 .
 _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
 _:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
 _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Provincial_Government> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Provincial_Government> .
 _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Muncipal> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Muncipal> .
 _:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Federal_Government> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Federal_Government> .
 _:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -990,13 +990,13 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
 _:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
 _:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
 _:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Technical_Related_Risk> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Technical_Related_Risk> .
 _:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Site_Related_Risk> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Site_Related_Risk> .
 _:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Managerial_Related_Risk> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Managerial_Related_Risk> .
 _:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Financial_Project_Risk> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Financial_Project_Risk> .
 _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -1004,11 +1004,11 @@ _:genid97 <http://www.w3.org/2002/07/owl#members> _:genid100 .
 _:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
 _:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
 _:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Local_External_Risk> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Local_External_Risk> .
 _:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Internal_Risk_Factor> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Internal_Risk_Factor> .
 _:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Global_External_Risk> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Global_External_Risk> .
 _:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -1016,11 +1016,11 @@ _:genid101 <http://www.w3.org/2002/07/owl#members> _:genid104 .
 _:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
 _:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
 _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Wind> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Wind> .
 _:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Temperature> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Temperature> .
 _:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Precipitation> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Precipitation> .
 _:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -1032,19 +1032,19 @@ _:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid108 .
 _:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid107 .
 _:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
 _:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Risk_Factor> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Risk_Factor> .
 _:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Risk_Driver> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Risk_Driver> .
 _:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Risk_Classification> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Risk_Classification> .
 _:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Response_Strategy> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Response_Strategy> .
 _:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Project_Workpackage> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Project_Workpackage> .
 _:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Project_Objective> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Project_Objective> .
 _:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Project> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Project> .
 _:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 _:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
@@ -1054,15 +1054,15 @@ _:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid116 .
 _:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid115 .
 _:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
 _:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Risk_Transfer> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Risk_Transfer> .
 _:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Risk_Retention> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Risk_Retention> .
 _:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Risk_Reduction> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Risk_Reduction> .
 _:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Risk_Eliminaion> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Risk_Eliminaion> .
 _:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cdrio#Risk_Acceptance> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/cdrio#Risk_Acceptance> .
 _:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

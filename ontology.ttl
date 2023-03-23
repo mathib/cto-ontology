@@ -1,19 +1,19 @@
-@prefix : <http://www.semanticweb.org/cdrio#> .
+@prefix : <https://w3id.org/cdrio#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/cdrio#> .
+@base <https://w3id.org/cdrio#> .
 
-<http://www.semanticweb.org/cdrio> rdf:type owl:Ontology ;
-                                    rdfs:comment "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project" .
+<https://w3id.org/cdrio> rdf:type owl:Ontology ;
+                          rdfs:comment "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project" .
 
 #################################################################
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/cdrio#Cause
+###  https://w3id.org/cdrio#Cause
 :Cause rdf:type owl:ObjectProperty ;
        rdfs:subPropertyOf owl:topObjectProperty ;
        owl:inverseOf :CausedBy ;
@@ -21,42 +21,42 @@
        rdfs:range :Risk_Factor .
 
 
-###  http://www.semanticweb.org/cdrio#CausedBy
+###  https://w3id.org/cdrio#CausedBy
 :CausedBy rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdfs:domain :Risk_Factor ;
           rdfs:range :Risk_Driver .
 
 
-###  http://www.semanticweb.org/cdrio#OccuredIn
+###  https://w3id.org/cdrio#OccuredIn
 :OccuredIn rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdfs:domain :Risk_Factor ;
            rdfs:range :Project .
 
 
-###  http://www.semanticweb.org/cdrio#hasConsequenceOn
+###  https://w3id.org/cdrio#hasConsequenceOn
 :hasConsequenceOn rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
                   rdfs:domain :Risk_Factor ;
                   rdfs:range :Project_Objective .
 
 
-###  http://www.semanticweb.org/cdrio#hasEffectOn
+###  https://w3id.org/cdrio#hasEffectOn
 :hasEffectOn rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain :Risk_Factor ;
              rdfs:range :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#hasResponse
+###  https://w3id.org/cdrio#hasResponse
 :hasResponse rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain :Risk_Factor ;
              rdfs:range :Response_Strategy .
 
 
-###  http://www.semanticweb.org/cdrio#hasType
+###  https://w3id.org/cdrio#hasType
 :hasType rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
          rdf:type owl:FunctionalProperty ;
@@ -68,91 +68,91 @@
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/cdrio#Affected_Area_Size
+###  https://w3id.org/cdrio#Affected_Area_Size
 :Affected_Area_Size rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain :Land_Use ;
                     rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Approval_Status
+###  https://w3id.org/cdrio#Approval_Status
 :Approval_Status rdf:type owl:DatatypeProperty ;
                  rdfs:subPropertyOf owl:topDataProperty ;
                  rdfs:domain :Regulatory ;
                  rdfs:range xsd:boolean .
 
 
-###  http://www.semanticweb.org/cdrio#Artifact_Name
+###  https://w3id.org/cdrio#Artifact_Name
 :Artifact_Name rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain :Archaeological_Heritage ;
                rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Attitude_Toward_Project
+###  https://w3id.org/cdrio#Attitude_Toward_Project
 :Attitude_Toward_Project rdf:type owl:DatatypeProperty ;
                          rdfs:subPropertyOf owl:topDataProperty ;
                          rdfs:domain :Social ;
                          rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Average_Daily_Traffic
+###  https://w3id.org/cdrio#Average_Daily_Traffic
 :Average_Daily_Traffic rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty ;
                        rdfs:domain :Artificial_Road_Railway ;
                        rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Average_Rainfall
+###  https://w3id.org/cdrio#Average_Rainfall
 :Average_Rainfall rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Precipitation ;
                   rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Average_Snowfall
+###  https://w3id.org/cdrio#Average_Snowfall
 :Average_Snowfall rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Precipitation ;
                   rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Average_Wind_Speed
+###  https://w3id.org/cdrio#Average_Wind_Speed
 :Average_Wind_Speed rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain :Wind ;
                     rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Average_Winter_Temperature
+###  https://w3id.org/cdrio#Average_Winter_Temperature
 :Average_Winter_Temperature rdf:type owl:DatatypeProperty ;
                             rdfs:subPropertyOf owl:topDataProperty ;
                             rdfs:domain :Temperature ;
                             rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Botany_Name
+###  https://w3id.org/cdrio#Botany_Name
 :Botany_Name rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:domain :Natural_Botany ;
              rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Breed_in_Project_Area
+###  https://w3id.org/cdrio#Breed_in_Project_Area
 :Breed_in_Project_Area rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty ;
                        rdfs:domain :Natural_Zoology ;
                        rdfs:range xsd:boolean .
 
 
-###  http://www.semanticweb.org/cdrio#Clear_Responsibility
+###  https://w3id.org/cdrio#Clear_Responsibility
 :Clear_Responsibility rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
                       rdfs:domain :Organizational_Structure ;
                       rdfs:range xsd:boolean .
 
 
-###  http://www.semanticweb.org/cdrio#Closest_Construction_Activity
+###  https://w3id.org/cdrio#Closest_Construction_Activity
 :Closest_Construction_Activity rdf:type owl:DatatypeProperty ;
                                rdfs:subPropertyOf owl:topDataProperty ;
                                rdfs:domain [ rdf:type owl:Class ;
@@ -167,21 +167,21 @@
                                rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Consultation_Participation
+###  https://w3id.org/cdrio#Consultation_Participation
 :Consultation_Participation rdf:type owl:DatatypeProperty ;
                             rdfs:subPropertyOf owl:topDataProperty ;
                             rdfs:domain :Social ;
                             rdfs:range xsd:boolean .
 
 
-###  http://www.semanticweb.org/cdrio#Cooperation_Level
+###  https://w3id.org/cdrio#Cooperation_Level
 :Cooperation_Level rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf owl:topDataProperty ;
                    rdfs:domain :Organizational_Structure ;
                    rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity
+###  https://w3id.org/cdrio#Distance_To_Closest_Activity
 :Distance_To_Closest_Activity rdf:type owl:DatatypeProperty ;
                               rdfs:subPropertyOf owl:topDataProperty ;
                               rdfs:domain [ rdf:type owl:Class ;
@@ -196,14 +196,14 @@
                               rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Groundwater_Level
+###  https://w3id.org/cdrio#Groundwater_Level
 :Groundwater_Level rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf owl:topDataProperty ;
                    rdfs:domain :Soil ;
                    rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Heritage_Significance
+###  https://w3id.org/cdrio#Heritage_Significance
 :Heritage_Significance rdf:type owl:DatatypeProperty ;
                        rdfs:subPropertyOf owl:topDataProperty ;
                        rdfs:domain [ rdf:type owl:Class ;
@@ -214,154 +214,154 @@
                        rdfs:range xsd:boolean .
 
 
-###  http://www.semanticweb.org/cdrio#Magnitude
+###  https://w3id.org/cdrio#Magnitude
 :Magnitude rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:domain :Natural_Seismicity ;
            rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Maximum_Rainfall
+###  https://w3id.org/cdrio#Maximum_Rainfall
 :Maximum_Rainfall rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Precipitation ;
                   rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Maximum_Snowfall
+###  https://w3id.org/cdrio#Maximum_Snowfall
 :Maximum_Snowfall rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Precipitation ;
                   rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Maximum_Wind_Speed
+###  https://w3id.org/cdrio#Maximum_Wind_Speed
 :Maximum_Wind_Speed rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain :Wind ;
                     rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature
+###  https://w3id.org/cdrio#Maximum_Winter_Temperature
 :Maximum_Winter_Temperature rdf:type owl:DatatypeProperty ;
                             rdfs:subPropertyOf owl:topDataProperty ;
                             rdfs:domain :Temperature ;
                             rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature
+###  https://w3id.org/cdrio#Minimum_Winter_Temperature
 :Minimum_Winter_Temperature rdf:type owl:DatatypeProperty ;
                             rdfs:subPropertyOf owl:topDataProperty ;
                             rdfs:domain :Temperature ;
                             rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Name
+###  https://w3id.org/cdrio#Name
 :Name rdf:type owl:DatatypeProperty ;
       rdfs:subPropertyOf owl:topDataProperty ;
       rdfs:domain :Natural_Hydrography ;
       rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Overall_Stability
+###  https://w3id.org/cdrio#Overall_Stability
 :Overall_Stability rdf:type owl:DatatypeProperty ;
                    rdfs:subPropertyOf owl:topDataProperty ;
                    rdfs:domain :Politic ;
                    rdfs:range xsd:boolean .
 
 
-###  http://www.semanticweb.org/cdrio#Permit_Name
+###  https://w3id.org/cdrio#Permit_Name
 :Permit_Name rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdfs:domain :Regulatory ;
              rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Project_Duration
+###  https://w3id.org/cdrio#Project_Duration
 :Project_Duration rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Project ;
                   rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Project_Location
+###  https://w3id.org/cdrio#Project_Location
 :Project_Location rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Project ;
                   rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Project_Name
+###  https://w3id.org/cdrio#Project_Name
 :Project_Name rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:domain :Project ;
               rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Project_Size
+###  https://w3id.org/cdrio#Project_Size
 :Project_Size rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
               rdfs:domain :Project ;
               rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/cdrio#Purpose
+###  https://w3id.org/cdrio#Purpose
 :Purpose rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf owl:topDataProperty ;
          rdfs:domain :Land_Use ;
          rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Response_Description
+###  https://w3id.org/cdrio#Response_Description
 :Response_Description rdf:type owl:DatatypeProperty ;
                       rdfs:subPropertyOf owl:topDataProperty ;
                       rdfs:domain :Response_Strategy ;
                       rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Responsible_Agency
+###  https://w3id.org/cdrio#Responsible_Agency
 :Responsible_Agency rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain :Regulatory ;
                     rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Return_Period
+###  https://w3id.org/cdrio#Return_Period
 :Return_Period rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain :Natural_Seismicity ;
                rdfs:range xsd:integer .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Attitude
+###  https://w3id.org/cdrio#Risk_Attitude
 :Risk_Attitude rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain :Organizational_Structure ;
                rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Road_Category
+###  https://w3id.org/cdrio#Road_Category
 :Road_Category rdf:type owl:DatatypeProperty ;
                rdfs:subPropertyOf owl:topDataProperty ;
                rdfs:domain :Artificial_Road_Railway ;
                rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Road_Name
+###  https://w3id.org/cdrio#Road_Name
 :Road_Name rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:domain :Artificial_Road_Railway ;
            rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/cdrio#Support_for_Project
+###  https://w3id.org/cdrio#Support_for_Project
 :Support_for_Project rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf owl:topDataProperty ;
                      rdfs:domain :Politic ;
                      rdfs:range xsd:boolean .
 
 
-###  http://www.semanticweb.org/cdrio#Type
+###  https://w3id.org/cdrio#Type
 :Type rdf:type owl:DatatypeProperty ;
       rdfs:subPropertyOf owl:topDataProperty ;
       rdfs:domain :Natural_Geology ;
@@ -372,412 +372,412 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/cdrio#Aboriginal_Community
+###  https://w3id.org/cdrio#Aboriginal_Community
 :Aboriginal_Community rdf:type owl:Class ;
                       rdfs:subClassOf :Social ;
                       owl:disjointWith :Local_Community .
 
 
-###  http://www.semanticweb.org/cdrio#Affected_Collection_System
+###  https://w3id.org/cdrio#Affected_Collection_System
 :Affected_Collection_System rdf:type owl:Class ;
                             rdfs:subClassOf :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#Affected_Commissioning
+###  https://w3id.org/cdrio#Affected_Commissioning
 :Affected_Commissioning rdf:type owl:Class ;
                         rdfs:subClassOf :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#Affected_Foundation
+###  https://w3id.org/cdrio#Affected_Foundation
 :Affected_Foundation rdf:type owl:Class ;
                      rdfs:subClassOf :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work
+###  https://w3id.org/cdrio#Affected_PreConstruction_Work
 :Affected_PreConstruction_Work rdf:type owl:Class ;
                                rdfs:subClassOf :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#Affected_Site_Preparation
+###  https://w3id.org/cdrio#Affected_Site_Preparation
 :Affected_Site_Preparation rdf:type owl:Class ;
                            rdfs:subClassOf :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation
+###  https://w3id.org/cdrio#Affected_Site_Rehabilitation
 :Affected_Site_Rehabilitation rdf:type owl:Class ;
                               rdfs:subClassOf :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly
+###  https://w3id.org/cdrio#Affected_Turbine_Assembly
 :Affected_Turbine_Assembly rdf:type owl:Class ;
                            rdfs:subClassOf :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery
+###  https://w3id.org/cdrio#Affected_Turbine_Delivery
 :Affected_Turbine_Delivery rdf:type owl:Class ;
                            rdfs:subClassOf :Project_Workpackage .
 
 
-###  http://www.semanticweb.org/cdrio#Amphibian
+###  https://w3id.org/cdrio#Amphibian
 :Amphibian rdf:type owl:Class ;
            rdfs:subClassOf :Natural_Zoology .
 
 
-###  http://www.semanticweb.org/cdrio#Archaeological_Heritage
+###  https://w3id.org/cdrio#Archaeological_Heritage
 :Archaeological_Heritage rdf:type owl:Class ;
                          rdfs:subClassOf :Natural_Designated_Area ;
                          owl:disjointWith :Land_Use .
 
 
-###  http://www.semanticweb.org/cdrio#Artificial_Existing_Building
+###  https://w3id.org/cdrio#Artificial_Existing_Building
 :Artificial_Existing_Building rdf:type owl:Class ;
                               rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Artificial_Road_Railway
+###  https://w3id.org/cdrio#Artificial_Road_Railway
 :Artificial_Road_Railway rdf:type owl:Class ;
                          rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Artificial_Utility
+###  https://w3id.org/cdrio#Artificial_Utility
 :Artificial_Utility rdf:type owl:Class ;
                     rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Birds
+###  https://w3id.org/cdrio#Birds
 :Birds rdf:type owl:Class ;
        rdfs:subClassOf :Natural_Zoology .
 
 
-###  http://www.semanticweb.org/cdrio#Cables
+###  https://w3id.org/cdrio#Cables
 :Cables rdf:type owl:Class ;
         rdfs:subClassOf :Artificial_Utility ;
         owl:disjointWith :Pipelines .
 
 
-###  http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations
+###  https://w3id.org/cdrio#Canadian_Federal_Legislations
 :Canadian_Federal_Legislations rdf:type owl:Class ;
                                rdfs:subClassOf :Regulatory .
 
 
-###  http://www.semanticweb.org/cdrio#Collection_System
+###  https://w3id.org/cdrio#Collection_System
 :Collection_System rdf:type owl:Class ;
                    rdfs:subClassOf :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Commissioning
+###  https://w3id.org/cdrio#Commissioning
 :Commissioning rdf:type owl:Class ;
                rdfs:subClassOf :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Consultants
+###  https://w3id.org/cdrio#Consultants
 :Consultants rdf:type owl:Class ;
              rdfs:subClassOf :Organizational_Structure .
 
 
-###  http://www.semanticweb.org/cdrio#Consumer_Price_Index
+###  https://w3id.org/cdrio#Consumer_Price_Index
 :Consumer_Price_Index rdf:type owl:Class ;
                       rdfs:subClassOf :Economic .
 
 
-###  http://www.semanticweb.org/cdrio#Contractor
+###  https://w3id.org/cdrio#Contractor
 :Contractor rdf:type owl:Class ;
             rdfs:subClassOf :Organizational_Structure .
 
 
-###  http://www.semanticweb.org/cdrio#Cost_Objective
+###  https://w3id.org/cdrio#Cost_Objective
 :Cost_Objective rdf:type owl:Class ;
                 rdfs:subClassOf :Project_Objective .
 
 
-###  http://www.semanticweb.org/cdrio#Earthquakes
+###  https://w3id.org/cdrio#Earthquakes
 :Earthquakes rdf:type owl:Class ;
              rdfs:subClassOf :Natural_Seismicity .
 
 
-###  http://www.semanticweb.org/cdrio#Economic
+###  https://w3id.org/cdrio#Economic
 :Economic rdf:type owl:Class ;
           rdfs:subClassOf :External_Project_Environment .
 
 
-###  http://www.semanticweb.org/cdrio#Environmental_Objective
+###  https://w3id.org/cdrio#Environmental_Objective
 :Environmental_Objective rdf:type owl:Class ;
                          rdfs:subClassOf :Project_Objective .
 
 
-###  http://www.semanticweb.org/cdrio#Environmental_Related_Risk
+###  https://w3id.org/cdrio#Environmental_Related_Risk
 :Environmental_Related_Risk rdf:type owl:Class ;
                             rdfs:subClassOf :Local_External_Risk .
 
 
-###  http://www.semanticweb.org/cdrio#Exchange_Rate
+###  https://w3id.org/cdrio#Exchange_Rate
 :Exchange_Rate rdf:type owl:Class ;
                rdfs:subClassOf :Economic .
 
 
-###  http://www.semanticweb.org/cdrio#External_Project_Environment
+###  https://w3id.org/cdrio#External_Project_Environment
 :External_Project_Environment rdf:type owl:Class ;
                               rdfs:subClassOf :Risk_Driver ;
                               owl:disjointWith :Internal_Project_Environment .
 
 
-###  http://www.semanticweb.org/cdrio#Federal_Government
+###  https://w3id.org/cdrio#Federal_Government
 :Federal_Government rdf:type owl:Class ;
                     rdfs:subClassOf :Politic .
 
 
-###  http://www.semanticweb.org/cdrio#Financial_Project_Risk
+###  https://w3id.org/cdrio#Financial_Project_Risk
 :Financial_Project_Risk rdf:type owl:Class ;
                         rdfs:subClassOf :Internal_Risk_Factor .
 
 
-###  http://www.semanticweb.org/cdrio#Financial_Related_Risk
+###  https://w3id.org/cdrio#Financial_Related_Risk
 :Financial_Related_Risk rdf:type owl:Class ;
                         rdfs:subClassOf :Local_External_Risk .
 
 
-###  http://www.semanticweb.org/cdrio#First_Nations
+###  https://w3id.org/cdrio#First_Nations
 :First_Nations rdf:type owl:Class ;
                rdfs:subClassOf :Organizational_Structure .
 
 
-###  http://www.semanticweb.org/cdrio#Fish
+###  https://w3id.org/cdrio#Fish
 :Fish rdf:type owl:Class ;
       rdfs:subClassOf :Natural_Zoology .
 
 
-###  http://www.semanticweb.org/cdrio#Foundations
+###  https://w3id.org/cdrio#Foundations
 :Foundations rdf:type owl:Class ;
              rdfs:subClassOf :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Global_External_Risk
+###  https://w3id.org/cdrio#Global_External_Risk
 :Global_External_Risk rdf:type owl:Class ;
                       rdfs:subClassOf :Risk_Classification .
 
 
-###  http://www.semanticweb.org/cdrio#Inflation
+###  https://w3id.org/cdrio#Inflation
 :Inflation rdf:type owl:Class ;
            rdfs:subClassOf :Economic .
 
 
-###  http://www.semanticweb.org/cdrio#Insect
+###  https://w3id.org/cdrio#Insect
 :Insect rdf:type owl:Class ;
         rdfs:subClassOf :Natural_Zoology .
 
 
-###  http://www.semanticweb.org/cdrio#Interest_Rate
+###  https://w3id.org/cdrio#Interest_Rate
 :Interest_Rate rdf:type owl:Class ;
                rdfs:subClassOf :Economic .
 
 
-###  http://www.semanticweb.org/cdrio#Internal_Project_Environment
+###  https://w3id.org/cdrio#Internal_Project_Environment
 :Internal_Project_Environment rdf:type owl:Class ;
                               rdfs:subClassOf :Risk_Driver .
 
 
-###  http://www.semanticweb.org/cdrio#Internal_Risk_Factor
+###  https://w3id.org/cdrio#Internal_Risk_Factor
 :Internal_Risk_Factor rdf:type owl:Class ;
                       rdfs:subClassOf :Risk_Classification .
 
 
-###  http://www.semanticweb.org/cdrio#Labour_Conditions
+###  https://w3id.org/cdrio#Labour_Conditions
 :Labour_Conditions rdf:type owl:Class ;
                    rdfs:subClassOf :Economic .
 
 
-###  http://www.semanticweb.org/cdrio#Land_Use
+###  https://w3id.org/cdrio#Land_Use
 :Land_Use rdf:type owl:Class ;
           rdfs:subClassOf :Natural_Designated_Area .
 
 
-###  http://www.semanticweb.org/cdrio#Legal_Related_Risks
+###  https://w3id.org/cdrio#Legal_Related_Risks
 :Legal_Related_Risks rdf:type owl:Class ;
                      rdfs:subClassOf :Local_External_Risk .
 
 
-###  http://www.semanticweb.org/cdrio#Local_Community
+###  https://w3id.org/cdrio#Local_Community
 :Local_Community rdf:type owl:Class ;
                  rdfs:subClassOf :Social .
 
 
-###  http://www.semanticweb.org/cdrio#Local_External_Risk
+###  https://w3id.org/cdrio#Local_External_Risk
 :Local_External_Risk rdf:type owl:Class ;
                      rdfs:subClassOf :Risk_Classification .
 
 
-###  http://www.semanticweb.org/cdrio#Mammals
+###  https://w3id.org/cdrio#Mammals
 :Mammals rdf:type owl:Class ;
          rdfs:subClassOf :Natural_Zoology .
 
 
-###  http://www.semanticweb.org/cdrio#Managerial_Related_Risk
+###  https://w3id.org/cdrio#Managerial_Related_Risk
 :Managerial_Related_Risk rdf:type owl:Class ;
                          rdfs:subClassOf :Internal_Risk_Factor .
 
 
-###  http://www.semanticweb.org/cdrio#Muncipal
+###  https://w3id.org/cdrio#Muncipal
 :Muncipal rdf:type owl:Class ;
           rdfs:subClassOf :Politic .
 
 
-###  http://www.semanticweb.org/cdrio#Muncipality_ByLaw
+###  https://w3id.org/cdrio#Muncipality_ByLaw
 :Muncipality_ByLaw rdf:type owl:Class ;
                    rdfs:subClassOf :Regulatory .
 
 
-###  http://www.semanticweb.org/cdrio#Natural_Botany
+###  https://w3id.org/cdrio#Natural_Botany
 :Natural_Botany rdf:type owl:Class ;
                 rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Natural_Climate
+###  https://w3id.org/cdrio#Natural_Climate
 :Natural_Climate rdf:type owl:Class ;
                  rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Natural_Designated_Area
+###  https://w3id.org/cdrio#Natural_Designated_Area
 :Natural_Designated_Area rdf:type owl:Class ;
                          rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Natural_Geology
+###  https://w3id.org/cdrio#Natural_Geology
 :Natural_Geology rdf:type owl:Class ;
                  rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Natural_Hydrography
+###  https://w3id.org/cdrio#Natural_Hydrography
 :Natural_Hydrography rdf:type owl:Class ;
                      rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Natural_Seismicity
+###  https://w3id.org/cdrio#Natural_Seismicity
 :Natural_Seismicity rdf:type owl:Class ;
                     rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Natural_Zoology
+###  https://w3id.org/cdrio#Natural_Zoology
 :Natural_Zoology rdf:type owl:Class ;
                  rdfs:subClassOf :Physical .
 
 
-###  http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification
+###  https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification
 :Onshore_Wind_Farm_Risk_Identification rdf:type owl:Class ;
                                        rdfs:subClassOf owl:Thing .
 
 
-###  http://www.semanticweb.org/cdrio#Organizational_Structure
+###  https://w3id.org/cdrio#Organizational_Structure
 :Organizational_Structure rdf:type owl:Class ;
                           rdfs:subClassOf :Internal_Project_Environment ;
                           owl:disjointWith :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Owner
+###  https://w3id.org/cdrio#Owner
 :Owner rdf:type owl:Class ;
        rdfs:subClassOf :Organizational_Structure .
 
 
-###  http://www.semanticweb.org/cdrio#Physical
+###  https://w3id.org/cdrio#Physical
 :Physical rdf:type owl:Class ;
           rdfs:subClassOf :External_Project_Environment .
 
 
-###  http://www.semanticweb.org/cdrio#Pipelines
+###  https://w3id.org/cdrio#Pipelines
 :Pipelines rdf:type owl:Class ;
            rdfs:subClassOf :Artificial_Utility .
 
 
-###  http://www.semanticweb.org/cdrio#Politic
+###  https://w3id.org/cdrio#Politic
 :Politic rdf:type owl:Class ;
          rdfs:subClassOf :External_Project_Environment .
 
 
-###  http://www.semanticweb.org/cdrio#Political_Related_Risk
+###  https://w3id.org/cdrio#Political_Related_Risk
 :Political_Related_Risk rdf:type owl:Class ;
                         rdfs:subClassOf :Local_External_Risk .
 
 
-###  http://www.semanticweb.org/cdrio#PreConstruction_Work
+###  https://w3id.org/cdrio#PreConstruction_Work
 :PreConstruction_Work rdf:type owl:Class ;
                       rdfs:subClassOf :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Precipitation
+###  https://w3id.org/cdrio#Precipitation
 :Precipitation rdf:type owl:Class ;
                rdfs:subClassOf :Natural_Climate .
 
 
-###  http://www.semanticweb.org/cdrio#Processes
+###  https://w3id.org/cdrio#Processes
 :Processes rdf:type owl:Class ;
            rdfs:subClassOf :Internal_Project_Environment .
 
 
-###  http://www.semanticweb.org/cdrio#Project
+###  https://w3id.org/cdrio#Project
 :Project rdf:type owl:Class ;
          rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
 
 
-###  http://www.semanticweb.org/cdrio#Project_Objective
+###  https://w3id.org/cdrio#Project_Objective
 :Project_Objective rdf:type owl:Class ;
                    rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
 
 
-###  http://www.semanticweb.org/cdrio#Project_Workpackage
+###  https://w3id.org/cdrio#Project_Workpackage
 :Project_Workpackage rdf:type owl:Class ;
                      rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
 
 
-###  http://www.semanticweb.org/cdrio#Provincial_Government
+###  https://w3id.org/cdrio#Provincial_Government
 :Provincial_Government rdf:type owl:Class ;
                        rdfs:subClassOf :Politic .
 
 
-###  http://www.semanticweb.org/cdrio#Provincial_Legislations
+###  https://w3id.org/cdrio#Provincial_Legislations
 :Provincial_Legislations rdf:type owl:Class ;
                          rdfs:subClassOf :Regulatory .
 
 
-###  http://www.semanticweb.org/cdrio#Quality_Objective
+###  https://w3id.org/cdrio#Quality_Objective
 :Quality_Objective rdf:type owl:Class ;
                    rdfs:subClassOf :Project_Objective .
 
 
-###  http://www.semanticweb.org/cdrio#Regulatory
+###  https://w3id.org/cdrio#Regulatory
 :Regulatory rdf:type owl:Class ;
             rdfs:subClassOf :External_Project_Environment .
 
 
-###  http://www.semanticweb.org/cdrio#Reptiles
+###  https://w3id.org/cdrio#Reptiles
 :Reptiles rdf:type owl:Class ;
           rdfs:subClassOf :Natural_Zoology .
 
 
-###  http://www.semanticweb.org/cdrio#Response_Strategy
+###  https://w3id.org/cdrio#Response_Strategy
 :Response_Strategy rdf:type owl:Class ;
                    rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Acceptance
+###  https://w3id.org/cdrio#Risk_Acceptance
 :Risk_Acceptance rdf:type owl:Class ;
                  rdfs:subClassOf :Response_Strategy .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Classification
+###  https://w3id.org/cdrio#Risk_Classification
 :Risk_Classification rdf:type owl:Class ;
                      rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Driver
+###  https://w3id.org/cdrio#Risk_Driver
 :Risk_Driver rdf:type owl:Class ;
              rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Eliminaion
+###  https://w3id.org/cdrio#Risk_Eliminaion
 :Risk_Eliminaion rdf:type owl:Class ;
                  rdfs:subClassOf :Response_Strategy .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Factor
+###  https://w3id.org/cdrio#Risk_Factor
 :Risk_Factor rdf:type owl:Class ;
              rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification ,
                              [ rdf:type owl:Restriction ;
@@ -786,82 +786,82 @@
                              ] .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Reduction
+###  https://w3id.org/cdrio#Risk_Reduction
 :Risk_Reduction rdf:type owl:Class ;
                 rdfs:subClassOf :Response_Strategy .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Retention
+###  https://w3id.org/cdrio#Risk_Retention
 :Risk_Retention rdf:type owl:Class ;
                 rdfs:subClassOf :Response_Strategy .
 
 
-###  http://www.semanticweb.org/cdrio#Risk_Transfer
+###  https://w3id.org/cdrio#Risk_Transfer
 :Risk_Transfer rdf:type owl:Class ;
                rdfs:subClassOf :Response_Strategy .
 
 
-###  http://www.semanticweb.org/cdrio#Safety_Objective
+###  https://w3id.org/cdrio#Safety_Objective
 :Safety_Objective rdf:type owl:Class ;
                   rdfs:subClassOf :Project_Objective .
 
 
-###  http://www.semanticweb.org/cdrio#Site_Preparation
+###  https://w3id.org/cdrio#Site_Preparation
 :Site_Preparation rdf:type owl:Class ;
                   rdfs:subClassOf :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Site_Rehabilitation
+###  https://w3id.org/cdrio#Site_Rehabilitation
 :Site_Rehabilitation rdf:type owl:Class ;
                      rdfs:subClassOf :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Site_Related_Risk
+###  https://w3id.org/cdrio#Site_Related_Risk
 :Site_Related_Risk rdf:type owl:Class ;
                    rdfs:subClassOf :Internal_Risk_Factor .
 
 
-###  http://www.semanticweb.org/cdrio#Social
+###  https://w3id.org/cdrio#Social
 :Social rdf:type owl:Class ;
         rdfs:subClassOf :External_Project_Environment .
 
 
-###  http://www.semanticweb.org/cdrio#Social_Related_Risk
+###  https://w3id.org/cdrio#Social_Related_Risk
 :Social_Related_Risk rdf:type owl:Class ;
                      rdfs:subClassOf :Local_External_Risk .
 
 
-###  http://www.semanticweb.org/cdrio#Soil
+###  https://w3id.org/cdrio#Soil
 :Soil rdf:type owl:Class ;
       rdfs:subClassOf :Natural_Geology .
 
 
-###  http://www.semanticweb.org/cdrio#Technical_Related_Risk
+###  https://w3id.org/cdrio#Technical_Related_Risk
 :Technical_Related_Risk rdf:type owl:Class ;
                         rdfs:subClassOf :Internal_Risk_Factor .
 
 
-###  http://www.semanticweb.org/cdrio#Temperature
+###  https://w3id.org/cdrio#Temperature
 :Temperature rdf:type owl:Class ;
              rdfs:subClassOf :Natural_Climate .
 
 
-###  http://www.semanticweb.org/cdrio#Time_Objective
+###  https://w3id.org/cdrio#Time_Objective
 :Time_Objective rdf:type owl:Class ;
                 rdfs:subClassOf :Project_Objective .
 
 
-###  http://www.semanticweb.org/cdrio#Turbine_Assembly
+###  https://w3id.org/cdrio#Turbine_Assembly
 :Turbine_Assembly rdf:type owl:Class ;
                   rdfs:subClassOf :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Turbine_Delivery
+###  https://w3id.org/cdrio#Turbine_Delivery
 :Turbine_Delivery rdf:type owl:Class ;
                   rdfs:subClassOf :Processes .
 
 
-###  http://www.semanticweb.org/cdrio#Wind
+###  https://w3id.org/cdrio#Wind
 :Wind rdf:type owl:Class ;
       rdfs:subClassOf :Natural_Climate .
 
