@@ -1,34 +1,24 @@
-About Widoco output
-===================
-The purpose of Widoco is to reuse and integrate existing tools for documentation, plus the set of features listed below:
-* Separation of the sections of your html page so you can write them independently and replace only those needed.
-* Automatic annotation in RDF-a of the html produced.
-* Association of a provenance page which includes the history of your vocabulary (W3C PROV-O compliant).
-* Metadata extraction from the ontology plus the means to complete it on the fly when generating your ontology.
-* Guidelines on the main sections that your document should have and how to complete them.
+# The Context-Driven Risk Identification Ontology (CDRIO)
 
-Widoco will create 3 different folders:
-|
-|-provenance (a folder including an html and RDF serialization of how the documentation page was created)
-|-resources (folder with the different resources)
-|-sections (folder with the different sections of the documentation, separated for easy editing. Just edit one and the main page will be updated)
+## HTML documentation and raw ontology per serialisation
 
-Completing ontology metadata.
-===================
-Widoco uses the ontology metadata to update a configuration file. If you complete that configuration file (ended up widoco.conf), the tool will enhance your html with additional details, such as how to cite the document, previous revisions, icons with the licence, etc.
+* base URI: [https://w3id.org/cdrio](https://emadhhm.github.io/cdrio-ontology/#)
+* Canonical URI for the HTML representation: [https://w3id.org/cto/cto.html](https://mathib.github.io/cto-ontology/#)
+* Canonical URI for the Turtle representation: [https://w3id.org/cto/cto.ttl](https://mathib.github.io/cto-ontology/ontology.ttl)
+* Canonical URI for the n-triples representation: [https://w3id.org/cto/cto.nt](https://mathib.github.io/cto-ontology/ontology.nt)
+* Canonical URI for the json-ld representation: [https://w3id.org/cto/cto.jsonld](https://mathib.github.io/cto-ontology/ontology.json)
+* Canonical URI for the RDF/XML representation: [https://w3id.org/cto/cto.rdf](https://mathib.github.io/cto-ontology/ontology.xml)
 
-Browser issues
-==========
-The result of executing Widoco is an html file. We have tested it in Mozilla, IE and Chrome, and when the page is stored in a server all the browsers work correctly. If you view the file locally, we recommend you to use Mozilla Firefox (or Internet Explorer, if you must). Google Chrome will not show the contents correctly, as it doesn't allow  XMLHttpRequest without HTTP. If you want to view the page locally with Google Chrome you have two possibilities:
+The most recent version of CDRIO is always available in this Github repository
 
-a) Place the file in a server and access it via its URL (for example, put it in dropbox and access through its public url).
+## Introduction to CDRIO
 
-b) Execute Chrome with the following commands :
+The CDRIO ontology contains terminology to describe risk factors, risk drivers, risk response strategies, and risk impact in construction projects to improve the risk idebtification process.
 
-(WIN) chrome.exe --allow-file-access-from-files,
+## Contributing to CDRIO
 
-(OSX) open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files
+Errors and requests for additional terminology can be reported using Github issues.
 
-(UNX) /usr/bin/google-chrome --allow-file-access-from-files
+## Contributors
 
-Do you have a problem? open an issue at https://github.com/dgarijo/Widoco
+[Emad Mohamed](https://github.com/EmadHHM) - University of Alberta
