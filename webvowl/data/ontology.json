@@ -2,8 +2,8 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "undefined" ],
-    "baseIris" : [ "http://www.semanticweb.org/cdrio", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
-    "iri" : "http://www.semanticweb.org/cdrio",
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/cdrio" ],
+    "iri" : "https://w3id.org/cdrio",
     "comments" : {
       "undefined" : "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project"
     }
@@ -13,151 +13,169 @@
     "id" : "3",
     "type" : "owl:unionOf"
   }, {
-    "id" : "15",
-    "type" : "rdfs:Datatype"
+    "id" : "13",
+    "type" : "owl:Class"
   }, {
-    "id" : "20",
+    "id" : "17",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
     "type" : "owl:unionOf"
   }, {
-    "id" : "29",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "31",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "33",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "46",
-    "type" : "owl:Class"
-  }, {
-    "id" : "50",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "55",
-    "type" : "rdfs:Datatype"
-  }, {
     "id" : "22",
-    "type" : "owl:Class"
-  }, {
-    "id" : "59",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "64",
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "69",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "73",
+    "id" : "74",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "77",
+    "id" : "79",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "81",
+    "id" : "83",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "85",
+    "id" : "86",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "89",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "93",
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
     "type" : "owl:unionOf"
   }, {
-    "id" : "8",
-    "type" : "owl:Class"
-  }, {
-    "id" : "5",
-    "type" : "owl:Class"
-  }, {
-    "id" : "98",
-    "type" : "owl:Class"
-  }, {
-    "id" : "99",
+    "id" : "101",
     "type" : "owl:Class"
   }, {
     "id" : "103",
     "type" : "owl:Class"
   }, {
-    "id" : "113",
+    "id" : "107",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "118",
+    "id" : "111",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "137",
-    "type" : "rdfs:Datatype"
+    "id" : "41",
+    "type" : "owl:Class"
   }, {
-    "id" : "140",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "143",
+    "id" : "135",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "7",
     "type" : "owl:Class"
   }, {
-    "id" : "151",
+    "id" : "143",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
     "type" : "owl:Class"
   }, {
-    "id" : "75",
+    "id" : "147",
     "type" : "owl:Class"
   }, {
-    "id" : "158",
+    "id" : "122",
     "type" : "owl:Class"
   }, {
-    "id" : "180",
+    "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "183",
+    "id" : "9",
     "type" : "owl:Class"
-  }, {
-    "id" : "44",
-    "type" : "owl:Class"
-  }, {
-    "id" : "217",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
-    "type" : "owl:Class"
-  }, {
-    "id" : "36",
-    "type" : "owl:Thing"
   }, {
     "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "181",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "242",
+    "id" : "240",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "244",
+    "id" : "243",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "246",
+    "id" : "245",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "248",
+    "id" : "247",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "250",
+    "id" : "249",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "79",
+    "id" : "67",
     "type" : "owl:Class"
   }, {
-    "id" : "154",
+    "id" : "115",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
-    "type" : "owl:Class"
+    "id" : "251",
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "256",
+    "id" : "254",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "257",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "259",
@@ -172,265 +190,247 @@
     "id" : "265",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "214",
-    "type" : "owl:Class"
-  }, {
-    "id" : "268",
+    "id" : "267",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "226",
+    "id" : "269",
     "type" : "rdfs:Datatype"
-  }, {
-    "id" : "199",
-    "type" : "owl:Class"
   }, {
     "id" : "271",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "273",
-    "type" : "rdfs:Datatype"
+    "id" : "242",
+    "type" : "owl:Class"
   }, {
-    "id" : "234",
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "274",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "276",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "107",
+    "id" : "278",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
     "type" : "owl:Class"
   }, {
     "id" : "45",
     "type" : "owl:Class"
   }, {
-    "id" : "279",
+    "id" : "141",
     "type" : "owl:Class"
   }, {
-    "id" : "211",
+    "id" : "209",
     "type" : "owl:Class"
   }, {
-    "id" : "253",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "281",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "283",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "285",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "142",
-    "type" : "owl:Class"
-  }, {
-    "id" : "164",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
-    "type" : "owl:Class"
-  }, {
-    "id" : "145",
-    "type" : "owl:Class"
-  }, {
-    "id" : "190",
-    "type" : "owl:Class"
-  }, {
-    "id" : "120",
-    "type" : "owl:Class"
-  }, {
-    "id" : "317",
-    "type" : "owl:Class"
-  }, {
-    "id" : "63",
-    "type" : "owl:Class"
-  }, {
-    "id" : "102",
-    "type" : "owl:Class"
-  }, {
-    "id" : "167",
-    "type" : "owl:Class"
-  }, {
-    "id" : "133",
-    "type" : "owl:Class"
-  }, {
-    "id" : "95",
-    "type" : "owl:Class"
-  }, {
-    "id" : "303",
-    "type" : "owl:Class"
-  }, {
-    "id" : "314",
-    "type" : "owl:Class"
-  }, {
-    "id" : "139",
-    "type" : "owl:Class"
-  }, {
-    "id" : "96",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "147",
-    "type" : "owl:Class"
-  }, {
-    "id" : "66",
-    "type" : "owl:Class"
-  }, {
-    "id" : "105",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
-  }, {
-    "id" : "240",
-    "type" : "owl:Class"
-  }, {
-    "id" : "6",
-    "type" : "owl:Class"
-  }, {
-    "id" : "61",
-    "type" : "owl:Class"
-  }, {
-    "id" : "104",
-    "type" : "owl:Class"
-  }, {
-    "id" : "128",
-    "type" : "owl:Class"
-  }, {
-    "id" : "47",
-    "type" : "owl:Class"
-  }, {
-    "id" : "155",
+    "id" : "132",
     "type" : "owl:Class"
   }, {
     "id" : "24",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "183",
     "type" : "owl:Class"
   }, {
-    "id" : "373",
+    "id" : "298",
     "type" : "owl:Class"
   }, {
-    "id" : "168",
-    "type" : "owl:Class"
-  }, {
-    "id" : "189",
-    "type" : "owl:Class"
-  }, {
-    "id" : "111",
-    "type" : "owl:Class"
-  }, {
-    "id" : "301",
-    "type" : "owl:Class"
-  }, {
-    "id" : "106",
-    "type" : "owl:Class"
-  }, {
-    "id" : "115",
-    "type" : "owl:Class"
-  }, {
-    "id" : "83",
-    "type" : "owl:Class"
-  }, {
-    "id" : "123",
-    "type" : "owl:Class"
-  }, {
-    "id" : "355",
-    "type" : "owl:Class"
-  }, {
-    "id" : "19",
-    "type" : "owl:Class"
-  }, {
-    "id" : "197",
-    "type" : "owl:Class"
-  }, {
-    "id" : "148",
-    "type" : "owl:Class"
-  }, {
-    "id" : "100",
+    "id" : "300",
     "type" : "owl:Class"
   }, {
     "id" : "71",
     "type" : "owl:Class"
   }, {
-    "id" : "117",
+    "id" : "110",
     "type" : "owl:Class"
   }, {
-    "id" : "109",
+    "id" : "213",
     "type" : "owl:Class"
   }, {
-    "id" : "176",
+    "id" : "94",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "149",
     "type" : "owl:Class"
   }, {
-    "id" : "193",
+    "id" : "19",
     "type" : "owl:Class"
   }, {
-    "id" : "112",
+    "id" : "288",
     "type" : "owl:Class"
   }, {
-    "id" : "136",
+    "id" : "286",
     "type" : "owl:Class"
   }, {
-    "id" : "258",
+    "id" : "139",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "291",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "185",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "392",
+    "type" : "owl:Class"
+  }, {
+    "id" : "253",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "239",
+    "type" : "owl:Class"
+  }, {
+    "id" : "215",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
     "type" : "owl:Class"
   }, {
     "id" : "14",
     "type" : "owl:Class"
   }, {
-    "id" : "302",
+    "id" : "134",
     "type" : "owl:Class"
   }, {
-    "id" : "108",
+    "id" : "416",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "307",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "284",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
     "type" : "owl:Class"
   }, {
     "id" : "27",
     "type" : "owl:Class"
   }, {
-    "id" : "101",
+    "id" : "58",
     "type" : "owl:Class"
   }, {
-    "id" : "97",
+    "id" : "210",
     "type" : "owl:Class"
   }, {
-    "id" : "67",
+    "id" : "302",
     "type" : "owl:Class"
   }, {
-    "id" : "87",
+    "id" : "81",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "387",
     "type" : "owl:Class"
   }, {
-    "id" : "241",
+    "id" : "158",
     "type" : "owl:Class"
   }, {
-    "id" : "173",
-    "type" : "owl:Class"
-  }, {
-    "id" : "52",
-    "type" : "owl:Class"
-  }, {
-    "id" : "195",
+    "id" : "142",
     "type" : "owl:Class"
   }, {
     "id" : "161",
     "type" : "owl:Class"
   }, {
-    "id" : "91",
+    "id" : "28",
     "type" : "owl:Class"
   }, {
-    "id" : "233",
+    "id" : "294",
     "type" : "owl:Class"
   }, {
-    "id" : "255",
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "374",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
     "type" : "owl:Class"
   }, {
     "id" : "12",
@@ -439,315 +439,351 @@
   "classAttribute" : [ {
     "instances" : 0,
     "union" : [ "4", "5", "6", "7", "8", "9" ],
-    "attributes" : [ "anonymous", "union" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "3"
   }, {
+    "iri" : "https://w3id.org/cdrio#Labour_Conditions",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Labour_Conditions"
+    },
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "15",
+    "id" : "17",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "20",
+    "id" : "25",
     "label" : {
       "IRI-based" : "float"
     }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Archaeological_Heritage",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Archaeological_Heritage"
+    },
+    "id" : "4",
+    "superClasses" : [ "28" ]
   }, {
     "instances" : 0,
-    "union" : [ "7", "9" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "25"
+    "union" : [ "4", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "21"
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "29",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "31",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "33",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Local_Community",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Local_Community"
-    },
-    "id" : "46",
-    "superClasses" : [ "47" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "50",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "55",
-    "label" : {
-      "IRI-based" : "boolean"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_Collection_System",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Affected_Collection_System"
-    },
     "id" : "22",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "59",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "boolean"
     }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Turbine_Delivery",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Turbine_Delivery"
+    },
+    "id" : "34",
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "64",
+    "id" : "37",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#PreConstruction_Work",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PreConstruction_Work"
+    },
+    "id" : "1",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Eliminaion",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Eliminaion"
+    },
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Muncipal",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Muncipal"
+    },
+    "id" : "57",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "69",
     "label" : {
-      "IRI-based" : "float"
+      "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "73",
+    "id" : "74",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "77",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "81",
+    "id" : "89",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "85",
+    "id" : "92",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "89",
+    "id" : "96",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "instances" : 0,
     "union" : [ "4", "5", "6", "7", "8", "9" ],
-    "attributes" : [ "anonymous", "union" ],
-    "id" : "93"
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "100"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Natural_Hydrography",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Amphibian",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Natural_Hydrography"
+      "IRI-based" : "Amphibian"
     },
-    "id" : "8",
-    "superClasses" : [ "95" ]
+    "id" : "101",
+    "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Artificial_Utility",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Interest_Rate",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Artificial_Utility"
+      "IRI-based" : "Interest_Rate"
     },
-    "subClasses" : [ "96", "97" ],
-    "id" : "5",
-    "superClasses" : [ "95" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Muncipality_ByLaw",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Muncipality_ByLaw"
-    },
-    "id" : "98",
-    "superClasses" : [ "99" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Regulatory",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Regulatory"
-    },
-    "subClasses" : [ "98", "101", "102" ],
-    "id" : "99",
-    "superClasses" : [ "100" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Response_Strategy",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Response_Strategy"
-    },
-    "subClasses" : [ "105", "106", "107", "108", "109" ],
     "id" : "103",
-    "superClasses" : [ "104" ]
+    "superClasses" : [ "14" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "113",
+    "id" : "107",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "118",
+    "id" : "111",
     "label" : {
       "IRI-based" : "float"
     }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Processes",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Processes"
+    },
+    "subClasses" : [ "24", "64", "73", "30", "1", "110", "2", "16" ],
+    "id" : "41",
+    "superClasses" : [ "130" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "137",
+    "id" : "135",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Zoology",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Zoology"
+    },
+    "subClasses" : [ "138", "139", "140", "101", "141", "142" ],
+    "id" : "7",
+    "superClasses" : [ "77" ]
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "140",
+    "id" : "143",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "143",
+    "id" : "145",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Archaeological_Heritage",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Archaeological_Heritage"
-    },
-    "id" : "7",
-    "superClasses" : [ "145" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Federal_Government",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Federal_Government"
-    },
-    "id" : "151",
-    "superClasses" : [ "123" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Amphibian",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Amphibian"
-    },
-    "id" : "75",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Owner",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Owner"
-    },
-    "id" : "158",
-    "superClasses" : [ "155" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Environmental_Related_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Environmental_Related_Risk"
-    },
-    "id" : "180",
-    "superClasses" : [ "66" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Interest_Rate",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Interest_Rate"
-    },
-    "id" : "183",
-    "superClasses" : [ "128" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Factor",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Risk_Factor",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Risk_Factor"
     },
-    "id" : "44",
-    "superClasses" : [ "104" ]
+    "id" : "104",
+    "superClasses" : [ "146" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Inflation",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Affected_Collection_System",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Inflation"
+      "IRI-based" : "Affected_Collection_System"
     },
-    "id" : "217",
-    "superClasses" : [ "128" ]
+    "id" : "147",
+    "superClasses" : [ "35" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Site_Preparation",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Legal_Related_Risks",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Site_Preparation"
+      "IRI-based" : "Legal_Related_Risks"
     },
-    "id" : "2",
-    "superClasses" : [ "147" ]
+    "id" : "122",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Hydrography",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Hydrography"
+    },
+    "id" : "6",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Artificial_Utility",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artificial_Utility"
+    },
+    "subClasses" : [ "178", "179" ],
+    "id" : "9",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Cost_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cost_Objective"
+    },
+    "id" : "182",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Provincial_Government",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Provincial_Government"
+    },
+    "id" : "194",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Commissioning",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Commissioning"
+    },
+    "id" : "73",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Land_Use",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Land_Use"
+    },
+    "id" : "174",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Aboriginal_Community",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aboriginal_Community"
+    },
+    "id" : "227",
+    "superClasses" : [ "166" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "36",
+    "id" : "48",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "182",
+    "id" : "181",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -755,78 +791,90 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "242",
+    "id" : "240",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "244",
+    "id" : "243",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "246",
+    "id" : "245",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "248",
+    "id" : "247",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "250",
+    "id" : "249",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Fish",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Risk_Retention",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Fish"
+      "IRI-based" : "Risk_Retention"
     },
-    "id" : "79",
-    "superClasses" : [ "4" ]
+    "id" : "67",
+    "superClasses" : [ "43" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Consultants",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Owner",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Consultants"
+      "IRI-based" : "Owner"
     },
-    "id" : "154",
-    "superClasses" : [ "155" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_Turbine_Delivery",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Affected_Turbine_Delivery"
-    },
-    "id" : "11",
-    "superClasses" : [ "12" ]
+    "id" : "115",
+    "superClasses" : [ "116" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "256",
+    "id" : "251",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "259",
+    "id" : "254",
     "label" : {
       "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "225",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "257",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "integer"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -836,51 +884,33 @@
       "IRI-based" : "string"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "263",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "265",
-    "label" : {
-      "IRI-based" : "integer"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Precipitation",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Precipitation"
-    },
-    "id" : "214",
-    "superClasses" : [ "190" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "268",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "226",
+    "id" : "263",
     "label" : {
       "IRI-based" : "boolean"
     }
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Legal_Related_Risks",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "265",
     "label" : {
-      "IRI-based" : "Legal_Related_Risks"
-    },
-    "id" : "199",
-    "superClasses" : [ "66" ]
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "267",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "269",
+    "label" : {
+      "IRI-based" : "string"
+    }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
@@ -889,757 +919,727 @@
       "IRI-based" : "string"
     }
   }, {
+    "iri" : "https://w3id.org/cdrio#Inflation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inflation"
+    },
+    "id" : "242",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Site_Preparation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Preparation"
+    },
+    "id" : "2",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Muncipality_ByLaw",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Muncipality_ByLaw"
+    },
+    "id" : "274",
+    "superClasses" : [ "171" ]
+  }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "273",
+    "id" : "46",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "234",
-    "label" : {
-      "IRI-based" : "string"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "276",
     "label" : {
-      "IRI-based" : "string"
+      "IRI-based" : "float"
     }
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Eliminaion",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Risk_Eliminaion"
-    },
-    "id" : "107",
-    "superClasses" : [ "103" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Driver",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Risk_Driver"
-    },
-    "subClasses" : [ "148", "100" ],
-    "id" : "45",
-    "superClasses" : [ "104" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Aboriginal_Community",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Aboriginal_Community"
-    },
-    "id" : "279",
-    "superClasses" : [ "47" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Land_Use",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Land_Use"
-    },
-    "id" : "211",
-    "superClasses" : [ "145" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "253",
+    "id" : "278",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#float",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "281",
+    "id" : "280",
     "label" : {
       "IRI-based" : "float"
     }
   }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "283",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#float",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "285",
-    "label" : {
-      "IRI-based" : "float"
-    }
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Environmental_Objective",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Environmental_Objective"
-    },
-    "id" : "142",
-    "superClasses" : [ "112" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Contractor",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Contractor"
-    },
-    "id" : "164",
-    "superClasses" : [ "155" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_PreConstruction_Work",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Affected_PreConstruction_Work"
-    },
-    "id" : "49",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Natural_Designated_Area",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Natural_Designated_Area"
-    },
-    "subClasses" : [ "7", "211" ],
-    "id" : "145",
-    "superClasses" : [ "95" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Natural_Climate",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Natural_Climate"
-    },
-    "subClasses" : [ "214", "189", "193" ],
-    "id" : "190",
-    "superClasses" : [ "95" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Internal_Risk_Factor",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Internal_Risk_Factor"
-    },
-    "subClasses" : [ "197", "301", "302", "303" ],
-    "id" : "120",
-    "superClasses" : [ "67" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Social_Related_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Social_Related_Risk"
-    },
-    "id" : "317",
-    "superClasses" : [ "66" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Commissioning",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Commissioning"
-    },
-    "id" : "63",
-    "superClasses" : [ "147" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Provincial_Legislations",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Provincial_Legislations"
-    },
-    "id" : "102",
-    "superClasses" : [ "99" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Earthquakes",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Earthquakes"
-    },
-    "id" : "167",
-    "superClasses" : [ "168" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Cost_Objective",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Cost_Objective"
-    },
-    "id" : "133",
-    "superClasses" : [ "112" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Physical",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Physical"
-    },
-    "subClasses" : [ "168", "4", "5", "314", "255", "145", "6", "190", "8", "9" ],
-    "id" : "95",
-    "superClasses" : [ "100" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Site_Related_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Site_Related_Risk"
-    },
-    "id" : "303",
-    "superClasses" : [ "120" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Natural_Geology",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Natural_Geology"
-    },
-    "subClasses" : [ "355" ],
-    "id" : "314",
-    "superClasses" : [ "95" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Time_Objective",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Time_Objective"
-    },
-    "id" : "139",
-    "superClasses" : [ "112" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Pipelines",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Pipelines"
-    },
-    "id" : "96",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#PreConstruction_Work",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "PreConstruction_Work"
-    },
-    "id" : "1",
-    "superClasses" : [ "147" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Processes",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Processes"
-    },
-    "subClasses" : [ "54", "2", "24", "14", "117", "63", "1", "19" ],
-    "id" : "147",
-    "superClasses" : [ "148" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Local_External_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Local_External_Risk"
-    },
-    "subClasses" : [ "199", "180", "195", "373", "317" ],
-    "id" : "66",
-    "superClasses" : [ "67" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Reduction",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Risk_Reduction"
-    },
-    "id" : "105",
-    "superClasses" : [ "103" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Foundations",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Foundations"
-    },
-    "id" : "54",
-    "superClasses" : [ "147" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Exchange_Rate",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Exchange_Rate"
-    },
-    "id" : "240",
-    "superClasses" : [ "128" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Natural_Botany",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Natural_Botany"
-    },
-    "id" : "6",
-    "superClasses" : [ "95" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_Foundation",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Affected_Foundation"
-    },
-    "id" : "61",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Onshore_Wind_Farm_Risk_Identification",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Onshore_Wind_Farm_Risk_Identification"
-    },
-    "subClasses" : [ "233", "112", "45", "44", "67", "103", "12" ],
-    "id" : "104"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Economic",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Economic"
-    },
-    "subClasses" : [ "217", "258", "240", "241", "183" ],
-    "id" : "128",
-    "superClasses" : [ "100" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Social",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Social"
-    },
-    "subClasses" : [ "279", "46" ],
-    "id" : "47",
-    "superClasses" : [ "100" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Organizational_Structure",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Organizational_Structure"
-    },
-    "subClasses" : [ "154", "158", "161", "164" ],
-    "id" : "155",
-    "superClasses" : [ "148" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Turbine_Delivery",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Turbine_Delivery"
-    },
-    "id" : "24",
-    "superClasses" : [ "147" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_Commissioning",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Affected_Commissioning"
-    },
-    "id" : "17",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Political_Related_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Political_Related_Risk"
-    },
-    "id" : "373",
-    "superClasses" : [ "66" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Natural_Seismicity",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Natural_Seismicity"
-    },
-    "subClasses" : [ "167" ],
-    "id" : "168",
-    "superClasses" : [ "95" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Wind",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Wind"
-    },
-    "id" : "189",
-    "superClasses" : [ "190" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Safety_Objective",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Safety_Objective"
-    },
-    "id" : "111",
-    "superClasses" : [ "112" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Technical_Related_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Technical_Related_Risk"
-    },
-    "id" : "301",
-    "superClasses" : [ "120" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Acceptance",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Risk_Acceptance"
-    },
-    "id" : "106",
-    "superClasses" : [ "103" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Global_External_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Global_External_Risk"
-    },
-    "id" : "115",
-    "superClasses" : [ "67" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Birds",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Birds"
-    },
-    "id" : "83",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Politic",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Politic"
-    },
-    "subClasses" : [ "151", "173", "176" ],
-    "id" : "123",
-    "superClasses" : [ "100" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Soil",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Soil"
-    },
-    "id" : "355",
-    "superClasses" : [ "314" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Turbine_Assembly",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Turbine_Assembly"
-    },
-    "id" : "19",
-    "superClasses" : [ "147" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Managerial_Related_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Managerial_Related_Risk"
-    },
-    "id" : "197",
-    "superClasses" : [ "120" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Internal_Project_Environment",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Internal_Project_Environment"
-    },
-    "subClasses" : [ "155", "147" ],
-    "id" : "148",
-    "superClasses" : [ "45" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#External_Project_Environment",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "External_Project_Environment"
-    },
-    "subClasses" : [ "47", "123", "99", "128", "95" ],
-    "id" : "100",
-    "superClasses" : [ "45" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Reptiles",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Reptiles"
-    },
-    "id" : "71",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Collection_System",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Collection_System"
-    },
-    "id" : "117",
-    "superClasses" : [ "147" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Retention",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Risk_Retention"
-    },
-    "id" : "109",
-    "superClasses" : [ "103" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Provincial_Government",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Provincial_Government"
-    },
-    "id" : "176",
-    "superClasses" : [ "123" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_Site_Preparation",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Affected_Site_Preparation"
-    },
-    "id" : "57",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Temperature",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Temperature"
-    },
-    "id" : "193",
-    "superClasses" : [ "190" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Project_Objective",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Project_Objective"
-    },
-    "subClasses" : [ "133", "136", "139", "142", "111" ],
-    "id" : "112",
-    "superClasses" : [ "104" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Quality_Objective",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Quality_Objective"
-    },
-    "id" : "136",
-    "superClasses" : [ "112" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Consumer_Price_Index",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Consumer_Price_Index"
-    },
-    "id" : "258",
-    "superClasses" : [ "128" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Artificial_Existing_Building",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Artificial_Existing_Building",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Artificial_Existing_Building"
     },
-    "id" : "9",
-    "superClasses" : [ "95" ]
+    "id" : "8",
+    "superClasses" : [ "77" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Site_Rehabilitation",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Precipitation",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Site_Rehabilitation"
+      "IRI-based" : "Precipitation"
     },
-    "id" : "14",
-    "superClasses" : [ "147" ]
+    "id" : "45",
+    "superClasses" : [ "106" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Financial_Project_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Financial_Project_Risk"
-    },
-    "id" : "302",
-    "superClasses" : [ "120" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Transfer",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Risk_Transfer"
-    },
-    "id" : "108",
-    "superClasses" : [ "103" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_Turbine_Assembly",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Affected_Turbine_Assembly"
-    },
-    "id" : "27",
-    "superClasses" : [ "12" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Canadian_Federal_Legislations",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Canadian_Federal_Legislations"
-    },
-    "id" : "101",
-    "superClasses" : [ "99" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Cables",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Cables"
-    },
-    "id" : "97",
-    "superClasses" : [ "5" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Classification",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Risk_Classification"
-    },
-    "subClasses" : [ "115", "120", "66" ],
-    "id" : "67",
-    "superClasses" : [ "104" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Insect",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Insect",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Insect"
     },
-    "id" : "87",
-    "superClasses" : [ "4" ]
+    "id" : "141",
+    "superClasses" : [ "7" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Natural_Zoology",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Quality_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Natural_Zoology"
+      "IRI-based" : "Quality_Objective"
     },
-    "subClasses" : [ "71", "75", "79", "83", "87", "91" ],
-    "id" : "4",
-    "superClasses" : [ "95" ]
+    "id" : "209",
+    "superClasses" : [ "183" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Labour_Conditions",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Risk_Driver",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Labour_Conditions"
+      "IRI-based" : "Risk_Driver"
     },
-    "id" : "241",
-    "superClasses" : [ "128" ]
+    "subClasses" : [ "161", "130" ],
+    "id" : "132",
+    "superClasses" : [ "146" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Muncipal",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Turbine_Assembly",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Muncipal"
+      "IRI-based" : "Turbine_Assembly"
     },
-    "id" : "173",
-    "superClasses" : [ "123" ]
+    "id" : "24",
+    "superClasses" : [ "41" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_Site_Rehabilitation",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Project_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Affected_Site_Rehabilitation"
+      "IRI-based" : "Project_Objective"
     },
-    "id" : "52",
-    "superClasses" : [ "12" ]
+    "subClasses" : [ "215", "210", "182", "209", "232" ],
+    "id" : "183",
+    "superClasses" : [ "146" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Financial_Related_Risk",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Financial_Related_Risk"
-    },
-    "id" : "195",
-    "superClasses" : [ "66" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#First_Nations",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "First_Nations"
-    },
-    "id" : "161",
-    "superClasses" : [ "155" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Mammals",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Mammals"
-    },
-    "id" : "91",
-    "superClasses" : [ "4" ]
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Project",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Project",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Project"
     },
-    "id" : "233",
-    "superClasses" : [ "104" ]
+    "id" : "298",
+    "superClasses" : [ "146" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Artificial_Road_Railway",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Soil",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Soil"
+    },
+    "id" : "300",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Transfer",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Transfer"
+    },
+    "id" : "71",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Collection_System",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Collection_System"
+    },
+    "id" : "110",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Wind",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wind"
+    },
+    "id" : "213",
+    "superClasses" : [ "106" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Artificial_Road_Railway",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Artificial_Road_Railway"
     },
-    "id" : "255",
-    "superClasses" : [ "95" ]
+    "id" : "94",
+    "superClasses" : [ "77" ]
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Project_Workpackage",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Consultants",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consultants"
+    },
+    "id" : "149",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Technical_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Technical_Related_Risk"
+    },
+    "id" : "19",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Site_Preparation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Site_Preparation"
+    },
+    "id" : "288",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Temperature",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temperature"
+    },
+    "id" : "286",
+    "superClasses" : [ "106" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Mammals",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mammals"
+    },
+    "id" : "139",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Workpackage",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Project_Workpackage"
     },
-    "subClasses" : [ "49", "52", "57", "61", "11", "17", "22", "27" ],
+    "subClasses" : [ "302", "147", "284", "34", "307", "288", "291", "294" ],
+    "id" : "35",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Site_Rehabilitation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Site_Rehabilitation"
+    },
+    "id" : "291",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#First_Nations",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "First_Nations"
+    },
+    "id" : "119",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Financial_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Financial_Related_Risk"
+    },
+    "id" : "137",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Site_Rehabilitation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Rehabilitation"
+    },
+    "id" : "16",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Financial_Project_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Financial_Project_Risk"
+    },
+    "id" : "32",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Federal_Government",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Federal_Government"
+    },
+    "id" : "185",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Regulatory",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Regulatory"
+    },
+    "subClasses" : [ "387", "274", "392" ],
+    "id" : "171",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Botany",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Botany"
+    },
+    "id" : "5",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Cables",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cables"
+    },
+    "id" : "178",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Reptiles",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reptiles"
+    },
+    "id" : "140",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Canadian_Federal_Legislations",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Canadian_Federal_Legislations"
+    },
+    "id" : "392",
+    "superClasses" : [ "171" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Consumer_Price_Index",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consumer_Price_Index"
+    },
+    "id" : "253",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Turbine_Delivery",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Turbine_Delivery"
+    },
+    "id" : "30",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Geology",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Geology"
+    },
+    "subClasses" : [ "300" ],
+    "id" : "76",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Foundations",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Foundations"
+    },
+    "id" : "64",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Exchange_Rate",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exchange_Rate"
+    },
+    "id" : "239",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Time_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Time_Objective"
+    },
+    "id" : "215",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Classification",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Classification"
+    },
+    "subClasses" : [ "123", "416", "12" ],
+    "id" : "154",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Birds",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Birds"
+    },
+    "id" : "138",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Onshore_Wind_Farm_Risk_Identification"
+    },
+    "subClasses" : [ "43", "154", "132", "104", "35", "183", "298" ],
+    "id" : "146"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Reduction",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Reduction"
+    },
+    "id" : "62",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Social",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Social"
+    },
+    "subClasses" : [ "374", "227" ],
+    "id" : "166",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Economic",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economic"
+    },
+    "subClasses" : [ "103", "13", "253", "242", "239" ],
+    "id" : "14",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Political_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Political_Related_Risk"
+    },
+    "id" : "134",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Global_External_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Global_External_Risk"
+    },
+    "id" : "416",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Climate",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Climate"
+    },
+    "subClasses" : [ "213", "45", "286" ],
+    "id" : "106",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Social_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Social_Related_Risk"
+    },
+    "id" : "126",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Commissioning",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Commissioning"
+    },
+    "id" : "307",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Acceptance",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Acceptance"
+    },
+    "id" : "98",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Turbine_Assembly",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Turbine_Assembly"
+    },
+    "id" : "284",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Internal_Project_Environment",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_Project_Environment"
+    },
+    "subClasses" : [ "116", "41" ],
+    "id" : "130",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Managerial_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Managerial_Related_Risk"
+    },
+    "id" : "27",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Politic",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Politic"
+    },
+    "subClasses" : [ "194", "185", "57" ],
+    "id" : "58",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Safety_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Safety_Objective"
+    },
+    "id" : "210",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Foundation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Foundation"
+    },
+    "id" : "302",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Seismicity",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Seismicity"
+    },
+    "subClasses" : [ "158" ],
+    "id" : "81",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Provincial_Legislations",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Provincial_Legislations"
+    },
+    "id" : "387",
+    "superClasses" : [ "171" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Earthquakes",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Earthquakes"
+    },
+    "id" : "158",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Fish",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fish"
+    },
+    "id" : "142",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#External_Project_Environment",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "External_Project_Environment"
+    },
+    "subClasses" : [ "77", "58", "166", "14", "171" ],
+    "id" : "161",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Designated_Area",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Designated_Area"
+    },
+    "subClasses" : [ "174", "4" ],
+    "id" : "28",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_PreConstruction_Work",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_PreConstruction_Work"
+    },
+    "id" : "294",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Contractor",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Contractor"
+    },
+    "id" : "152",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Environmental_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Environmental_Objective"
+    },
+    "id" : "232",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Organizational_Structure",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organizational_Structure"
+    },
+    "subClasses" : [ "149", "152", "115", "119" ],
+    "id" : "116",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Local_External_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Local_External_Risk"
+    },
+    "subClasses" : [ "122", "126", "129", "134", "137" ],
+    "id" : "123",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Environmental_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Environmental_Related_Risk"
+    },
+    "id" : "129",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Pipelines",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pipelines"
+    },
+    "id" : "179",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Site_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Related_Risk"
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Local_Community",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Local_Community"
+    },
+    "id" : "374",
+    "superClasses" : [ "166" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Physical",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical"
+    },
+    "subClasses" : [ "5", "106", "28", "6", "76", "81", "7", "8", "9", "94" ],
+    "id" : "77",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Response_Strategy",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Response_Strategy"
+    },
+    "subClasses" : [ "98", "42", "62", "67", "71" ],
+    "id" : "43",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Internal_Risk_Factor",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_Risk_Factor"
+    },
+    "subClasses" : [ "11", "19", "27", "32" ],
     "id" : "12",
-    "superClasses" : [ "104" ]
+    "superClasses" : [ "154" ]
   } ],
   "property" : [ {
     "id" : "0",
@@ -1648,17 +1648,14 @@
     "id" : "10",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "13",
+    "id" : "15",
     "type" : "owl:disjointWith"
-  }, {
-    "id" : "16",
-    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "18",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "21",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "23",
     "type" : "owl:disjointWith"
@@ -1666,46 +1663,43 @@
     "id" : "26",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "28",
+    "id" : "29",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "30",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "32",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "34",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "35",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "41",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "48",
+    "id" : "31",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "51",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "53",
+    "id" : "33",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "38",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "58",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "60",
+    "id" : "61",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "62",
+    "id" : "63",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "65",
+    "id" : "66",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "68",
@@ -1717,25 +1711,25 @@
     "id" : "72",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "74",
+    "id" : "75",
     "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "76",
-    "type" : "owl:disjointWith"
   }, {
     "id" : "78",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "80",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "82",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "84",
+    "id" : "82",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "86",
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "87",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "88",
@@ -1744,28 +1738,55 @@
     "id" : "90",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "92",
+    "id" : "91",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "94",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "110",
+    "id" : "93",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "102",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "114",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "116",
+    "id" : "117",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "119",
+    "id" : "118",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "121",
+    "id" : "120",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "122",
+    "id" : "121",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "124",
@@ -1774,52 +1795,37 @@
     "id" : "125",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "126",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "127",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "129",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "130",
+    "id" : "128",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "131",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "132",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "134",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "135",
+    "id" : "133",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "138",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "141",
+    "id" : "136",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "144",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "146",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "149",
-    "type" : "owl:disjointWith"
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "150",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "152",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "153",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "156",
@@ -1840,10 +1846,16 @@
     "id" : "163",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "165",
+    "id" : "164",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "166",
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "169",
@@ -1852,187 +1864,187 @@
     "id" : "170",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "171",
+    "id" : "172",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "172",
+    "id" : "173",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "174",
+    "id" : "175",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "175",
+    "id" : "176",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "177",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "178",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "179",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "181",
+    "id" : "180",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "184",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "185",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "186",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "187",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "188",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "189",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "191",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "192",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "194",
+    "id" : "192",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "193",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "196",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "197",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "198",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "200",
+    "id" : "199",
     "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "201",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "202",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "203",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "204",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "205",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "206",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "207",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "208",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "209",
+    "id" : "208",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "210",
+    "id" : "211",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "212",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
-    "id" : "213",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "215",
+    "id" : "214",
     "type" : "owl:disjointWith"
   }, {
     "id" : "216",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "218",
+    "id" : "217",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "219",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "220",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "221",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "222",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "223",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "224",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "225",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "227",
-    "type" : "owl:disjointWith"
+    "id" : "223",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "228",
     "type" : "owl:disjointWith"
   }, {
     "id" : "229",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "230",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "231",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "233",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "232",
-    "type" : "owl:datatypeProperty"
+    "id" : "234",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "235",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "236",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "237",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "238",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "239",
+    "id" : "238",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "243",
+    "id" : "241",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "245",
+    "id" : "244",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "247",
+    "id" : "246",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "249",
+    "id" : "248",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "251",
+    "id" : "250",
     "type" : "owl:disjointWith"
-  }, {
-    "id" : "43",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "252",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "254",
-    "type" : "owl:datatypeProperty"
+    "id" : "255",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "257",
+    "id" : "256",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
     "type" : "owl:disjointWith"
   }, {
     "id" : "260",
@@ -2045,12 +2057,9 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "266",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "267",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "269",
+    "id" : "268",
     "type" : "owl:disjointWith"
   }, {
     "id" : "270",
@@ -2059,8 +2068,8 @@
     "id" : "272",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "274",
-    "type" : "owl:disjointWith"
+    "id" : "273",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "275",
     "type" : "owl:disjointWith"
@@ -2068,25 +2077,22 @@
     "id" : "277",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "278",
-    "type" : "owl:datatypeProperty"
+    "id" : "279",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "280",
+    "id" : "281",
     "type" : "owl:disjointWith"
   }, {
     "id" : "282",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "284",
+    "id" : "283",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "286",
-    "type" : "owl:disjointWith"
+    "id" : "285",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "287",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "288",
     "type" : "owl:disjointWith"
   }, {
     "id" : "289",
@@ -2095,20 +2101,14 @@
     "id" : "290",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "291",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "292",
     "type" : "owl:disjointWith"
   }, {
     "id" : "293",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "294",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "295",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "296",
     "type" : "owl:disjointWith"
@@ -2116,13 +2116,16 @@
     "id" : "297",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "298",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "299",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "300",
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "301",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "303",
     "type" : "owl:disjointWith"
   }, {
     "id" : "304",
@@ -2134,9 +2137,6 @@
     "id" : "306",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "307",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "308",
     "type" : "owl:disjointWith"
   }, {
@@ -2144,7 +2144,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "310",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "311",
     "type" : "owl:disjointWith"
@@ -2155,14 +2155,20 @@
     "id" : "313",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "314",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "315",
     "type" : "owl:disjointWith"
   }, {
     "id" : "316",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "317",
     "type" : "owl:disjointWith"
   }, {
     "id" : "318",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "319",
     "type" : "owl:disjointWith"
@@ -2180,7 +2186,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "324",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "325",
     "type" : "owl:disjointWith"
@@ -2189,13 +2195,13 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "327",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "328",
     "type" : "owl:disjointWith"
   }, {
     "id" : "329",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "330",
     "type" : "owl:disjointWith"
@@ -2210,7 +2216,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "334",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "335",
     "type" : "owl:disjointWith"
@@ -2219,7 +2225,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "337",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "338",
     "type" : "owl:disjointWith"
@@ -2228,25 +2234,25 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "340",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "341",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "342",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "343",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "344",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "345",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "346",
+    "id" : "345",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "346",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "347",
     "type" : "rdfs:SubClassOf"
@@ -2255,10 +2261,10 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "349",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "350",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "351",
     "type" : "rdfs:SubClassOf"
@@ -2270,13 +2276,16 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "354",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "355",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "356",
     "type" : "owl:disjointWith"
   }, {
     "id" : "357",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "358",
     "type" : "owl:disjointWith"
@@ -2294,22 +2303,22 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "363",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "364",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "365",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "366",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "367",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "368",
+    "id" : "367",
     "type" : "owl:disjointWith"
+  }, {
+    "id" : "368",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "369",
     "type" : "rdfs:SubClassOf"
@@ -2323,7 +2332,7 @@
     "id" : "372",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "374",
+    "id" : "373",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "375",
@@ -2332,11 +2341,14 @@
     "id" : "376",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "377",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "378",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "379",
     "type" : "owl:disjointWith"
@@ -2345,7 +2357,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "381",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "382",
     "type" : "owl:disjointWith"
@@ -2357,12 +2369,9 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "385",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "386",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "387",
+    "id" : "386",
     "type" : "owl:disjointWith"
   }, {
     "id" : "388",
@@ -2377,14 +2386,11 @@
     "id" : "391",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "392",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "393",
     "type" : "owl:disjointWith"
   }, {
     "id" : "394",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "395",
     "type" : "owl:disjointWith"
@@ -2393,7 +2399,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "397",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "398",
     "type" : "owl:disjointWith"
@@ -2416,6 +2422,9 @@
     "id" : "404",
     "type" : "owl:disjointWith"
   }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "405",
     "type" : "owl:disjointWith"
   }, {
@@ -2437,14 +2446,11 @@
     "id" : "411",
     "type" : "owl:datatypeProperty"
   }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "412",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "42",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "39",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "413",
     "type" : "owl:disjointWith"
@@ -2452,20 +2458,20 @@
     "id" : "414",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "415",
-    "type" : "owl:disjointWith"
+    "id" : "55",
+    "type" : "owl:objectProperty"
   }, {
-    "id" : "416",
+    "id" : "415",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "417",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "418",
     "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "38",
-    "type" : "owl:objectProperty"
   }, {
     "id" : "419",
     "type" : "owl:datatypeProperty"
@@ -2477,28 +2483,28 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "422",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "423",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "424",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "425",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "426",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "427",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "428",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "429",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "430",
     "type" : "owl:disjointWith"
@@ -2525,7 +2531,7 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "438",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "439",
     "type" : "owl:disjointWith"
@@ -2546,67 +2552,67 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "445",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "446",
     "type" : "owl:disjointWith"
   }, {
     "id" : "447",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "448",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "449",
     "type" : "owl:disjointWith"
   }, {
     "id" : "450",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "451",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "452",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "453",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "454",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "455",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "456",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "457",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "458",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "459",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "460",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "461",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "462",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "463",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "464",
+    "id" : "463",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "464",
+    "type" : "owl:disjointWith"
+  }, {
     "id" : "465",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "466",
     "type" : "owl:disjointWith"
@@ -2624,76 +2630,70 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "471",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "472",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "473",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "474",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "40",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "475",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "476",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "477",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "478",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "479",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "480",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "481",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "482",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "483",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "484",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "485",
-    "type" : "owl:disjointWith"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "486",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "487",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "488",
+    "id" : "487",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "489",
-    "type" : "owl:datatypeProperty"
+    "id" : "488",
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "37",
-    "type" : "owl:objectProperty"
+    "id" : "489",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "490",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "491",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "492",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "493",
     "type" : "owl:disjointWith"
@@ -2720,10 +2720,10 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "501",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "502",
-    "type" : "owl:disjointWith"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "503",
     "type" : "owl:datatypeProperty"
@@ -2731,2071 +2731,2071 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "0"
   }, {
     "range" : "12",
     "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "10"
   }, {
-    "range" : "14",
+    "range" : "16",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "13"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
   }, {
     "range" : "12",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "16"
-  }, {
-    "range" : "19",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
-    "range" : "12",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "21"
+    "iri" : "https://w3id.org/cdrio#Heritage_Significance",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "Heritage_Significance"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
+    "id" : "20"
   }, {
     "range" : "24",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "23"
   }, {
     "range" : "12",
     "domain" : "27",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "26"
   }, {
-    "range" : "14",
+    "range" : "30",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "12",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "16",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "28"
-  }, {
-    "range" : "19",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "30"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
   }, {
     "range" : "24",
     "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "32"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
   }, {
-    "range" : "19",
-    "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "34"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "36",
-    "label" : {
-      "IRI-based" : "topObjectProperty"
-    },
-    "domain" : "36",
-    "subproperty" : [ "37", "38", "39", "40", "41", "42", "43" ],
-    "attributes" : [ "external", "object" ],
-    "id" : "35"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#CausedBy",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "45",
-    "label" : {
-      "IRI-based" : "CausedBy"
-    },
-    "superproperty" : [ "35" ],
-    "domain" : "44",
-    "attributes" : [ "object" ],
-    "id" : "41"
-  }, {
-    "range" : "12",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "48"
-  }, {
-    "range" : "12",
-    "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "51"
-  }, {
-    "range" : "19",
-    "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "53"
-  }, {
-    "range" : "12",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "56"
+    "range" : "30",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
   }, {
     "range" : "24",
-    "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "58"
-  }, {
-    "range" : "12",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "60"
-  }, {
-    "range" : "54",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "62"
-  }, {
-    "range" : "67",
-    "domain" : "66",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "65"
-  }, {
-    "range" : "1",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "68"
-  }, {
-    "range" : "4",
-    "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "70"
-  }, {
-    "range" : "2",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "72"
-  }, {
-    "range" : "4",
-    "domain" : "75",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "74"
-  }, {
-    "range" : "14",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "76"
-  }, {
-    "range" : "4",
-    "domain" : "79",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "78"
-  }, {
-    "range" : "19",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "80"
-  }, {
-    "range" : "4",
-    "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "82"
-  }, {
-    "range" : "24",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "84"
-  }, {
-    "range" : "4",
-    "domain" : "87",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "86"
-  }, {
-    "range" : "1",
-    "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "88"
-  }, {
-    "range" : "4",
-    "domain" : "91",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "90"
-  }, {
-    "range" : "2",
-    "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "92"
-  }, {
-    "range" : "14",
-    "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "94"
-  }, {
-    "range" : "112",
-    "domain" : "111",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "110"
-  }, {
-    "range" : "67",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "114"
-  }, {
-    "range" : "24",
-    "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "116"
-  }, {
-    "range" : "67",
-    "domain" : "120",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "119"
-  }, {
-    "range" : "109",
-    "domain" : "107",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "121"
-  }, {
-    "range" : "100",
-    "domain" : "123",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "122"
-  }, {
-    "range" : "108",
-    "domain" : "107",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "124"
-  }, {
-    "range" : "100",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "125"
-  }, {
-    "range" : "109",
-    "domain" : "105",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "126"
-  }, {
-    "range" : "100",
-    "domain" : "128",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "127"
-  }, {
-    "range" : "108",
-    "domain" : "105",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "129"
-  }, {
-    "range" : "100",
-    "domain" : "95",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "130"
-  }, {
-    "range" : "108",
-    "domain" : "109",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "131"
-  }, {
-    "range" : "112",
-    "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "132"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#CausedBy",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "45",
-    "label" : {
-      "IRI-based" : "CausedBy"
-    },
-    "superproperty" : [ "35" ],
-    "domain" : "44",
-    "attributes" : [ "someValues", "object" ],
-    "id" : "134"
-  }, {
-    "range" : "112",
-    "domain" : "136",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "135"
-  }, {
-    "range" : "112",
-    "domain" : "139",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "138"
-  }, {
-    "range" : "112",
-    "domain" : "142",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "141"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Heritage_Significance",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "29",
-    "label" : {
-      "IRI-based" : "Heritage_Significance"
-    },
-    "domain" : "25",
-    "attributes" : [ "datatype" ],
-    "id" : "144"
-  }, {
-    "range" : "148",
-    "domain" : "147",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "146"
-  }, {
-    "range" : "105",
-    "domain" : "107",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "149"
-  }, {
-    "range" : "100",
-    "domain" : "47",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "150"
-  }, {
-    "range" : "67",
-    "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "152"
-  }, {
-    "range" : "155",
-    "domain" : "154",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "153"
-  }, {
-    "range" : "45",
-    "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "156"
-  }, {
-    "range" : "155",
-    "domain" : "158",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "157"
-  }, {
-    "range" : "44",
-    "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "159"
-  }, {
-    "range" : "155",
-    "domain" : "161",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "160"
-  }, {
-    "range" : "45",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "162"
-  }, {
-    "range" : "155",
-    "domain" : "164",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "163"
-  }, {
-    "range" : "44",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "165"
-  }, {
-    "range" : "168",
-    "domain" : "167",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "166"
-  }, {
-    "range" : "44",
-    "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "169"
-  }, {
-    "range" : "123",
-    "domain" : "151",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "170"
-  }, {
-    "range" : "107",
-    "domain" : "106",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "171"
-  }, {
-    "range" : "123",
-    "domain" : "173",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "172"
-  }, {
-    "range" : "105",
-    "domain" : "106",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "174"
-  }, {
-    "range" : "123",
-    "domain" : "176",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "175"
-  }, {
-    "range" : "109",
-    "domain" : "106",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "177"
-  }, {
-    "range" : "148",
-    "domain" : "155",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "178"
-  }, {
-    "range" : "108",
-    "domain" : "106",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "179"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "182",
-    "label" : {
-      "IRI-based" : "topDataProperty"
-    },
-    "domain" : "36",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "181"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Approval_Status",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "140",
-    "label" : {
-      "IRI-based" : "Approval_Status"
-    },
-    "domain" : "99",
-    "attributes" : [ "datatype" ],
-    "id" : "184"
-  }, {
-    "range" : "47",
-    "domain" : "46",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "185"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Closest_Construction_Activity",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "50",
-    "label" : {
-      "IRI-based" : "Closest_Construction_Activity"
-    },
-    "domain" : "93",
-    "attributes" : [ "datatype" ],
-    "id" : "186"
-  }, {
-    "range" : "47",
-    "domain" : "123",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "187"
-  }, {
-    "range" : "190",
-    "domain" : "189",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "188"
-  }, {
-    "range" : "47",
-    "domain" : "99",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "191"
-  }, {
-    "range" : "190",
-    "domain" : "193",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "192"
-  }, {
-    "range" : "195",
-    "domain" : "180",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "194"
-  }, {
-    "range" : "120",
-    "domain" : "197",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "196"
-  }, {
-    "range" : "199",
-    "domain" : "180",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "198"
-  }, {
-    "range" : "103",
-    "domain" : "108",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "200"
-  }, {
-    "range" : "99",
-    "domain" : "128",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "201"
-  }, {
-    "range" : "103",
-    "domain" : "109",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "202"
-  }, {
-    "range" : "47",
-    "domain" : "128",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "203"
-  }, {
-    "range" : "45",
-    "domain" : "148",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "204"
-  }, {
-    "range" : "123",
-    "domain" : "95",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "205"
-  }, {
-    "range" : "45",
-    "domain" : "100",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "206"
-  }, {
-    "range" : "99",
-    "domain" : "95",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "207"
-  }, {
-    "range" : "145",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "208"
-  }, {
-    "range" : "47",
-    "domain" : "95",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "209"
-  }, {
-    "range" : "145",
-    "domain" : "211",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "210"
-  }, {
-    "range" : "99",
-    "domain" : "123",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "212"
-  }, {
-    "range" : "190",
-    "domain" : "214",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "213"
-  }, {
-    "range" : "111",
-    "domain" : "136",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "215"
-  }, {
-    "range" : "99",
-    "domain" : "102",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "216"
-  }, {
-    "range" : "139",
-    "domain" : "136",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "218"
-  }, {
-    "range" : "103",
-    "domain" : "105",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "219"
-  }, {
-    "range" : "139",
-    "domain" : "111",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "220"
-  }, {
-    "range" : "103",
-    "domain" : "106",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "221"
-  }, {
-    "range" : "95",
-    "domain" : "128",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "222"
-  }, {
-    "range" : "103",
-    "domain" : "107",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "223"
-  }, {
-    "range" : "123",
-    "domain" : "128",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "224"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Overall_Stability",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "226",
-    "label" : {
-      "IRI-based" : "Overall_Stability"
-    },
-    "domain" : "123",
-    "attributes" : [ "datatype" ],
-    "id" : "225"
-  }, {
-    "range" : "111",
-    "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "227"
-  }, {
-    "range" : "139",
-    "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "228"
-  }, {
-    "range" : "5",
-    "domain" : "96",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "229"
-  }, {
-    "range" : "136",
-    "domain" : "142",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "230"
-  }, {
-    "range" : "5",
-    "domain" : "97",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "231"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Project_Location",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "234",
-    "label" : {
-      "IRI-based" : "Project_Location"
-    },
-    "domain" : "233",
-    "attributes" : [ "datatype" ],
-    "id" : "232"
-  }, {
-    "range" : "111",
-    "domain" : "142",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "235"
-  }, {
-    "range" : "99",
-    "domain" : "98",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "236"
-  }, {
-    "range" : "139",
-    "domain" : "142",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "237"
-  }, {
-    "range" : "99",
-    "domain" : "101",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "238"
-  }, {
-    "range" : "241",
-    "domain" : "240",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "239"
-  }, {
-    "range" : "183",
-    "domain" : "217",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "243"
-  }, {
-    "range" : "241",
-    "domain" : "217",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "245"
-  }, {
-    "range" : "241",
-    "domain" : "183",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "247"
-  }, {
-    "range" : "142",
-    "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "249"
-  }, {
-    "range" : "136",
-    "domain" : "133",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "251"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#hasEffectOn",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "12",
-    "label" : {
-      "IRI-based" : "hasEffectOn"
-    },
-    "superproperty" : [ "35" ],
-    "domain" : "44",
-    "attributes" : [ "object" ],
-    "id" : "43"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Maximum_Snowfall",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "253",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Maximum_Snowfall",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "46",
     "label" : {
       "IRI-based" : "Maximum_Snowfall"
     },
-    "domain" : "214",
-    "attributes" : [ "datatype" ],
-    "id" : "252"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Average_Daily_Traffic",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "118",
-    "label" : {
-      "IRI-based" : "Average_Daily_Traffic"
-    },
-    "domain" : "255",
-    "attributes" : [ "datatype" ],
-    "id" : "254"
-  }, {
-    "range" : "183",
-    "domain" : "258",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "257"
-  }, {
-    "range" : "241",
-    "domain" : "258",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "260"
-  }, {
-    "range" : "217",
-    "domain" : "240",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "262"
-  }, {
-    "range" : "183",
-    "domain" : "240",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "264"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Average_Rainfall",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "64",
-    "label" : {
-      "IRI-based" : "Average_Rainfall"
-    },
-    "domain" : "214",
-    "attributes" : [ "datatype" ],
-    "id" : "266"
-  }, {
-    "range" : "161",
-    "domain" : "154",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "267"
-  }, {
-    "range" : "158",
-    "domain" : "154",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "269"
-  }, {
-    "range" : "161",
-    "domain" : "164",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "270"
-  }, {
-    "range" : "158",
-    "domain" : "164",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "272"
-  }, {
-    "range" : "158",
-    "domain" : "161",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "274"
-  }, {
-    "range" : "240",
-    "domain" : "258",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "275"
-  }, {
-    "range" : "217",
-    "domain" : "258",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "277"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Average_Wind_Speed",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "73",
-    "label" : {
-      "IRI-based" : "Average_Wind_Speed"
-    },
-    "domain" : "189",
-    "attributes" : [ "datatype" ],
-    "id" : "278"
-  }, {
-    "range" : "24",
-    "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "280"
-  }, {
-    "range" : "24",
-    "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "282"
-  }, {
-    "range" : "164",
-    "domain" : "154",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "284"
-  }, {
-    "range" : "79",
-    "domain" : "75",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "286"
-  }, {
-    "range" : "83",
-    "domain" : "75",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "287"
-  }, {
-    "range" : "11",
-    "domain" : "27",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "288"
-  }, {
-    "range" : "11",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "289"
-  }, {
-    "range" : "27",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "290"
-  }, {
-    "range" : "11",
-    "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "291"
-  }, {
-    "range" : "27",
-    "domain" : "52",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "292"
-  }, {
-    "range" : "27",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "293"
-  }, {
-    "range" : "52",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "294"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Response_Description",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "261",
-    "label" : {
-      "IRI-based" : "Response_Description"
-    },
-    "domain" : "103",
-    "attributes" : [ "datatype" ],
-    "id" : "295"
-  }, {
-    "range" : "52",
-    "domain" : "57",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "296"
-  }, {
-    "range" : "11",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "297"
-  }, {
-    "range" : "11",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "298"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Return_Period",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "265",
-    "label" : {
-      "IRI-based" : "Return_Period"
-    },
-    "domain" : "168",
-    "attributes" : [ "datatype" ],
-    "id" : "299"
-  }, {
-    "range" : "27",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "300"
-  }, {
-    "range" : "57",
-    "domain" : "49",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "304"
-  }, {
-    "range" : "49",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "305"
-  }, {
-    "range" : "11",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "306"
-  }, {
-    "range" : "52",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "307"
-  }, {
-    "range" : "57",
-    "domain" : "61",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "308"
-  }, {
-    "range" : "57",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "309"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Project_Name",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "276",
-    "label" : {
-      "IRI-based" : "Project_Name"
-    },
-    "domain" : "233",
-    "attributes" : [ "datatype" ],
-    "id" : "310"
-  }, {
-    "range" : "27",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "311"
-  }, {
-    "range" : "52",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "312"
-  }, {
-    "range" : "314",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "313"
-  }, {
-    "range" : "168",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "315"
-  }, {
-    "range" : "8",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "316"
-  }, {
-    "range" : "6",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "318"
-  }, {
-    "range" : "5",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "319"
-  }, {
-    "range" : "145",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "320"
-  }, {
-    "range" : "190",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "321"
-  }, {
-    "range" : "71",
-    "domain" : "91",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "322"
-  }, {
-    "range" : "71",
-    "domain" : "87",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "323"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Responsible_Agency",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "263",
-    "label" : {
-      "IRI-based" : "Responsible_Agency"
-    },
-    "domain" : "99",
-    "attributes" : [ "datatype" ],
-    "id" : "324"
-  }, {
-    "range" : "255",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "325"
-  }, {
-    "range" : "211",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "326"
-  }, {
-    "range" : "91",
-    "domain" : "87",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "327"
-  }, {
-    "range" : "71",
-    "domain" : "79",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "328"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Risk_Attitude",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "242",
-    "label" : {
-      "IRI-based" : "Risk_Attitude"
-    },
-    "domain" : "155",
-    "attributes" : [ "datatype" ],
-    "id" : "329"
-  }, {
-    "range" : "91",
-    "domain" : "79",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "330"
-  }, {
-    "range" : "91",
-    "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "331"
-  }, {
-    "range" : "87",
-    "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "332"
-  }, {
-    "range" : "87",
-    "domain" : "79",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "333"
-  }, {
-    "range" : "71",
-    "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "334"
-  }, {
-    "range" : "91",
-    "domain" : "75",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "335"
-  }, {
-    "range" : "87",
-    "domain" : "75",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "336"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Magnitude",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "31",
-    "label" : {
-      "IRI-based" : "Magnitude"
-    },
-    "domain" : "168",
-    "attributes" : [ "datatype" ],
-    "id" : "337"
-  }, {
-    "range" : "79",
-    "domain" : "83",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "338"
-  }, {
-    "range" : "71",
-    "domain" : "75",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "339"
-  }, {
-    "range" : "8",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "340"
-  }, {
-    "range" : "104",
-    "domain" : "44",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "341"
-  }, {
-    "range" : "314",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "342"
-  }, {
-    "range" : "104",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "343"
-  }, {
-    "range" : "4",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "344"
-  }, {
-    "range" : "104",
-    "domain" : "103",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "345"
-  }, {
-    "range" : "168",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "346"
-  }, {
-    "range" : "104",
-    "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "347"
-  }, {
-    "range" : "128",
-    "domain" : "217",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "348"
-  }, {
-    "range" : "128",
-    "domain" : "258",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "349"
-  }, {
-    "range" : "145",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "350"
-  }, {
-    "range" : "128",
-    "domain" : "240",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "351"
-  }, {
-    "range" : "128",
-    "domain" : "241",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "352"
-  }, {
-    "range" : "128",
-    "domain" : "183",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "353"
-  }, {
-    "range" : "47",
-    "domain" : "279",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "354"
-  }, {
-    "range" : "190",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "356"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Maximum_Winter_Temperature",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "283",
-    "label" : {
-      "IRI-based" : "Maximum_Winter_Temperature"
-    },
-    "domain" : "193",
-    "attributes" : [ "datatype" ],
-    "id" : "357"
-  }, {
-    "range" : "4",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "358"
-  }, {
-    "range" : "314",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "359"
-  }, {
-    "range" : "145",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "360"
-  }, {
-    "range" : "168",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "361"
-  }, {
-    "range" : "8",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "362"
-  }, {
-    "range" : "4",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "363"
-  }, {
-    "range" : "168",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "364"
-  }, {
-    "range" : "147",
-    "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "365"
-  }, {
-    "range" : "190",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "366"
-  }, {
-    "range" : "147",
-    "domain" : "19",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "367"
-  }, {
-    "range" : "6",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "368"
-  }, {
-    "range" : "66",
-    "domain" : "199",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "369"
-  }, {
-    "range" : "66",
-    "domain" : "180",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "370"
-  }, {
-    "range" : "66",
-    "domain" : "195",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "371"
-  }, {
-    "range" : "66",
-    "domain" : "373",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "372"
-  }, {
-    "range" : "66",
-    "domain" : "317",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "374"
-  }, {
-    "range" : "104",
-    "domain" : "233",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "375"
-  }, {
-    "range" : "104",
-    "domain" : "112",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "376"
-  }, {
-    "range" : "104",
     "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "377"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Maximum_Wind_Speed",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "281",
-    "label" : {
-      "IRI-based" : "Maximum_Wind_Speed"
-    },
-    "domain" : "189",
     "attributes" : [ "datatype" ],
-    "id" : "378"
+    "id" : "44"
   }, {
-    "range" : "314",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "379"
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "48",
+    "subproperty" : [ "49", "50", "51", "52", "53", "54", "55" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "47"
   }, {
-    "range" : "145",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "380"
+    "iri" : "https://w3id.org/cdrio#Maximum_Rainfall",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "Maximum_Rainfall"
+    },
+    "domain" : "45",
+    "attributes" : [ "datatype" ],
+    "id" : "56"
   }, {
-    "range" : "8",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "381"
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
   }, {
-    "range" : "5",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "382"
+    "range" : "43",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
   }, {
-    "range" : "4",
+    "range" : "24",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "43",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "30",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "43",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "64",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "77",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "1",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "77",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "2",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "77",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "16",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "77",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "24",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "77",
     "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "383"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
   }, {
-    "range" : "190",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "384"
+    "range" : "30",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Average_Snowfall",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "69",
+    "range" : "77",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "1",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "43",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "2",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "16",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://w3id.org/cdrio#hasEffectOn",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasEffectOn"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "51"
+  }, {
+    "range" : "77",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "77",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "30",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "77",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "67",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "116",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "71",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "116",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "67",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "123",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "71",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "123",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "71",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "123",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://w3id.org/cdrio#CausedBy",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "CausedBy"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "131"
+  }, {
+    "range" : "123",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "123",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "77",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "116",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "62",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "116",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "154",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "132",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "81",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "104",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "161",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "132",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "161",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "104",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "161",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "104",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "161",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "42",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "161",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "62",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "28",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "67",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "28",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "71",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "181",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "48",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "180"
+  }, {
+    "range" : "58",
+    "domain" : "185",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "166",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "9",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "166",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "132",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "137",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "132",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "122",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Snowfall",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "79",
     "label" : {
       "IRI-based" : "Average_Snowfall"
     },
-    "domain" : "214",
+    "domain" : "45",
     "attributes" : [ "datatype" ],
-    "id" : "385"
+    "id" : "193"
+  }, {
+    "range" : "7",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "171",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "7",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "166",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "7",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "58",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "7",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "171",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "7",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "166",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "7",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "171",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "9",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "210",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "41",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Wind_Speed",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "Average_Wind_Speed"
+    },
+    "domain" : "213",
+    "attributes" : [ "datatype" ],
+    "id" : "212"
+  }, {
+    "range" : "215",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "41",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "215",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "41",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "77",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "41",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "58",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Approval_Status",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "Approval_Status"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype" ],
+    "id" : "222"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Daily_Traffic",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "Average_Daily_Traffic"
+    },
+    "domain" : "94",
+    "attributes" : [ "datatype" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Response_Description",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "225",
+    "label" : {
+      "IRI-based" : "Response_Description"
+    },
+    "domain" : "43",
+    "attributes" : [ "datatype" ],
+    "id" : "224"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Rainfall",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "Average_Rainfall"
+    },
+    "domain" : "45",
+    "attributes" : [ "datatype" ],
+    "id" : "226"
+  }, {
+    "range" : "210",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "215",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "41",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "209",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "41",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "210",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "41",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "215",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "41",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "13",
+    "domain" : "239",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "103",
+    "domain" : "242",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "13",
+    "domain" : "242",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "13",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "232",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "209",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "103",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "13",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "242",
+    "domain" : "239",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "103",
+    "domain" : "239",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "range" : "119",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "115",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "119",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "115",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "115",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "239",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "242",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "272"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Overall_Stability",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "263",
+    "label" : {
+      "IRI-based" : "Overall_Stability"
+    },
+    "domain" : "58",
+    "attributes" : [ "datatype" ],
+    "id" : "273"
+  }, {
+    "range" : "30",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "275"
+  }, {
+    "range" : "30",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "range" : "152",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "279"
+  }, {
+    "range" : "142",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "138",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "34",
+    "domain" : "284",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Winter_Temperature",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "Average_Winter_Temperature"
+    },
+    "domain" : "286",
+    "attributes" : [ "datatype" ],
+    "id" : "285"
+  }, {
+    "range" : "34",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "range" : "284",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "range" : "34",
+    "domain" : "291",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "284",
+    "domain" : "291",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "292"
+  }, {
+    "range" : "284",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "291",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "range" : "291",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "34",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "297"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Duration",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "Project_Duration"
+    },
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "299"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Cause",
+    "inverse" : "54",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "Cause"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "132",
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "range" : "34",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "301"
+  }, {
+    "range" : "284",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "303"
+  }, {
+    "range" : "288",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "294",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "305"
+  }, {
+    "range" : "34",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "range" : "291",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "308"
+  }, {
+    "range" : "288",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "309"
+  }, {
+    "range" : "288",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "310"
+  }, {
+    "range" : "284",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "311"
+  }, {
+    "range" : "291",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "312"
+  }, {
+    "range" : "76",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "range" : "81",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "314"
   }, {
     "range" : "6",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "315"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Closest_Construction_Activity",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "Closest_Construction_Activity"
+    },
+    "domain" : "100",
+    "attributes" : [ "datatype" ],
+    "id" : "316"
+  }, {
+    "range" : "5",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "317"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Consultation_Participation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "Consultation_Participation"
+    },
+    "domain" : "166",
+    "attributes" : [ "datatype" ],
+    "id" : "318"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "319"
+  }, {
+    "range" : "28",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "320"
+  }, {
+    "range" : "106",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "321"
+  }, {
+    "range" : "140",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "322"
+  }, {
+    "range" : "140",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "323"
+  }, {
+    "range" : "94",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "324"
+  }, {
+    "range" : "174",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "325"
+  }, {
+    "range" : "139",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "326"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Size",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "251",
+    "label" : {
+      "IRI-based" : "Project_Size"
+    },
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "327"
+  }, {
+    "range" : "140",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "328"
+  }, {
+    "range" : "139",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "329"
+  }, {
+    "range" : "139",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "330"
+  }, {
+    "range" : "141",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "331"
+  }, {
+    "range" : "141",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "332"
+  }, {
+    "range" : "140",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "333"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Groundwater_Level",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "Groundwater_Level"
+    },
+    "domain" : "300",
+    "attributes" : [ "datatype" ],
+    "id" : "334"
+  }, {
+    "range" : "139",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "335"
+  }, {
+    "range" : "141",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "336"
+  }, {
+    "range" : "142",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "337"
+  }, {
+    "range" : "140",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "338"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "339"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "340"
+  }, {
+    "range" : "76",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "341"
+  }, {
+    "range" : "14",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "342"
+  }, {
+    "range" : "7",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "343"
+  }, {
+    "range" : "14",
+    "domain" : "242",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "344"
+  }, {
+    "range" : "81",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "345"
+  }, {
+    "range" : "14",
+    "domain" : "239",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "346"
+  }, {
+    "range" : "106",
+    "domain" : "213",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "347"
+  }, {
+    "range" : "106",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "348"
+  }, {
+    "range" : "28",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "349"
+  }, {
+    "range" : "106",
+    "domain" : "286",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "350"
+  }, {
+    "range" : "130",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "351"
+  }, {
+    "range" : "130",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "352"
+  }, {
+    "range" : "58",
+    "domain" : "194",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "353"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Attitude_Toward_Project",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "Attitude_Toward_Project"
+    },
+    "domain" : "166",
+    "attributes" : [ "datatype" ],
+    "id" : "354"
+  }, {
+    "range" : "106",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "355"
+  }, {
+    "range" : "7",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "356"
+  }, {
+    "range" : "76",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "357"
+  }, {
+    "range" : "28",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "358"
+  }, {
+    "range" : "81",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "359"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "360"
+  }, {
+    "range" : "7",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "361"
+  }, {
+    "range" : "81",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "362"
+  }, {
+    "range" : "146",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "363"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Area_Size",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "Affected_Area_Size"
+    },
+    "domain" : "174",
+    "attributes" : [ "datatype" ],
+    "id" : "364"
+  }, {
+    "range" : "106",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "365"
+  }, {
+    "range" : "146",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "366"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "367"
+  }, {
+    "range" : "146",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "368"
+  }, {
+    "range" : "146",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "369"
+  }, {
+    "range" : "146",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "370"
+  }, {
+    "range" : "146",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "371"
+  }, {
+    "range" : "146",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "372"
+  }, {
+    "range" : "166",
+    "domain" : "374",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "373"
+  }, {
+    "range" : "166",
+    "domain" : "227",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "375"
+  }, {
+    "range" : "14",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "376"
+  }, {
+    "iri" : "https://w3id.org/cdrio#CausedBy",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "CausedBy"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "range" : "76",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "377"
+  }, {
+    "range" : "28",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "378"
+  }, {
+    "range" : "6",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "379"
+  }, {
+    "range" : "9",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "380"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Permit_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "265",
+    "label" : {
+      "IRI-based" : "Permit_Name"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype" ],
+    "id" : "381"
+  }, {
+    "range" : "7",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "382"
+  }, {
+    "range" : "106",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "383"
+  }, {
+    "range" : "5",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "384"
+  }, {
+    "range" : "73",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "385"
+  }, {
+    "range" : "387",
+    "domain" : "274",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "386"
   }, {
-    "range" : "63",
-    "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "387"
-  }, {
-    "range" : "102",
-    "domain" : "98",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "1",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "388"
   }, {
-    "range" : "1",
-    "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "64",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "389"
   }, {
-    "range" : "54",
-    "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "179",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "390"
   }, {
-    "range" : "96",
-    "domain" : "97",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "387",
+    "domain" : "392",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "391"
   }, {
-    "range" : "102",
-    "domain" : "101",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "392"
-  }, {
-    "range" : "98",
-    "domain" : "101",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "274",
+    "domain" : "392",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "393"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Breed_in_Project_Area",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "85",
-    "label" : {
-      "IRI-based" : "Breed_in_Project_Area"
-    },
-    "domain" : "4",
-    "attributes" : [ "datatype" ],
+    "range" : "81",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "394"
   }, {
-    "range" : "168",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "7",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "395"
   }, {
-    "range" : "4",
-    "domain" : "314",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "7",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "396"
   }, {
-    "range" : "4",
-    "domain" : "168",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://w3id.org/cdrio#Road_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "245",
+    "label" : {
+      "IRI-based" : "Road_Name"
+    },
+    "domain" : "94",
+    "attributes" : [ "datatype" ],
     "id" : "397"
   }, {
-    "range" : "4",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "398"
   }, {
-    "range" : "4",
-    "domain" : "145",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "7",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "399"
   }, {
-    "range" : "168",
-    "domain" : "145",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "81",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "400"
   }, {
-    "range" : "168",
-    "domain" : "314",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "81",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "401"
   }, {
-    "range" : "8",
-    "domain" : "314",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "6",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "402"
   }, {
-    "range" : "8",
-    "domain" : "145",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "6",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "403"
   }, {
-    "range" : "314",
-    "domain" : "145",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "76",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "404"
   }, {
-    "range" : "4",
-    "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://w3id.org/cdrio#hasResponse",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "hasResponse"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "range" : "7",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "405"
   }, {
-    "range" : "314",
-    "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "76",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "406"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Clear_Responsibility",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "89",
+    "iri" : "https://w3id.org/cdrio#Support_for_Project",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "247",
     "label" : {
-      "IRI-based" : "Clear_Responsibility"
+      "IRI-based" : "Support_for_Project"
     },
-    "domain" : "155",
+    "domain" : "58",
     "attributes" : [ "datatype" ],
     "id" : "407"
   }, {
-    "range" : "145",
-    "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "28",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "408"
   }, {
-    "range" : "168",
-    "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "81",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "409"
   }, {
-    "range" : "8",
-    "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "6",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "410"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Distance_To_Closest_Activity",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "15",
+    "iri" : "https://w3id.org/cdrio#Clear_Responsibility",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "Clear_Responsibility"
+    },
+    "domain" : "116",
+    "attributes" : [ "datatype" ],
+    "id" : "411"
+  }, {
+    "iri" : "https://w3id.org/cdrio#hasConsequenceOn",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "183",
+    "label" : {
+      "IRI-based" : "hasConsequenceOn"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "range" : "16",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "412"
+  }, {
+    "range" : "2",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "413"
+  }, {
+    "range" : "24",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "414"
+  }, {
+    "iri" : "https://w3id.org/cdrio#OccuredIn",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "298",
+    "label" : {
+      "IRI-based" : "OccuredIn"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Distance_To_Closest_Activity",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "17",
     "label" : {
       "IRI-based" : "Distance_To_Closest_Activity"
     },
     "domain" : "3",
     "attributes" : [ "datatype" ],
-    "id" : "411"
+    "id" : "415"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Road_Category",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "244",
-    "label" : {
-      "IRI-based" : "Road_Category"
-    },
-    "domain" : "255",
-    "attributes" : [ "datatype" ],
-    "id" : "412"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#OccuredIn",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "233",
-    "label" : {
-      "IRI-based" : "OccuredIn"
-    },
-    "superproperty" : [ "35" ],
-    "domain" : "44",
-    "attributes" : [ "object" ],
-    "id" : "42"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#hasType",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "67",
+    "iri" : "https://w3id.org/cdrio#hasType",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "154",
     "label" : {
       "IRI-based" : "hasType"
     },
-    "superproperty" : [ "35" ],
-    "domain" : "44",
+    "superproperty" : [ "47" ],
+    "domain" : "104",
     "attributes" : [ "object", "functional" ],
-    "id" : "39"
-  }, {
-    "range" : "14",
-    "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "413"
-  }, {
-    "range" : "2",
-    "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "414"
-  }, {
-    "range" : "19",
-    "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "415"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Cooperation_Level",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "59",
-    "label" : {
-      "IRI-based" : "Cooperation_Level"
-    },
-    "domain" : "155",
-    "attributes" : [ "datatype" ],
-    "id" : "416"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Minimum_Winter_Temperature",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "285",
-    "label" : {
-      "IRI-based" : "Minimum_Winter_Temperature"
-    },
-    "domain" : "193",
-    "attributes" : [ "datatype" ],
-    "id" : "417"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Groundwater_Level",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "20",
-    "label" : {
-      "IRI-based" : "Groundwater_Level"
-    },
-    "domain" : "355",
-    "attributes" : [ "datatype" ],
-    "id" : "418"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#hasConsequenceOn",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "112",
-    "label" : {
-      "IRI-based" : "hasConsequenceOn"
-    },
-    "superproperty" : [ "35" ],
-    "domain" : "44",
-    "attributes" : [ "object" ],
-    "id" : "38"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Average_Winter_Temperature",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "77",
-    "label" : {
-      "IRI-based" : "Average_Winter_Temperature"
-    },
-    "domain" : "193",
-    "attributes" : [ "datatype" ],
-    "id" : "419"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Botany_Name",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "81",
-    "label" : {
-      "IRI-based" : "Botany_Name"
-    },
-    "domain" : "6",
-    "attributes" : [ "datatype" ],
-    "id" : "420"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Consultation_Participation",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "55",
-    "label" : {
-      "IRI-based" : "Consultation_Participation"
-    },
-    "domain" : "47",
-    "attributes" : [ "datatype" ],
-    "id" : "421"
-  }, {
-    "range" : "44",
-    "domain" : "233",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "422"
-  }, {
-    "range" : "12",
-    "domain" : "112",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "423"
-  }, {
-    "range" : "103",
-    "domain" : "112",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "424"
-  }, {
-    "range" : "67",
-    "domain" : "112",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "425"
-  }, {
-    "range" : "45",
-    "domain" : "112",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "426"
-  }, {
-    "range" : "44",
-    "domain" : "112",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "427"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Name",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "268",
-    "label" : {
-      "IRI-based" : "Name"
-    },
-    "domain" : "8",
-    "attributes" : [ "datatype" ],
-    "id" : "428"
-  }, {
-    "range" : "103",
-    "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "429"
-  }, {
-    "range" : "67",
-    "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "430"
-  }, {
-    "range" : "45",
-    "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "431"
-  }, {
-    "range" : "44",
-    "domain" : "12",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "432"
-  }, {
-    "range" : "45",
-    "domain" : "233",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "433"
-  }, {
-    "range" : "66",
-    "domain" : "120",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "434"
-  }, {
-    "range" : "147",
-    "domain" : "155",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "435"
-  }, {
-    "range" : "193",
-    "domain" : "214",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "436"
-  }, {
-    "range" : "189",
-    "domain" : "214",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "437"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Artifact_Name",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "143",
-    "label" : {
-      "IRI-based" : "Artifact_Name"
-    },
-    "domain" : "7",
-    "attributes" : [ "datatype" ],
-    "id" : "438"
-  }, {
-    "range" : "189",
-    "domain" : "193",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "439"
-  }, {
-    "range" : "112",
-    "domain" : "233",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "440"
-  }, {
-    "range" : "12",
-    "domain" : "233",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "441"
-  }, {
-    "range" : "103",
-    "domain" : "233",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "442"
-  }, {
-    "range" : "67",
-    "domain" : "233",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "443"
-  }, {
-    "range" : "120",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "444"
-  }, {
-    "range" : "147",
-    "domain" : "63",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "445"
-  }, {
-    "range" : "66",
-    "domain" : "115",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "446"
-  }, {
-    "range" : "95",
-    "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "447"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Purpose",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "259",
-    "label" : {
-      "IRI-based" : "Purpose"
-    },
-    "domain" : "211",
-    "attributes" : [ "datatype" ],
-    "id" : "448"
-  }, {
-    "range" : "176",
-    "domain" : "151",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "449"
-  }, {
-    "range" : "95",
-    "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "450"
-  }, {
-    "range" : "176",
-    "domain" : "173",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "451"
-  }, {
-    "range" : "95",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "452"
-  }, {
-    "range" : "197",
-    "domain" : "302",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "453"
-  }, {
-    "range" : "314",
-    "domain" : "355",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "454"
-  }, {
-    "range" : "303",
-    "domain" : "302",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "455"
-  }, {
-    "range" : "147",
-    "domain" : "54",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "456"
-  }, {
-    "range" : "301",
-    "domain" : "302",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "457"
-  }, {
-    "range" : "147",
-    "domain" : "2",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "458"
-  }, {
-    "range" : "303",
-    "domain" : "197",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "459"
-  }, {
-    "range" : "147",
-    "domain" : "24",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "460"
-  }, {
-    "range" : "301",
-    "domain" : "197",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "461"
-  }, {
-    "range" : "147",
-    "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "462"
-  }, {
-    "range" : "301",
-    "domain" : "303",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "463"
-  }, {
-    "range" : "147",
-    "domain" : "117",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "464"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Project_Duration",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "273",
-    "label" : {
-      "IRI-based" : "Project_Duration"
-    },
-    "domain" : "233",
-    "attributes" : [ "datatype" ],
-    "id" : "465"
-  }, {
-    "range" : "317",
-    "domain" : "373",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "466"
-  }, {
-    "range" : "95",
-    "domain" : "145",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "467"
-  }, {
-    "range" : "148",
-    "domain" : "100",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "468"
-  }, {
-    "range" : "95",
-    "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "469"
-  }, {
-    "range" : "173",
-    "domain" : "151",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "470"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Affected_Area_Size",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "137",
-    "label" : {
-      "IRI-based" : "Affected_Area_Size"
-    },
-    "domain" : "211",
-    "attributes" : [ "datatype" ],
-    "id" : "471"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Attitude_Toward_Project",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "113",
-    "label" : {
-      "IRI-based" : "Attitude_Toward_Project"
-    },
-    "domain" : "47",
-    "attributes" : [ "datatype" ],
-    "id" : "472"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Road_Name",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "246",
-    "label" : {
-      "IRI-based" : "Road_Name"
-    },
-    "domain" : "255",
-    "attributes" : [ "datatype" ],
-    "id" : "473"
-  }, {
-    "range" : "120",
-    "domain" : "301",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "474"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Cause",
-    "inverse" : "41",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "44",
-    "label" : {
-      "IRI-based" : "Cause"
-    },
-    "superproperty" : [ "35" ],
-    "domain" : "45",
-    "attributes" : [ "object" ],
-    "id" : "40"
-  }, {
-    "range" : "373",
-    "domain" : "180",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "475"
-  }, {
-    "range" : "120",
-    "domain" : "302",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "476"
-  }, {
-    "range" : "317",
-    "domain" : "180",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "477"
-  }, {
-    "range" : "120",
-    "domain" : "303",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "478"
-  }, {
-    "range" : "199",
-    "domain" : "195",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "479"
-  }, {
-    "range" : "95",
-    "domain" : "168",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "480"
-  }, {
-    "range" : "373",
-    "domain" : "195",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "481"
-  }, {
-    "range" : "95",
-    "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "482"
-  }, {
-    "range" : "317",
-    "domain" : "195",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "483"
-  }, {
-    "range" : "95",
-    "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "484"
-  }, {
-    "range" : "373",
-    "domain" : "199",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "485"
-  }, {
-    "range" : "95",
-    "domain" : "314",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "486"
-  }, {
-    "range" : "317",
-    "domain" : "199",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "487"
-  }, {
-    "range" : "95",
-    "domain" : "255",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "488"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Type",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "250",
+    "id" : "50"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Type",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "249",
     "label" : {
       "IRI-based" : "Type"
     },
-    "domain" : "314",
+    "domain" : "76",
     "attributes" : [ "datatype" ],
+    "id" : "417"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Artifact_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "Artifact_Name"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "418"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Magnitude",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "Magnitude"
+    },
+    "domain" : "81",
+    "attributes" : [ "datatype" ],
+    "id" : "419"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Botany_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "Botany_Name"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "420"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Attitude",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "240",
+    "label" : {
+      "IRI-based" : "Risk_Attitude"
+    },
+    "domain" : "116",
+    "attributes" : [ "datatype" ],
+    "id" : "421"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Cooperation_Level",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "Cooperation_Level"
+    },
+    "domain" : "116",
+    "attributes" : [ "datatype" ],
+    "id" : "422"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Minimum_Winter_Temperature",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "280",
+    "label" : {
+      "IRI-based" : "Minimum_Winter_Temperature"
+    },
+    "domain" : "286",
+    "attributes" : [ "datatype" ],
+    "id" : "423"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "261",
+    "label" : {
+      "IRI-based" : "Name"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "424"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Return_Period",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "259",
+    "label" : {
+      "IRI-based" : "Return_Period"
+    },
+    "domain" : "81",
+    "attributes" : [ "datatype" ],
+    "id" : "425"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Road_Category",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "243",
+    "label" : {
+      "IRI-based" : "Road_Category"
+    },
+    "domain" : "94",
+    "attributes" : [ "datatype" ],
+    "id" : "426"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Purpose",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "254",
+    "label" : {
+      "IRI-based" : "Purpose"
+    },
+    "domain" : "174",
+    "attributes" : [ "datatype" ],
+    "id" : "427"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Location",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "269",
+    "label" : {
+      "IRI-based" : "Project_Location"
+    },
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "428"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Responsible_Agency",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "257",
+    "label" : {
+      "IRI-based" : "Responsible_Agency"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype" ],
+    "id" : "429"
+  }, {
+    "range" : "104",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "430"
+  }, {
+    "range" : "35",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "431"
+  }, {
+    "range" : "43",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "432"
+  }, {
+    "range" : "154",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "433"
+  }, {
+    "range" : "132",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "434"
+  }, {
+    "range" : "104",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "435"
+  }, {
+    "range" : "43",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "436"
+  }, {
+    "range" : "154",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "437"
+  }, {
+    "range" : "132",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "438"
+  }, {
+    "range" : "104",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "439"
+  }, {
+    "range" : "132",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "440"
+  }, {
+    "range" : "123",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "441"
+  }, {
+    "range" : "41",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "442"
+  }, {
+    "range" : "286",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "443"
+  }, {
+    "range" : "213",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "444"
+  }, {
+    "range" : "213",
+    "domain" : "286",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "445"
+  }, {
+    "range" : "183",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "446"
+  }, {
+    "range" : "35",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "447"
+  }, {
+    "range" : "43",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "448"
+  }, {
+    "range" : "154",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "449"
+  }, {
+    "range" : "12",
+    "domain" : "416",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "450"
+  }, {
+    "range" : "154",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "451"
+  }, {
+    "range" : "123",
+    "domain" : "416",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "452"
+  }, {
+    "range" : "35",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "453"
+  }, {
+    "range" : "194",
+    "domain" : "185",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "454"
+  }, {
+    "range" : "35",
+    "domain" : "291",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "455"
+  }, {
+    "range" : "194",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "456"
+  }, {
+    "range" : "35",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "457"
+  }, {
+    "range" : "27",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "458"
+  }, {
+    "range" : "171",
+    "domain" : "387",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "459"
+  }, {
+    "range" : "11",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "460"
+  }, {
+    "range" : "171",
+    "domain" : "274",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "461"
+  }, {
+    "range" : "19",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "462"
+  }, {
+    "range" : "171",
+    "domain" : "392",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "463"
+  }, {
+    "range" : "11",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "464"
+  }, {
+    "range" : "76",
+    "domain" : "300",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "465"
+  }, {
+    "range" : "19",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "466"
+  }, {
+    "range" : "154",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "467"
+  }, {
+    "range" : "19",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "468"
+  }, {
+    "range" : "154",
+    "domain" : "416",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "469"
+  }, {
+    "range" : "126",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "470"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "471"
+  }, {
+    "range" : "130",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "472"
+  }, {
+    "range" : "35",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "473"
+  }, {
+    "range" : "57",
+    "domain" : "185",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "474"
+  }, {
+    "range" : "183",
+    "domain" : "215",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "475"
+  }, {
+    "range" : "134",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "476"
+  }, {
+    "range" : "183",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "477"
+  }, {
+    "range" : "126",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "478"
+  }, {
+    "range" : "183",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "479"
+  }, {
+    "range" : "122",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "480"
+  }, {
+    "range" : "183",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "481"
+  }, {
+    "range" : "134",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "482"
+  }, {
+    "range" : "183",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "483"
+  }, {
+    "range" : "126",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "484"
+  }, {
+    "range" : "35",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "485"
+  }, {
+    "range" : "134",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "486"
+  }, {
+    "range" : "35",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "487"
+  }, {
+    "range" : "126",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "488"
+  }, {
+    "range" : "35",
+    "domain" : "284",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "489"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#hasResponse",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "103",
+    "iri" : "https://w3id.org/cdrio#Breed_in_Project_Area",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "92",
     "label" : {
-      "IRI-based" : "hasResponse"
+      "IRI-based" : "Breed_in_Project_Area"
     },
-    "superproperty" : [ "35" ],
-    "domain" : "44",
-    "attributes" : [ "object" ],
-    "id" : "37"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Project_Size",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "256",
-    "label" : {
-      "IRI-based" : "Project_Size"
-    },
-    "domain" : "233",
+    "domain" : "7",
     "attributes" : [ "datatype" ],
     "id" : "490"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Maximum_Rainfall",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "33",
-    "label" : {
-      "IRI-based" : "Maximum_Rainfall"
-    },
-    "domain" : "214",
-    "attributes" : [ "datatype" ],
+    "range" : "302",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "491"
   }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Support_for_Project",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
-    "range" : "248",
-    "label" : {
-      "IRI-based" : "Support_for_Project"
-    },
-    "domain" : "123",
-    "attributes" : [ "datatype" ],
+    "range" : "294",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "492"
   }, {
-    "range" : "61",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "288",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "493"
   }, {
-    "range" : "49",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "291",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "494"
   }, {
-    "range" : "57",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "284",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "495"
   }, {
-    "range" : "52",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "34",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "496"
   }, {
-    "range" : "27",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "302",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "497"
   }, {
-    "range" : "11",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "294",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "498"
   }, {
-    "range" : "61",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "374",
+    "domain" : "227",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "499"
   }, {
-    "range" : "49",
-    "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "307",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "500"
   }, {
-    "range" : "46",
-    "domain" : "279",
-    "attributes" : [ "anonymous", "object" ],
+    "iri" : "https://w3id.org/cdrio#Maximum_Winter_Temperature",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "278",
+    "label" : {
+      "IRI-based" : "Maximum_Winter_Temperature"
+    },
+    "domain" : "286",
+    "attributes" : [ "datatype" ],
     "id" : "501"
   }, {
-    "range" : "17",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "502"
-  }, {
-    "iri" : "http://www.semanticweb.org/cdrio#Permit_Name",
-    "baseIri" : "http://www.semanticweb.org/cdrio",
+    "iri" : "https://w3id.org/cdrio#Project_Name",
+    "baseIri" : "https://w3id.org/cdrio",
     "range" : "271",
     "label" : {
-      "IRI-based" : "Permit_Name"
+      "IRI-based" : "Project_Name"
     },
-    "domain" : "99",
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "502"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Maximum_Wind_Speed",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "Maximum_Wind_Speed"
+    },
+    "domain" : "213",
     "attributes" : [ "datatype" ],
     "id" : "503"
   } ]
