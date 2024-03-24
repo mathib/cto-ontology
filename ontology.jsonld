@@ -1,0 +1,1492 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Archaeological_Heritage"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Artificial_Existing_Building"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Artificial_Utility"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Botany"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Hydrography"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid101",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Precipitation"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Temperature"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Wind"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid105",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Project"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Project_Objective"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Response_Strategy"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Risk_Classification"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Risk_Driver"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Risk_Factor"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid113",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Risk_Acceptance"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Risk_Eliminaion"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Risk_Reduction"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Risk_Retention"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Risk_Transfer"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Archaeological_Heritage"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Artificial_Existing_Building"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/cdrio#CausedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Driver"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Affected_Collection_System"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Affected_Commissioning"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Affected_Foundation"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Affected_PreConstruction_Work"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Affected_Site_Preparation"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Affected_Site_Rehabilitation"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Affected_Turbine_Assembly"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Affected_Turbine_Delivery"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Amphibian"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Birds"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Fish"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Insect"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Mammals"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Reptiles"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Artificial_Existing_Building"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Artificial_Road_Railway"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Artificial_Utility"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Botany"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Climate"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Designated_Area"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Geology"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Hydrography"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Seismicity"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Canadian_Federal_Legislations"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Muncipality_ByLaw"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Provincial_Legislations"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Collection_System"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Commissioning"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Foundations"
+    }, {
+      "@id" : "https://w3id.org/cdrio#PreConstruction_Work"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Site_Preparation"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Site_Rehabilitation"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Turbine_Assembly"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Turbine_Delivery"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Consultants"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Contractor"
+    }, {
+      "@id" : "https://w3id.org/cdrio#First_Nations"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Owner"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Consumer_Price_Index"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Exchange_Rate"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Inflation"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Interest_Rate"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Labour_Conditions"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Cost_Objective"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Environmental_Objective"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Quality_Objective"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Safety_Objective"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Time_Objective"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Economic"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Physical"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Politic"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Regulatory"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Social"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Archaeological_Heritage"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Artificial_Existing_Building"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Artificial_Utility"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Botany"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Hydrography"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Environmental_Related_Risk"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Financial_Related_Risk"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Legal_Related_Risks"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Political_Related_Risk"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Social_Related_Risk"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Federal_Government"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Muncipal"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Provincial_Government"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Financial_Project_Risk"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Managerial_Related_Risk"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Site_Related_Risk"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Technical_Related_Risk"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/cdrio#Global_External_Risk"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Internal_Risk_Factor"
+    }, {
+      "@id" : "https://w3id.org/cdrio#Local_External_Risk"
+    } ]
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Aboriginal_Community",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Social"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/cdrio#Local_Community"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_Area_Size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Land_Use"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_Collection_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_Commissioning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_Foundation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_PreConstruction_Work",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_Site_Preparation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_Site_Rehabilitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_Turbine_Assembly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Affected_Turbine_Delivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Amphibian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Approval_Status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Regulatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Archaeological_Heritage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Designated_Area"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/cdrio#Land_Use"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Artifact_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Archaeological_Heritage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Artificial_Existing_Building",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Artificial_Road_Railway",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Artificial_Utility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Attitude_Toward_Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Social"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Average_Daily_Traffic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Artificial_Road_Railway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Average_Rainfall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Precipitation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Average_Snowfall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Precipitation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Average_Wind_Speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Wind"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Average_Winter_Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Temperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Birds",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Botany_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Botany"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Breed_in_Project_Area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Cables",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Artificial_Utility"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/cdrio#Pipelines"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Canadian_Federal_Legislations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Regulatory"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Cause",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Driver"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/cdrio#CausedBy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#CausedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Driver"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Clear_Responsibility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Organizational_Structure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Closest_Construction_Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Collection_System",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Commissioning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Consultants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Organizational_Structure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Consultation_Participation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Social"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Consumer_Price_Index",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Economic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Contractor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Organizational_Structure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Cooperation_Level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Organizational_Structure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Cost_Objective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Objective"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Distance_To_Closest_Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Earthquakes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Seismicity"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Economic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#External_Project_Environment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Environmental_Objective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Objective"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Environmental_Related_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Local_External_Risk"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Exchange_Rate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Economic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#External_Project_Environment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Driver"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/cdrio#Internal_Project_Environment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Federal_Government",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Politic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Financial_Project_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Internal_Risk_Factor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Financial_Related_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Local_External_Risk"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#First_Nations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Organizational_Structure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Fish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Foundations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Global_External_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Classification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Groundwater_Level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Soil"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Heritage_Significance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Inflation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Economic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Insect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Interest_Rate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Economic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Internal_Project_Environment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Driver"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Internal_Risk_Factor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Classification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Labour_Conditions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Economic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Land_Use",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Designated_Area"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Legal_Related_Risks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Local_External_Risk"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Local_Community",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Social"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Local_External_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Classification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Magnitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Seismicity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Mammals",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Managerial_Related_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Internal_Risk_Factor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Maximum_Rainfall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Precipitation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Maximum_Snowfall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Precipitation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Maximum_Wind_Speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Wind"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Maximum_Winter_Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Temperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Minimum_Winter_Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Temperature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Muncipal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Politic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Muncipality_ByLaw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Regulatory"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Hydrography"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Natural_Botany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Natural_Climate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Natural_Designated_Area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Natural_Geology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Natural_Hydrography",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Natural_Seismicity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Natural_Zoology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Physical"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#OccuredIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/cdrio#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Organizational_Structure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Internal_Project_Environment"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Overall_Stability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Politic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Owner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Organizational_Structure"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Permit_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Regulatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Physical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#External_Project_Environment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Pipelines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Artificial_Utility"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Politic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#External_Project_Environment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Political_Related_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Local_External_Risk"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#PreConstruction_Work",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Precipitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Climate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Processes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Internal_Project_Environment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Project_Duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Project_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Project_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Project_Objective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Project_Size",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Project_Workpackage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Provincial_Government",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Politic"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Provincial_Legislations",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Regulatory"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Purpose",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Land_Use"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Quality_Objective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Objective"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Regulatory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#External_Project_Environment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Reptiles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Zoology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Response_Description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Response_Strategy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Response_Strategy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Responsible_Agency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Regulatory"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Return_Period",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Seismicity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Acceptance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Response_Strategy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Attitude",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Organizational_Structure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Classification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Driver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Eliminaion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Response_Strategy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Factor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Reduction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Response_Strategy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Retention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Response_Strategy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Risk_Transfer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Response_Strategy"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Road_Category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Artificial_Road_Railway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Road_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Artificial_Road_Railway"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Safety_Objective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Objective"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Site_Preparation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Site_Rehabilitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Site_Related_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Internal_Risk_Factor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Social",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#External_Project_Environment"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Social_Related_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Local_External_Risk"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Soil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Geology"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Support_for_Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Politic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Technical_Related_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Internal_Risk_Factor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Temperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Climate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Time_Objective",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Objective"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Turbine_Assembly",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Turbine_Delivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Processes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Geology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#Wind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/cdrio#Natural_Climate"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#hasConsequenceOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Objective"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#hasEffectOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/cdrio#Project_Workpackage"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#hasResponse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/cdrio#Response_Strategy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cdrio#hasType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Factor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/cdrio#Risk_Classification"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+} ]

@@ -1,701 +1,4802 @@
 {
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
-    "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "https://w3id.org/bot", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/vocommons/voaf", "https://w3id.org/dot", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/2006/vcard/ns", "https://w3id.org/cto" ],
-    "title" : {
-      "en" : "CTO: Construction Tasks Ontology"
-    },
-    "iri" : "https://w3id.org/cto",
-    "version" : "0.0.1",
-    "author" : [ "_:genid2147483648" ],
-    "description" : {
-      "en" : "The Construction Tasks Ontology (CTO) describes tasks operating on construction elements, spatial zones and/or damages.  The tasks are either planned or executed depending on the dataset metadata context of the dataset its used in. Five different types of tasks are defined: instalment, removal, modification, repair and inspection. \nConsequences of tasks on the dataset, i.e. added and/or deleted triples, are modeled using reified statements. The tasks can link to a reified statement using the CTO relations."
-    },
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/cdrio" ],
+    "iri" : "https://w3id.org/cdrio",
     "comments" : {
-      "en" : "- Version 0.0.1: initial version"
-    },
-    "other" : {
-      "license" : [ {
-        "identifier" : "license",
-        "language" : "undefined",
-        "value" : "https://creativecommons.org/licenses/by/4.0/",
-        "type" : "iri"
-      } ],
-      "creator" : [ {
-        "identifier" : "creator",
-        "language" : "undefined",
-        "value" : "_:genid2147483648",
-        "type" : "label"
-      } ],
-      "preferredNamespacePrefix" : [ {
-        "identifier" : "preferredNamespacePrefix",
-        "language" : "undefined",
-        "value" : "cto",
-        "type" : "label"
-      } ],
-      "preferredNamespaceUri" : [ {
-        "identifier" : "preferredNamespaceUri",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto#",
-        "type" : "label"
-      } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "0.0.1",
-        "type" : "label"
-      } ],
-      "issued" : [ {
-        "identifier" : "issued",
-        "language" : "undefined",
-        "value" : "2020-12-18",
-        "type" : "label"
-      } ],
-      "title" : [ {
-        "identifier" : "title",
-        "language" : "en",
-        "value" : "CTO: Construction Tasks Ontology",
-        "type" : "label"
-      } ]
+      "undefined" : "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project"
     }
   },
   "namespace" : [ ],
   "class" : [ {
     "id" : "3",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "13",
     "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "5",
+    "id" : "21",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "6",
-    "type" : "owl:Thing"
+    "id" : "37",
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "7",
-    "type" : "owl:Class"
-  }, {
-    "id" : "8",
-    "type" : "owl:Class"
-  }, {
-    "id" : "17",
-    "type" : "owl:Class"
+    "id" : "39",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "21",
-    "type" : "rdfs:Literal"
+    "id" : "42",
+    "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "100",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "227",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
     "type" : "owl:Thing"
   }, {
-    "id" : "14",
+    "id" : "181",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
     "type" : "owl:Class"
   }, {
-    "id" : "23",
+    "id" : "115",
     "type" : "owl:Class"
   }, {
-    "id" : "10",
+    "id" : "251",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "257",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "259",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "261",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "263",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "242",
     "type" : "owl:Class"
   }, {
-    "id" : "20",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "28",
+    "id" : "274",
     "type" : "owl:Class"
   }, {
-    "id" : "30",
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "276",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "278",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "280",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "183",
+    "type" : "owl:Class"
+  }, {
+    "id" : "298",
+    "type" : "owl:Class"
+  }, {
+    "id" : "300",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "288",
+    "type" : "owl:Class"
+  }, {
+    "id" : "286",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "291",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
     "type" : "owl:Class"
   }, {
     "id" : "32",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
+    "id" : "185",
+    "type" : "owl:Class"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "392",
+    "type" : "owl:Class"
+  }, {
+    "id" : "253",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "239",
+    "type" : "owl:Class"
+  }, {
+    "id" : "215",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "416",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "307",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "284",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "302",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "387",
+    "type" : "owl:Class"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "294",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "232",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "374",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
-    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
     "instances" : 0,
-    "label" : {
-      "IRI-based" : "Statement"
-    },
-    "attributes" : [ "external" ],
+    "union" : [ "4", "5", "6", "7", "8", "9" ],
+    "attributes" : [ "union", "anonymous" ],
     "id" : "3"
   }, {
-    "iri" : "https://w3id.org/cto#RemovalTask",
-    "baseIri" : "https://w3id.org/cto",
+    "iri" : "https://w3id.org/cdrio#Labour_Conditions",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
     "label" : {
-      "IRI-based" : "RemovalTask",
-      "en" : "a removal task"
+      "IRI-based" : "Labour_Conditions"
     },
-    "comment" : {
-      "en" : "A specialized type of a (planned or executed) construction task that physically removes a construction component from the construction. The removal results in the removal of all the (directly or indirectly) asserted triples related to the thing that is subject of this task, including triples that use terminology from BOT (building topology), DOT (damage topology), OMG/FOG (geometry, properties, etc."
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Archaeological_Heritage",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Archaeological_Heritage"
     },
     "id" : "4",
-    "superClasses" : [ "1" ]
+    "superClasses" : [ "28" ]
   }, {
-    "iri" : "http://www.w3.org/2006/vcard/ns#Organization",
-    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "instances" : 0,
+    "union" : [ "4", "8" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Turbine_Delivery",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Organization"
+      "IRI-based" : "Affected_Turbine_Delivery"
     },
-    "attributes" : [ "external" ],
-    "id" : "5"
+    "id" : "34",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#PreConstruction_Work",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PreConstruction_Work"
+    },
+    "id" : "1",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Eliminaion",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Eliminaion"
+    },
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Muncipal",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Muncipal"
+    },
+    "id" : "57",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "79",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "5", "6", "7", "8", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Amphibian",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Amphibian"
+    },
+    "id" : "101",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Interest_Rate",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interest_Rate"
+    },
+    "id" : "103",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Processes",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Processes"
+    },
+    "subClasses" : [ "24", "64", "73", "30", "1", "110", "2", "16" ],
+    "id" : "41",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "135",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Zoology",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Zoology"
+    },
+    "subClasses" : [ "138", "139", "140", "101", "141", "142" ],
+    "id" : "7",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "143",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "145",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Factor",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Factor"
+    },
+    "id" : "104",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Collection_System",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Collection_System"
+    },
+    "id" : "147",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Legal_Related_Risks",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Legal_Related_Risks"
+    },
+    "id" : "122",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Hydrography",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Hydrography"
+    },
+    "id" : "6",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Artificial_Utility",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artificial_Utility"
+    },
+    "subClasses" : [ "178", "179" ],
+    "id" : "9",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Cost_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cost_Objective"
+    },
+    "id" : "182",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Provincial_Government",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Provincial_Government"
+    },
+    "id" : "194",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Commissioning",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Commissioning"
+    },
+    "id" : "73",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Land_Use",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Land_Use"
+    },
+    "id" : "174",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Aboriginal_Community",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aboriginal_Community"
+    },
+    "id" : "227",
+    "superClasses" : [ "166" ]
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "6",
+    "id" : "48",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
-    "iri" : "https://w3id.org/cto#RepairTask",
-    "baseIri" : "https://w3id.org/cto",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "RepairTask",
-      "en" : "a repair task"
-    },
-    "comment" : {
-      "en" : "A specialized type of a (planned or executed) construction task that repairs a damaged construction element or spatial zone. The subjects of this type of task are construction damages. Depending on the degree of modeling, a repair task can either directly result in the lifting of a damage (and its influence on properties of the damaged object) or subtasks can be defined e.g. to remove a damaged construction component and replace it by a new one."
-    },
-    "id" : "7",
-    "superClasses" : [ "1" ]
-  }, {
-    "iri" : "https://w3id.org/dot#Damage",
-    "baseIri" : "https://w3id.org/dot",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Damage"
-    },
-    "attributes" : [ "external" ],
-    "id" : "8"
-  }, {
-    "iri" : "https://w3id.org/cto#TaskContext",
-    "baseIri" : "https://w3id.org/cto",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "TaskContext",
-      "en" : "a task context"
-    },
-    "comment" : {
-      "en" : "A task context allows to group certain tasks that are related. Examples are tasks that fall under the responsibility of a certain organization, tasks grouped per activity or project (e.g. inspections, demolition, construction, etc.), work item (cost estimation) or a larger task that can be subdivided in smaller tasks."
-    },
-    "id" : "17"
-  }, {
-    "iri" : "https://w3id.org/cto#Task",
-    "baseIri" : "https://w3id.org/cto",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "Task",
-      "en" : "a construction task"
-    },
-    "subClasses" : [ "10", "4", "7", "14", "16" ],
-    "comment" : {
-      "en" : "A generic class for defining (planned or executed) construction tasks. Instances of this class are connected with the construction element(s), spatial zone(s) or construction damages they operate on (cto:isSubjectOfTask). In addition, they might also be linked to a (planned or executed) moment or time span of performance (prov:atTime/prov:startedAtTime/prov:endedAtTime) and one or more task contexts (cto:hasTaskContext), task methods (cto:hasTaskMethod), assigned persons and/or organizations (prov:wasAssociatedWith), other tasks that must be finalized before the task can start (cto:afterFinishedTask) and reified statements that are added or deleted (cto:resultsInAddedStatement or cto:resultsInDeletedStatement)."
-    },
-    "id" : "1"
-  }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "21",
+    "id" : "181",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "http://www.w3.org/2002/07/owl#Thing",
-    "baseIri" : "http://owl2vowl.de",
-    "id" : "2",
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "240",
     "label" : {
-      "undefined" : "Thing"
+      "IRI-based" : "string"
     }
   }, {
-    "iri" : "https://w3id.org/cto#ModificationTask",
-    "baseIri" : "https://w3id.org/cto",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "243",
     "label" : {
-      "IRI-based" : "ModificationTask",
-      "en" : "a modification task"
-    },
-    "comment" : {
-      "en" : "A specialized type of a (planned or executed) construction task that physically modifies a construction component, spatial zone or damage. The modification results in a change to one or more properties and/or geometry descriptions of the modified subject. It should not be used to repair a damaged construction element or spatial zone as cto:RepairTask should be used instead."
-    },
-    "id" : "14",
-    "superClasses" : [ "1" ]
+      "IRI-based" : "string"
+    }
   }, {
-    "iri" : "https://w3id.org/dot#Inspection",
-    "baseIri" : "https://w3id.org/dot",
-    "instances" : 0,
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "245",
     "label" : {
-      "IRI-based" : "Inspection"
-    },
-    "attributes" : [ "external" ],
-    "id" : "23"
+      "IRI-based" : "string"
+    }
   }, {
-    "iri" : "https://w3id.org/cto#InstallmentTask",
-    "baseIri" : "https://w3id.org/cto",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "247",
     "label" : {
-      "IRI-based" : "InstallmentTask",
-      "en" : "an installment task"
-    },
-    "comment" : {
-      "en" : "A specialized type of a (planned or executed) construction task that physically installs a construction component as part of the construction. The installment results in the addition of asserted triple(s) connecting the installed object to other construction elements and/or spatial zones and other triples describing the object through classification, properties and/or geometry."
-    },
-    "id" : "10",
-    "superClasses" : [ "1" ]
+      "IRI-based" : "boolean"
+    }
   }, {
-    "iri" : "https://w3id.org/cto#TaskMethod",
-    "baseIri" : "https://w3id.org/cto",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "249",
     "label" : {
-      "IRI-based" : "TaskMethod",
-      "en" : "a task (execution) method"
-    },
-    "comment" : {
-      "en" : "A task method description defines how a task should be or was executed, depending on the construction dataset context (planning or progress monitoring). The cto:hasTaskMethod property connects a task to instances of this class that in turn point to a task method described in text using the cto:hasSimpleTaskMethodDescription. If RDF-based task method descriptions are applied instead of text, they can be connected using cto:hasComplexTaskMethodDescription."
-    },
-    "id" : "20"
+      "IRI-based" : "string"
+    }
   }, {
-    "iri" : "http://www.w3.org/2006/vcard/ns#Individual",
-    "baseIri" : "http://www.w3.org/2006/vcard/ns",
+    "iri" : "https://w3id.org/cdrio#Risk_Retention",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Individual"
+      "IRI-based" : "Risk_Retention"
     },
-    "attributes" : [ "external" ],
-    "id" : "28"
+    "id" : "67",
+    "superClasses" : [ "43" ]
   }, {
-    "iri" : "https://w3id.org/bot#Element",
-    "baseIri" : "https://w3id.org/bot",
+    "iri" : "https://w3id.org/cdrio#Owner",
+    "baseIri" : "https://w3id.org/cdrio",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Element"
+      "IRI-based" : "Owner"
     },
-    "attributes" : [ "external" ],
-    "id" : "30"
+    "id" : "115",
+    "superClasses" : [ "116" ]
   }, {
-    "iri" : "https://w3id.org/bot#Zone",
-    "baseIri" : "https://w3id.org/bot",
-    "instances" : 0,
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "251",
     "label" : {
-      "IRI-based" : "Zone"
-    },
-    "attributes" : [ "external" ],
-    "id" : "31"
+      "IRI-based" : "float"
+    }
   }, {
-    "iri" : "http://purl.org/vocommons/voaf#Vocabulary",
-    "baseIri" : "http://purl.org/vocommons/voaf",
-    "instances" : 0,
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "254",
     "label" : {
-      "IRI-based" : "Vocabulary"
-    },
-    "individuals" : [ {
-      "iri" : "https://w3id.org/cto",
-      "baseIri" : "https://w3id.org",
-      "labels" : {
-        "IRI-based" : "cto"
-      }
-    } ],
-    "attributes" : [ "external" ],
-    "id" : "32"
+      "IRI-based" : "string"
+    }
   }, {
-    "iri" : "https://w3id.org/cto#InspectionTask",
-    "baseIri" : "https://w3id.org/cto",
-    "instances" : 0,
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "225",
     "label" : {
-      "IRI-based" : "InspectionTask",
-      "en" : "an inspection task"
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "257",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "263",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "265",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "267",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "269",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "271",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Inflation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inflation"
     },
-    "comment" : {
-      "en" : "A specialized type of a (planned or executed) construction task that indicates that a construction element, spatial zone and/or damage are inspected. When a construction component or spatial zone is inspected and a damage is detected, the result of the inspection task is the damage description connected to the inspected object. Note that existing known damage, e.g. covered by previous inspections, can be the subject of subsequent inspection tasks."
+    "id" : "242",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Site_Preparation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Preparation"
+    },
+    "id" : "2",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Muncipality_ByLaw",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Muncipality_ByLaw"
+    },
+    "id" : "274",
+    "superClasses" : [ "171" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "276",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "278",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#float",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "280",
+    "label" : {
+      "IRI-based" : "float"
+    }
+  }, {
+    "iri" : "https://w3id.org/cdrio#Artificial_Existing_Building",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artificial_Existing_Building"
+    },
+    "id" : "8",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Precipitation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Precipitation"
+    },
+    "id" : "45",
+    "superClasses" : [ "106" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Insect",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Insect"
+    },
+    "id" : "141",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Quality_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Quality_Objective"
+    },
+    "id" : "209",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Driver",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Driver"
+    },
+    "subClasses" : [ "161", "130" ],
+    "id" : "132",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Turbine_Assembly",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Turbine_Assembly"
+    },
+    "id" : "24",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project_Objective"
+    },
+    "subClasses" : [ "215", "210", "182", "209", "232" ],
+    "id" : "183",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project"
+    },
+    "id" : "298",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Soil",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Soil"
+    },
+    "id" : "300",
+    "superClasses" : [ "76" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Transfer",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Transfer"
+    },
+    "id" : "71",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Collection_System",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Collection_System"
+    },
+    "id" : "110",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Wind",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wind"
+    },
+    "id" : "213",
+    "superClasses" : [ "106" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Artificial_Road_Railway",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artificial_Road_Railway"
+    },
+    "id" : "94",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Consultants",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consultants"
+    },
+    "id" : "149",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Technical_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Technical_Related_Risk"
+    },
+    "id" : "19",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Site_Preparation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Site_Preparation"
+    },
+    "id" : "288",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Temperature",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Temperature"
+    },
+    "id" : "286",
+    "superClasses" : [ "106" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Mammals",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mammals"
+    },
+    "id" : "139",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Workpackage",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Project_Workpackage"
+    },
+    "subClasses" : [ "302", "147", "284", "34", "307", "288", "291", "294" ],
+    "id" : "35",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Site_Rehabilitation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Site_Rehabilitation"
+    },
+    "id" : "291",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#First_Nations",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "First_Nations"
+    },
+    "id" : "119",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Financial_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Financial_Related_Risk"
+    },
+    "id" : "137",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Site_Rehabilitation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Rehabilitation"
     },
     "id" : "16",
-    "superClasses" : [ "1" ]
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Financial_Project_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Financial_Project_Risk"
+    },
+    "id" : "32",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Federal_Government",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Federal_Government"
+    },
+    "id" : "185",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Regulatory",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Regulatory"
+    },
+    "subClasses" : [ "387", "274", "392" ],
+    "id" : "171",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Botany",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Botany"
+    },
+    "id" : "5",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Cables",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cables"
+    },
+    "id" : "178",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Reptiles",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reptiles"
+    },
+    "id" : "140",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Canadian_Federal_Legislations",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Canadian_Federal_Legislations"
+    },
+    "id" : "392",
+    "superClasses" : [ "171" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Consumer_Price_Index",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Consumer_Price_Index"
+    },
+    "id" : "253",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Turbine_Delivery",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Turbine_Delivery"
+    },
+    "id" : "30",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Geology",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Geology"
+    },
+    "subClasses" : [ "300" ],
+    "id" : "76",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Foundations",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Foundations"
+    },
+    "id" : "64",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Exchange_Rate",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Exchange_Rate"
+    },
+    "id" : "239",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Time_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Time_Objective"
+    },
+    "id" : "215",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Classification",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Classification"
+    },
+    "subClasses" : [ "123", "416", "12" ],
+    "id" : "154",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Birds",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Birds"
+    },
+    "id" : "138",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Onshore_Wind_Farm_Risk_Identification"
+    },
+    "subClasses" : [ "43", "154", "132", "104", "35", "183", "298" ],
+    "id" : "146"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Reduction",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Reduction"
+    },
+    "id" : "62",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Social",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Social"
+    },
+    "subClasses" : [ "374", "227" ],
+    "id" : "166",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Economic",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economic"
+    },
+    "subClasses" : [ "103", "13", "253", "242", "239" ],
+    "id" : "14",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Political_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Political_Related_Risk"
+    },
+    "id" : "134",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Global_External_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Global_External_Risk"
+    },
+    "id" : "416",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Climate",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Climate"
+    },
+    "subClasses" : [ "213", "45", "286" ],
+    "id" : "106",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Social_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Social_Related_Risk"
+    },
+    "id" : "126",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Commissioning",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Commissioning"
+    },
+    "id" : "307",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Acceptance",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk_Acceptance"
+    },
+    "id" : "98",
+    "superClasses" : [ "43" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Turbine_Assembly",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Turbine_Assembly"
+    },
+    "id" : "284",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Internal_Project_Environment",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_Project_Environment"
+    },
+    "subClasses" : [ "116", "41" ],
+    "id" : "130",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Managerial_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Managerial_Related_Risk"
+    },
+    "id" : "27",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Politic",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Politic"
+    },
+    "subClasses" : [ "194", "185", "57" ],
+    "id" : "58",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Safety_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Safety_Objective"
+    },
+    "id" : "210",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Foundation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_Foundation"
+    },
+    "id" : "302",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Seismicity",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Seismicity"
+    },
+    "subClasses" : [ "158" ],
+    "id" : "81",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Provincial_Legislations",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Provincial_Legislations"
+    },
+    "id" : "387",
+    "superClasses" : [ "171" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Earthquakes",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Earthquakes"
+    },
+    "id" : "158",
+    "superClasses" : [ "81" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Fish",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fish"
+    },
+    "id" : "142",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#External_Project_Environment",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "External_Project_Environment"
+    },
+    "subClasses" : [ "77", "58", "166", "14", "171" ],
+    "id" : "161",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Natural_Designated_Area",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Natural_Designated_Area"
+    },
+    "subClasses" : [ "174", "4" ],
+    "id" : "28",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_PreConstruction_Work",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Affected_PreConstruction_Work"
+    },
+    "id" : "294",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Contractor",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Contractor"
+    },
+    "id" : "152",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Environmental_Objective",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Environmental_Objective"
+    },
+    "id" : "232",
+    "superClasses" : [ "183" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Organizational_Structure",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organizational_Structure"
+    },
+    "subClasses" : [ "149", "152", "115", "119" ],
+    "id" : "116",
+    "superClasses" : [ "130" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Local_External_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Local_External_Risk"
+    },
+    "subClasses" : [ "122", "126", "129", "134", "137" ],
+    "id" : "123",
+    "superClasses" : [ "154" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Environmental_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Environmental_Related_Risk"
+    },
+    "id" : "129",
+    "superClasses" : [ "123" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Pipelines",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pipelines"
+    },
+    "id" : "179",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Site_Related_Risk",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Site_Related_Risk"
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Local_Community",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Local_Community"
+    },
+    "id" : "374",
+    "superClasses" : [ "166" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Physical",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Physical"
+    },
+    "subClasses" : [ "5", "106", "28", "6", "76", "81", "7", "8", "9", "94" ],
+    "id" : "77",
+    "superClasses" : [ "161" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Response_Strategy",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Response_Strategy"
+    },
+    "subClasses" : [ "98", "42", "62", "67", "71" ],
+    "id" : "43",
+    "superClasses" : [ "146" ]
+  }, {
+    "iri" : "https://w3id.org/cdrio#Internal_Risk_Factor",
+    "baseIri" : "https://w3id.org/cdrio",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Internal_Risk_Factor"
+    },
+    "subClasses" : [ "11", "19", "27", "32" ],
+    "id" : "12",
+    "superClasses" : [ "154" ]
   } ],
   "property" : [ {
     "id" : "0",
-    "type" : "owl:objectProperty"
+    "type" : "owl:disjointWith"
   }, {
-    "id" : "9",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "11",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "12",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "13",
+    "id" : "10",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "15",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "18",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "19",
+    "id" : "20",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "22",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "24",
-    "type" : "owl:objectProperty"
+    "id" : "23",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "26",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "27",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "29",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "38",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "25",
+    "id" : "56",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "102",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "186",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "190",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "193",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "202",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "204",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "212",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "222",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "223",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "229",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "238",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "241",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "244",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "250",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "260",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "266",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "272",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "273",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "277",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "279",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "283",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "287",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "289",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "290",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "295",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "299",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "301",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "303",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "308",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "309",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "310",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "311",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "312",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "313",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "314",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "315",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "316",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "317",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "318",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "319",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "320",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "321",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "322",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "323",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "324",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "325",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "326",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "327",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "328",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "329",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "330",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "331",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "332",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "333",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "334",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "335",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "336",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "337",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "338",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "339",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "340",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "341",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "342",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "343",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "344",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "345",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "346",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "347",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "348",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "349",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "350",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "351",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "352",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "353",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "354",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "355",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "356",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "357",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "358",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "359",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "360",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "361",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "362",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "363",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "364",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "365",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "366",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "367",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "368",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "369",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "370",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "371",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "372",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "373",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "376",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "377",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "378",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "379",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "380",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "381",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "382",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "383",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "384",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "385",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "386",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "388",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "389",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "390",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "391",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "393",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "394",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "395",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "396",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "397",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "398",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "399",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "400",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "401",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "402",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "403",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "404",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "405",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "406",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "407",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "408",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "409",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "410",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "411",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "412",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "413",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "414",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "415",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "417",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "418",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "419",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "420",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "421",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "422",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "423",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "424",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "425",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "426",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "427",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "428",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "429",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "430",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "431",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "432",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "433",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "434",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "435",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "436",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "437",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "438",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "439",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "440",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "441",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "442",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "443",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "444",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "445",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "446",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "447",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "448",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "449",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "450",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "451",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "452",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "453",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "454",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "455",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "456",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "457",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "458",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "459",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "460",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "461",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "462",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "463",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "464",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "465",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "466",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "467",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "468",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "469",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "470",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "471",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "472",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "473",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "474",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "475",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "476",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "477",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "478",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "479",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "480",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "481",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "482",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "483",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "484",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "485",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "486",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "487",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "488",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "489",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "490",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "491",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "492",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "493",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "494",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "495",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "496",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "497",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "498",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "499",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "500",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "501",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "502",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "503",
+    "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://w3id.org/cto#hasTaskMethod",
-    "baseIri" : "https://w3id.org/cto",
     "range" : "2",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasTaskMethod",
-      "en" : "has task method"
-    },
     "domain" : "1",
-    "comment" : {
-      "en" : "Property to connect a certain construction task (cto:Task) to an intermediate property node when applied on property level 2 or 3. The intermediate property node then connects to a task method description directly using cto:hasSimpleTaskMethodDescription or cto:hasComplexTaskMethodDescription (L2) or to a property state using opm:hasPropertyState (L3) to indicate a versioned task method description connected using cto:hasSimpleTaskMethodDescription or cto:hasComplexTaskMethodDescription. A task method description contains a step-by-step description of the procedure, used materials and equipment."
-    },
-    "attributes" : [ "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "0"
   }, {
-    "range" : "1",
-    "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "9"
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "10"
   }, {
-    "range" : "1",
-    "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "11"
-  }, {
-    "range" : "1",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "12"
-  }, {
-    "range" : "1",
-    "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "13"
-  }, {
-    "range" : "1",
-    "domain" : "16",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "16",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "15"
   }, {
-    "iri" : "https://w3id.org/cto#hasComplexTaskMethodDescription",
-    "baseIri" : "https://w3id.org/cto",
-    "range" : "6",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasComplexTaskMethodDescription",
-      "en" : "has complex task method description"
-    },
-    "domain" : "6",
-    "comment" : {
-      "en" : "Property to connect a certain construction task (cto:Task) to the topnode of an RDF-based description of a task method. \nDepending on the property level used, this property get's a different location. In case of L1, a task is directly connected with the task method description. When using L2, a task is first connected to an intermediate property node via cp:hasTaskMethod. The intermediate node is then connected using cp:hasComplexTaskMethodDescription. In case of L3, the first intermediate node from L2 receives an outgoing opm:hasPropertyState property. The property state node is then connected to the task method description using cp:hasComplexTaskMethodDescrription. A task method description contains a step-by-step description of the procedure, used materials and equipment."
-    },
-    "attributes" : [ "object" ],
+    "range" : "12",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "18"
   }, {
-    "iri" : "https://w3id.org/cto#hasSimpleTaskMethodDescription",
-    "baseIri" : "https://w3id.org/cto",
-    "range" : "21",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ],
-      "rangeIncludes" : [ {
-        "identifier" : "rangeIncludes",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/2001/XMLSchema#base64Binary",
-        "type" : "iri"
-      }, {
-        "identifier" : "rangeIncludes",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/2001/XMLSchema#string",
-        "type" : "iri"
-      }, {
-        "identifier" : "rangeIncludes",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/2001/XMLSchema#anyURI",
-        "type" : "iri"
-      }, {
-        "identifier" : "rangeIncludes",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/2001/XMLSchema#hexBinary",
-        "type" : "iri"
-      }, {
-        "identifier" : "rangeIncludes",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString",
-        "type" : "iri"
-      } ]
-    },
+    "iri" : "https://w3id.org/cdrio#Heritage_Significance",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "22",
     "label" : {
-      "IRI-based" : "hasSimpleTaskMethodDescription",
-      "en" : "has simple task method description"
+      "IRI-based" : "Heritage_Significance"
     },
-    "domain" : "20",
-    "comment" : {
-      "en" : "Property to connect a construction task method node to an RDF literal containing either a text description for human interpretation (rdf:langString with language tag) and/or embedded or referenced file content (diagrams, movies, webpages, etc.). In case of a referenced external file, the literal contain the reference is of datatype xsd:anyURI. When the content of a file is embedded in the literal and file format is text-based the xsd:string datatype is used. If the file format is binary, a binary-to-text encoded version is located inside the RDF literal combined with a datatype to indicate the encoding scheme (xsd:base64Binary, xsd:hexBinary, or a custom datatype for other encoding schemes)."
-    },
+    "domain" : "21",
     "attributes" : [ "datatype" ],
-    "id" : "19"
+    "id" : "20"
   }, {
-    "iri" : "https://w3id.org/cto#afterFinishedTask",
-    "baseIri" : "https://w3id.org/cto",
-    "range" : "1",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "afterFinishedTask",
-      "en" : "after finished task"
-    },
+    "range" : "24",
     "domain" : "1",
-    "comment" : {
-      "en" : "Connects the subject task to one ore more other tasks have to be finished before it is allowed to start."
-    },
-    "attributes" : [ "object" ],
-    "id" : "22"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
   }, {
-    "iri" : "https://w3id.org/cto#resultsInDeletedStatement",
-    "baseIri" : "https://w3id.org/cto",
-    "range" : "3",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "resultsInDeletedStatement",
-      "en" : "results in deleted statement"
-    },
-    "superproperty" : [ "25" ],
-    "domain" : "1",
-    "comment" : {
-      "en" : "Connects a (planned or executed) task to a reified statement that is deleted from the construction description as a result of the task."
-    },
-    "attributes" : [ "object" ],
-    "id" : "24"
-  }, {
-    "iri" : "https://w3id.org/cto#isSubjectOfTask",
-    "baseIri" : "https://w3id.org/cto",
-    "range" : "1",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ],
-      "domainIncludes" : [ {
-        "identifier" : "domainIncludes",
-        "language" : "undefined",
-        "value" : "https://w3id.org/bot#Zone",
-        "type" : "iri"
-      }, {
-        "identifier" : "domainIncludes",
-        "language" : "undefined",
-        "value" : "https://w3id.org/bot#Element",
-        "type" : "iri"
-      }, {
-        "identifier" : "domainIncludes",
-        "language" : "undefined",
-        "value" : "https://w3id.org/dot#Damage",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "isSubjectOfTask",
-      "en" : "is subject of task"
-    },
-    "domain" : "2",
-    "comment" : {
-      "en" : "Connects a construction component (e.g. bot:Element instance), a spatial zone (e.g. bot:Zone instance) or a construction damage (e.g. dot:Damage instance) to a (planned or executed) task that is related to it."
-    },
-    "attributes" : [ "object" ],
+    "range" : "12",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "26"
   }, {
-    "iri" : "https://w3id.org/cto#resultsInAddedStatement",
-    "baseIri" : "https://w3id.org/cto",
-    "range" : "3",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "resultsInAddedStatement",
-      "en" : "results in added statement"
-    },
-    "superproperty" : [ "25" ],
+    "range" : "30",
     "domain" : "1",
-    "comment" : {
-      "en" : "Connects a (planned or executed) task to a reified statement that is added to the construction description as a result of the task."
-    },
-    "attributes" : [ "object" ],
-    "id" : "27"
-  }, {
-    "iri" : "https://w3id.org/cto#hasTaskContext",
-    "baseIri" : "https://w3id.org/cto",
-    "range" : "17",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "hasTaskContext",
-      "en" : "has task context"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "Connects a task to a task context that forms a group of tasks with shared properties."
-    },
-    "attributes" : [ "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "29"
   }, {
-    "iri" : "https://w3id.org/cto#resultsInStatement",
-    "baseIri" : "https://w3id.org/cto",
-    "range" : "3",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "https://w3id.org/cto",
-        "type" : "iri"
-      } ]
-    },
+    "range" : "12",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "16",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "24",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "30",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "24",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Maximum_Snowfall",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "46",
     "label" : {
-      "IRI-based" : "resultsInStatement",
-      "en" : "results in statement"
+      "IRI-based" : "Maximum_Snowfall"
     },
-    "domain" : "1",
-    "subproperty" : [ "24", "27" ],
-    "comment" : {
-      "en" : "Connects a (planned or executed) task to a reified statement that is either added or deleted as a result of the task. The subproperties of this property (cto:resultsInAddedStatement and cto:resultsInDeletedStatement) should be used to express the consequence of the task to the statement. A cto:InstalmentTask and dot:Inspection task typically result in the use of cto:resultsInAddedStatement, a cto:RemovalTask typically results in the use of cto:resultsInDeletedStatement while a cto:ModificationTask results in the use of cto:resultsInAddedStatement and/or cto:resultsInDeletedStatement."
+    "domain" : "45",
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
     },
+    "domain" : "48",
+    "subproperty" : [ "49", "50", "51", "52", "53", "54", "55" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Maximum_Rainfall",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "Maximum_Rainfall"
+    },
+    "domain" : "45",
+    "attributes" : [ "datatype" ],
+    "id" : "56"
+  }, {
+    "range" : "43",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "43",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "24",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "43",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "30",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "43",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "64",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "77",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "1",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "77",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "2",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "77",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "16",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "77",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "24",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "77",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "30",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "77",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "1",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "95"
+  }, {
+    "range" : "43",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "2",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "16",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "iri" : "https://w3id.org/cdrio#hasEffectOn",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasEffectOn"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
     "attributes" : [ "object" ],
-    "id" : "25"
+    "id" : "51"
+  }, {
+    "range" : "77",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "77",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "30",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "77",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "range" : "67",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "116",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "71",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "116",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "range" : "67",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "123",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "range" : "71",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "123",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "71",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "123",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "iri" : "https://w3id.org/cdrio#CausedBy",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "CausedBy"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object", "someValues" ],
+    "id" : "131"
+  }, {
+    "range" : "123",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "123",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "136"
+  }, {
+    "range" : "77",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "116",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "62",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "116",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "154",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "132",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "range" : "81",
+    "domain" : "158",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "104",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "161",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "range" : "132",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "161",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "163"
+  }, {
+    "range" : "104",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "161",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "104",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "161",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "42",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "161",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "62",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "28",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "range" : "67",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "28",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "71",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "181",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "48",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "180"
+  }, {
+    "range" : "58",
+    "domain" : "185",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "range" : "166",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "range" : "9",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "187"
+  }, {
+    "range" : "166",
+    "domain" : "171",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "132",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "137",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "range" : "132",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "122",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Snowfall",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "Average_Snowfall"
+    },
+    "domain" : "45",
+    "attributes" : [ "datatype" ],
+    "id" : "193"
+  }, {
+    "range" : "7",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "171",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "7",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "166",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "7",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "58",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "7",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "171",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "range" : "7",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "166",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "7",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "171",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "range" : "9",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "207"
+  }, {
+    "range" : "210",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "range" : "41",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Wind_Speed",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "Average_Wind_Speed"
+    },
+    "domain" : "213",
+    "attributes" : [ "datatype" ],
+    "id" : "212"
+  }, {
+    "range" : "215",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "41",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "215",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "41",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "77",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "41",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "58",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Approval_Status",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "143",
+    "label" : {
+      "IRI-based" : "Approval_Status"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype" ],
+    "id" : "222"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Daily_Traffic",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "111",
+    "label" : {
+      "IRI-based" : "Average_Daily_Traffic"
+    },
+    "domain" : "94",
+    "attributes" : [ "datatype" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Response_Description",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "225",
+    "label" : {
+      "IRI-based" : "Response_Description"
+    },
+    "domain" : "43",
+    "attributes" : [ "datatype" ],
+    "id" : "224"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Rainfall",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "Average_Rainfall"
+    },
+    "domain" : "45",
+    "attributes" : [ "datatype" ],
+    "id" : "226"
+  }, {
+    "range" : "210",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "215",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "41",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "209",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "41",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "210",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "41",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "215",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "41",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "237"
+  }, {
+    "range" : "13",
+    "domain" : "239",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "103",
+    "domain" : "242",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "241"
+  }, {
+    "range" : "13",
+    "domain" : "242",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "244"
+  }, {
+    "range" : "13",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "232",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "209",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "103",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "13",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "242",
+    "domain" : "239",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "103",
+    "domain" : "239",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "range" : "119",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "115",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "119",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "115",
+    "domain" : "152",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "115",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "239",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "242",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "272"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Overall_Stability",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "263",
+    "label" : {
+      "IRI-based" : "Overall_Stability"
+    },
+    "domain" : "58",
+    "attributes" : [ "datatype" ],
+    "id" : "273"
+  }, {
+    "range" : "30",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "275"
+  }, {
+    "range" : "30",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "range" : "152",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "279"
+  }, {
+    "range" : "142",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "138",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "34",
+    "domain" : "284",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Average_Winter_Temperature",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "86",
+    "label" : {
+      "IRI-based" : "Average_Winter_Temperature"
+    },
+    "domain" : "286",
+    "attributes" : [ "datatype" ],
+    "id" : "285"
+  }, {
+    "range" : "34",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "range" : "284",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "range" : "34",
+    "domain" : "291",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "284",
+    "domain" : "291",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "292"
+  }, {
+    "range" : "284",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "291",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "range" : "291",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "34",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "297"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Duration",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "Project_Duration"
+    },
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "299"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Cause",
+    "inverse" : "54",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "Cause"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "132",
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "range" : "34",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "301"
+  }, {
+    "range" : "284",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "303"
+  }, {
+    "range" : "288",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "294",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "305"
+  }, {
+    "range" : "34",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "range" : "291",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "308"
+  }, {
+    "range" : "288",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "309"
+  }, {
+    "range" : "288",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "310"
+  }, {
+    "range" : "284",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "311"
+  }, {
+    "range" : "291",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "312"
+  }, {
+    "range" : "76",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "range" : "81",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "314"
+  }, {
+    "range" : "6",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "315"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Closest_Construction_Activity",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "Closest_Construction_Activity"
+    },
+    "domain" : "100",
+    "attributes" : [ "datatype" ],
+    "id" : "316"
+  }, {
+    "range" : "5",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "317"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Consultation_Participation",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "Consultation_Participation"
+    },
+    "domain" : "166",
+    "attributes" : [ "datatype" ],
+    "id" : "318"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "319"
+  }, {
+    "range" : "28",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "320"
+  }, {
+    "range" : "106",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "321"
+  }, {
+    "range" : "140",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "322"
+  }, {
+    "range" : "140",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "323"
+  }, {
+    "range" : "94",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "324"
+  }, {
+    "range" : "174",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "325"
+  }, {
+    "range" : "139",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "326"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Size",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "251",
+    "label" : {
+      "IRI-based" : "Project_Size"
+    },
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "327"
+  }, {
+    "range" : "140",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "328"
+  }, {
+    "range" : "139",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "329"
+  }, {
+    "range" : "139",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "330"
+  }, {
+    "range" : "141",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "331"
+  }, {
+    "range" : "141",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "332"
+  }, {
+    "range" : "140",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "333"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Groundwater_Level",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "Groundwater_Level"
+    },
+    "domain" : "300",
+    "attributes" : [ "datatype" ],
+    "id" : "334"
+  }, {
+    "range" : "139",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "335"
+  }, {
+    "range" : "141",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "336"
+  }, {
+    "range" : "142",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "337"
+  }, {
+    "range" : "140",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "338"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "339"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "340"
+  }, {
+    "range" : "76",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "341"
+  }, {
+    "range" : "14",
+    "domain" : "253",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "342"
+  }, {
+    "range" : "7",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "343"
+  }, {
+    "range" : "14",
+    "domain" : "242",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "344"
+  }, {
+    "range" : "81",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "345"
+  }, {
+    "range" : "14",
+    "domain" : "239",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "346"
+  }, {
+    "range" : "106",
+    "domain" : "213",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "347"
+  }, {
+    "range" : "106",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "348"
+  }, {
+    "range" : "28",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "349"
+  }, {
+    "range" : "106",
+    "domain" : "286",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "350"
+  }, {
+    "range" : "130",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "351"
+  }, {
+    "range" : "130",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "352"
+  }, {
+    "range" : "58",
+    "domain" : "194",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "353"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Attitude_Toward_Project",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "Attitude_Toward_Project"
+    },
+    "domain" : "166",
+    "attributes" : [ "datatype" ],
+    "id" : "354"
+  }, {
+    "range" : "106",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "355"
+  }, {
+    "range" : "7",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "356"
+  }, {
+    "range" : "76",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "357"
+  }, {
+    "range" : "28",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "358"
+  }, {
+    "range" : "81",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "359"
+  }, {
+    "range" : "6",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "360"
+  }, {
+    "range" : "7",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "361"
+  }, {
+    "range" : "81",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "362"
+  }, {
+    "range" : "146",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "363"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Affected_Area_Size",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "135",
+    "label" : {
+      "IRI-based" : "Affected_Area_Size"
+    },
+    "domain" : "174",
+    "attributes" : [ "datatype" ],
+    "id" : "364"
+  }, {
+    "range" : "106",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "365"
+  }, {
+    "range" : "146",
+    "domain" : "154",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "366"
+  }, {
+    "range" : "5",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "367"
+  }, {
+    "range" : "146",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "368"
+  }, {
+    "range" : "146",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "369"
+  }, {
+    "range" : "146",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "370"
+  }, {
+    "range" : "146",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "371"
+  }, {
+    "range" : "146",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "372"
+  }, {
+    "range" : "166",
+    "domain" : "374",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "373"
+  }, {
+    "range" : "166",
+    "domain" : "227",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "375"
+  }, {
+    "range" : "14",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "376"
+  }, {
+    "iri" : "https://w3id.org/cdrio#CausedBy",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "CausedBy"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "range" : "76",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "377"
+  }, {
+    "range" : "28",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "378"
+  }, {
+    "range" : "6",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "379"
+  }, {
+    "range" : "9",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "380"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Permit_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "265",
+    "label" : {
+      "IRI-based" : "Permit_Name"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype" ],
+    "id" : "381"
+  }, {
+    "range" : "7",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "382"
+  }, {
+    "range" : "106",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "383"
+  }, {
+    "range" : "5",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "384"
+  }, {
+    "range" : "73",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "385"
+  }, {
+    "range" : "387",
+    "domain" : "274",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "386"
+  }, {
+    "range" : "1",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "388"
+  }, {
+    "range" : "64",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "389"
+  }, {
+    "range" : "179",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "390"
+  }, {
+    "range" : "387",
+    "domain" : "392",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "391"
+  }, {
+    "range" : "274",
+    "domain" : "392",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "393"
+  }, {
+    "range" : "81",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "394"
+  }, {
+    "range" : "7",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "395"
+  }, {
+    "range" : "7",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "396"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Road_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "245",
+    "label" : {
+      "IRI-based" : "Road_Name"
+    },
+    "domain" : "94",
+    "attributes" : [ "datatype" ],
+    "id" : "397"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "398"
+  }, {
+    "range" : "7",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "399"
+  }, {
+    "range" : "81",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "400"
+  }, {
+    "range" : "81",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "401"
+  }, {
+    "range" : "6",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "402"
+  }, {
+    "range" : "6",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "403"
+  }, {
+    "range" : "76",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "404"
+  }, {
+    "iri" : "https://w3id.org/cdrio#hasResponse",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "hasResponse"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "53"
+  }, {
+    "range" : "7",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "405"
+  }, {
+    "range" : "76",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "406"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Support_for_Project",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "247",
+    "label" : {
+      "IRI-based" : "Support_for_Project"
+    },
+    "domain" : "58",
+    "attributes" : [ "datatype" ],
+    "id" : "407"
+  }, {
+    "range" : "28",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "408"
+  }, {
+    "range" : "81",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "409"
+  }, {
+    "range" : "6",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "410"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Clear_Responsibility",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "Clear_Responsibility"
+    },
+    "domain" : "116",
+    "attributes" : [ "datatype" ],
+    "id" : "411"
+  }, {
+    "iri" : "https://w3id.org/cdrio#hasConsequenceOn",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "183",
+    "label" : {
+      "IRI-based" : "hasConsequenceOn"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "range" : "16",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "412"
+  }, {
+    "range" : "2",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "413"
+  }, {
+    "range" : "24",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "414"
+  }, {
+    "iri" : "https://w3id.org/cdrio#OccuredIn",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "298",
+    "label" : {
+      "IRI-based" : "OccuredIn"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Distance_To_Closest_Activity",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "Distance_To_Closest_Activity"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "415"
+  }, {
+    "iri" : "https://w3id.org/cdrio#hasType",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "hasType"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "104",
+    "attributes" : [ "object", "functional" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Type",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "249",
+    "label" : {
+      "IRI-based" : "Type"
+    },
+    "domain" : "76",
+    "attributes" : [ "datatype" ],
+    "id" : "417"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Artifact_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "145",
+    "label" : {
+      "IRI-based" : "Artifact_Name"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "418"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Magnitude",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "Magnitude"
+    },
+    "domain" : "81",
+    "attributes" : [ "datatype" ],
+    "id" : "419"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Botany_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "Botany_Name"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "420"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Risk_Attitude",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "240",
+    "label" : {
+      "IRI-based" : "Risk_Attitude"
+    },
+    "domain" : "116",
+    "attributes" : [ "datatype" ],
+    "id" : "421"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Cooperation_Level",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "Cooperation_Level"
+    },
+    "domain" : "116",
+    "attributes" : [ "datatype" ],
+    "id" : "422"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Minimum_Winter_Temperature",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "280",
+    "label" : {
+      "IRI-based" : "Minimum_Winter_Temperature"
+    },
+    "domain" : "286",
+    "attributes" : [ "datatype" ],
+    "id" : "423"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "261",
+    "label" : {
+      "IRI-based" : "Name"
+    },
+    "domain" : "6",
+    "attributes" : [ "datatype" ],
+    "id" : "424"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Return_Period",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "259",
+    "label" : {
+      "IRI-based" : "Return_Period"
+    },
+    "domain" : "81",
+    "attributes" : [ "datatype" ],
+    "id" : "425"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Road_Category",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "243",
+    "label" : {
+      "IRI-based" : "Road_Category"
+    },
+    "domain" : "94",
+    "attributes" : [ "datatype" ],
+    "id" : "426"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Purpose",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "254",
+    "label" : {
+      "IRI-based" : "Purpose"
+    },
+    "domain" : "174",
+    "attributes" : [ "datatype" ],
+    "id" : "427"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Location",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "269",
+    "label" : {
+      "IRI-based" : "Project_Location"
+    },
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "428"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Responsible_Agency",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "257",
+    "label" : {
+      "IRI-based" : "Responsible_Agency"
+    },
+    "domain" : "171",
+    "attributes" : [ "datatype" ],
+    "id" : "429"
+  }, {
+    "range" : "104",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "430"
+  }, {
+    "range" : "35",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "431"
+  }, {
+    "range" : "43",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "432"
+  }, {
+    "range" : "154",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "433"
+  }, {
+    "range" : "132",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "434"
+  }, {
+    "range" : "104",
+    "domain" : "183",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "435"
+  }, {
+    "range" : "43",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "436"
+  }, {
+    "range" : "154",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "437"
+  }, {
+    "range" : "132",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "438"
+  }, {
+    "range" : "104",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "439"
+  }, {
+    "range" : "132",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "440"
+  }, {
+    "range" : "123",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "441"
+  }, {
+    "range" : "41",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "442"
+  }, {
+    "range" : "286",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "443"
+  }, {
+    "range" : "213",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "444"
+  }, {
+    "range" : "213",
+    "domain" : "286",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "445"
+  }, {
+    "range" : "183",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "446"
+  }, {
+    "range" : "35",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "447"
+  }, {
+    "range" : "43",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "448"
+  }, {
+    "range" : "154",
+    "domain" : "298",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "449"
+  }, {
+    "range" : "12",
+    "domain" : "416",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "450"
+  }, {
+    "range" : "154",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "451"
+  }, {
+    "range" : "123",
+    "domain" : "416",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "452"
+  }, {
+    "range" : "35",
+    "domain" : "288",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "453"
+  }, {
+    "range" : "194",
+    "domain" : "185",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "454"
+  }, {
+    "range" : "35",
+    "domain" : "291",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "455"
+  }, {
+    "range" : "194",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "456"
+  }, {
+    "range" : "35",
+    "domain" : "294",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "457"
+  }, {
+    "range" : "27",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "458"
+  }, {
+    "range" : "171",
+    "domain" : "387",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "459"
+  }, {
+    "range" : "11",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "460"
+  }, {
+    "range" : "171",
+    "domain" : "274",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "461"
+  }, {
+    "range" : "19",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "462"
+  }, {
+    "range" : "171",
+    "domain" : "392",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "463"
+  }, {
+    "range" : "11",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "464"
+  }, {
+    "range" : "76",
+    "domain" : "300",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "465"
+  }, {
+    "range" : "19",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "466"
+  }, {
+    "range" : "154",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "467"
+  }, {
+    "range" : "19",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "468"
+  }, {
+    "range" : "154",
+    "domain" : "416",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "469"
+  }, {
+    "range" : "126",
+    "domain" : "134",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "470"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "471"
+  }, {
+    "range" : "130",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "472"
+  }, {
+    "range" : "35",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "473"
+  }, {
+    "range" : "57",
+    "domain" : "185",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "474"
+  }, {
+    "range" : "183",
+    "domain" : "215",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "475"
+  }, {
+    "range" : "134",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "476"
+  }, {
+    "range" : "183",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "477"
+  }, {
+    "range" : "126",
+    "domain" : "129",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "478"
+  }, {
+    "range" : "183",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "479"
+  }, {
+    "range" : "122",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "480"
+  }, {
+    "range" : "183",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "481"
+  }, {
+    "range" : "134",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "482"
+  }, {
+    "range" : "183",
+    "domain" : "232",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "483"
+  }, {
+    "range" : "126",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "484"
+  }, {
+    "range" : "35",
+    "domain" : "302",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "485"
+  }, {
+    "range" : "134",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "486"
+  }, {
+    "range" : "35",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "487"
+  }, {
+    "range" : "126",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "488"
+  }, {
+    "range" : "35",
+    "domain" : "284",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "489"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Breed_in_Project_Area",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "Breed_in_Project_Area"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "490"
+  }, {
+    "range" : "302",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "491"
+  }, {
+    "range" : "294",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "492"
+  }, {
+    "range" : "288",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "493"
+  }, {
+    "range" : "291",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "494"
+  }, {
+    "range" : "284",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "495"
+  }, {
+    "range" : "34",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "496"
+  }, {
+    "range" : "302",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "497"
+  }, {
+    "range" : "294",
+    "domain" : "307",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "498"
+  }, {
+    "range" : "374",
+    "domain" : "227",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "499"
+  }, {
+    "range" : "307",
+    "domain" : "147",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "500"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Maximum_Winter_Temperature",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "278",
+    "label" : {
+      "IRI-based" : "Maximum_Winter_Temperature"
+    },
+    "domain" : "286",
+    "attributes" : [ "datatype" ],
+    "id" : "501"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Project_Name",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "271",
+    "label" : {
+      "IRI-based" : "Project_Name"
+    },
+    "domain" : "298",
+    "attributes" : [ "datatype" ],
+    "id" : "502"
+  }, {
+    "iri" : "https://w3id.org/cdrio#Maximum_Wind_Speed",
+    "baseIri" : "https://w3id.org/cdrio",
+    "range" : "276",
+    "label" : {
+      "IRI-based" : "Maximum_Wind_Speed"
+    },
+    "domain" : "213",
+    "attributes" : [ "datatype" ],
+    "id" : "503"
   } ]
 }

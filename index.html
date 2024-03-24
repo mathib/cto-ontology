@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
- <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>CTO: Construction Tasks Ontology</title>
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />    <title>CDRIO: Contect-Driven Risk Identification Ontology</title>
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/cto","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/cto","name":"CTO: Construction Tasks Ontology", "headline":"- Version 0.0.1: initial version", "datePublished":"Fri Dec 18 20:48:51 CET 2020", "version":"0.0.1", "license":"https://creativecommons.org/licenses/by/4.0/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/cdrio","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/cdrio","name":"CDRIO: Contect-Driven Risk Identification Ontology", "headline":"The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project", "datePublished":"Thu Mar 23 01:27:30 MDT 2023", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Emad Mohamed"},{"@type":"Person","name":"Dr. Simaan AbouRizk"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -58,21 +58,19 @@ function loadTOC(){
 <body>
 <div class="container">
 <div class="head">
-<div style="float:right">language <a href="index.html"><b>en</b></a> </div>
-<h1>CTO: Construction Tasks Ontology</h1>
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>CDRIO: Context-Driven Risk Identification Ontology</h1>
 
 
 <dl>
 <dt>Latest version:</dt>
-<dd><a href="https://w3id.org/cto">https://w3id.org/cto</a></dd>
-<dt>Revision:</dt>
-<dd>0.0.1</dd>
+<dd><a href="https://w3id.org/cdrio">https://w3id.org/cdrio</a></dd>
 <dt>Authors:</dt>
-<dd><a href="https://www.researchgate.net/profile/Mathias_Bonduel">Mathias Bonduel</a> (KU Leuven)</dd>
-<dt>Download serialization:</dt><dd><span><a href="ontology.json" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License: </dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
+<dd>Emad Mohamed, University of Alberta<a href="mailto:ehmohame@ualberta.ca">&#9993;</a></dd><dd>Dr. Simaan AbouRizk, University of Alberta</dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.rdf" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-CreativeCommons-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
-<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/OOPSeval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> -->
-</dl>
+<!-- <dt>Evaluation:</dt><dd><a href="OOPSEvaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd> --></dl>
 
 <hr/>
 </div>
@@ -83,9 +81,11 @@ function loadTOC(){
 </div>     <div id="abstract"></div>
 <div id="toc"></div>     <div id="introduction"></div>
      <div id="overview"></div>
+     <div id="description"></div>
      <div id="crossref"></div>
-<div id="acknowledgements">
-<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+     <div id="references"></div>
+<div id="acknowledgments">
+<h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>
 The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
 </div>

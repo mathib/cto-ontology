@@ -1,198 +1,1037 @@
-# baseURI: https://w3id.org/cto
-# prefix: cto
-
-@prefix : <https://w3id.org/cto#> .
-@prefix bot: <https://w3id.org/bot#> .
-@prefix cc: <http://creativecommons.org/ns#> .
-@prefix contax: <https://w3id.org/con-tax#> .
-@prefix cto: <https://w3id.org/cto#> .
-@prefix dbr: <http://dbpedia.org/resource/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix dot: <https://w3id.org/dot#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <https://w3id.org/cdrio#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema: <http://schema.org/> .
-@prefix vann: <http://purl.org/vocab/vann/> .
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
-@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/cdrio#> .
 
-schema:domainIncludes
-  rdf:type rdf:Property ;
-.
-schema:rangeIncludes
-  rdf:type owl:AnnotationProperty ;
-.
-bot:Element
-  rdf:type owl:Class ;
-.
-bot:Zone
-  rdf:type owl:Class ;
-.
-<https://w3id.org/cto>
-  rdf:type voaf:Vocabulary ;
-  rdf:type owl:Ontology ;
-  cc:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dct:creator [
-      rdf:type vcard:Individual ;
-      vcard:family-name "Bonduel" ;
-      vcard:fn "Mathias Bonduel" ;
-      vcard:given-name "Mathias" ;
-      vcard:hasOrganizationName [
-          rdf:type vcard:Organization ;
-          owl:sameAs dbr:Katholieke_Universiteit_Leuven ;
-          vcard:hasURL <https://www.kuleuven.be> ;
-          vcard:organization-name "KU Leuven" ;
-        ] ;
-      vcard:hasURL <https://orcid.org/0000-0002-3313-924X> ;
-      vcard:hasURL <https://www.kuleuven.be/wieiswie/nl/person/00110827> ;
-      vcard:hasURL <https://www.researchgate.net/profile/Mathias_Bonduel> ;
-    ] ;
-  dct:description """The Construction Tasks Ontology (CTO) describes tasks operating on construction elements, spatial zones and/or damages.  The tasks are either planned or executed depending on the dataset metadata context of the dataset its used in. Five different types of tasks are defined: instalment, removal, modification, repair and inspection. 
-Consequences of tasks on the dataset, i.e. added and/or deleted triples, are modeled using reified statements. The tasks can link to a reified statement using the CTO relations."""@en ;
-  dct:issued "2020-12-18"^^xsd:date ;
-  dct:title "CTO: Construction Tasks Ontology"@en ;
-  vann:preferredNamespacePrefix "cto" ;
-  vann:preferredNamespaceUri "https://w3id.org/cto#" ;
-  rdfs:comment "- Version 0.0.1: initial version"@en ;
-  owl:versionInfo "0.0.1" ;
-.
-cto:InspectionTask
-  rdf:type owl:Class ;
-  rdfs:comment "A specialized type of a (planned or executed) construction task that indicates that a construction element, spatial zone and/or damage are inspected. When a construction component or spatial zone is inspected and a damage is detected, the result of the inspection task is the damage description connected to the inspected object. Note that existing known damage, e.g. covered by previous inspections, can be the subject of subsequent inspection tasks."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "an inspection task"@en ;
-  rdfs:subClassOf cto:Task ;
-.
-cto:InstallmentTask
-  rdf:type owl:Class ;
-  rdfs:comment "A specialized type of a (planned or executed) construction task that physically installs a construction component as part of the construction. The installment results in the addition of asserted triple(s) connecting the installed object to other construction elements and/or spatial zones and other triples describing the object through classification, properties and/or geometry."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "an installment task"@en ;
-  rdfs:subClassOf cto:Task ;
-.
-cto:ModificationTask
-  rdf:type owl:Class ;
-  rdfs:comment "A specialized type of a (planned or executed) construction task that physically modifies a construction component, spatial zone or damage. The modification results in a change to one or more properties and/or geometry descriptions of the modified subject. It should not be used to repair a damaged construction element or spatial zone as cto:RepairTask should be used instead."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "a modification task"@en ;
-  rdfs:subClassOf cto:Task ;
-.
-cto:RemovalTask
-  rdf:type owl:Class ;
-  rdfs:comment "A specialized type of a (planned or executed) construction task that physically removes a construction component from the construction. The removal results in the removal of all the (directly or indirectly) asserted triples related to the thing that is subject of this task, including triples that use terminology from BOT (building topology), DOT (damage topology), OMG/FOG (geometry, properties, etc."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "a removal task"@en ;
-  rdfs:subClassOf cto:Task ;
-.
-cto:RepairTask
-  rdf:type owl:Class ;
-  rdfs:comment "A specialized type of a (planned or executed) construction task that repairs a damaged construction element or spatial zone. The subjects of this type of task are construction damages. Depending on the degree of modeling, a repair task can either directly result in the lifting of a damage (and its influence on properties of the damaged object) or subtasks can be defined e.g. to remove a damaged construction component and replace it by a new one."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "a repair task"@en ;
-  rdfs:subClassOf cto:Task ;
-.
-cto:Task
-  rdf:type owl:Class ;
-  rdfs:comment "A generic class for defining (planned or executed) construction tasks. Instances of this class are connected with the construction element(s), spatial zone(s) or construction damages they operate on (cto:isSubjectOfTask). In addition, they might also be linked to a (planned or executed) moment or time span of performance (prov:atTime/prov:startedAtTime/prov:endedAtTime) and one or more task contexts (cto:hasTaskContext), task methods (cto:hasTaskMethod), assigned persons and/or organizations (prov:wasAssociatedWith), other tasks that must be finalized before the task can start (cto:afterFinishedTask) and reified statements that are added or deleted (cto:resultsInAddedStatement or cto:resultsInDeletedStatement)."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "a construction task"@en ;
-.
-cto:TaskContext
-  rdf:type owl:Class ;
-  rdfs:comment "A task context allows to group certain tasks that are related. Examples are tasks that fall under the responsibility of a certain organization, tasks grouped per activity or project (e.g. inspections, demolition, construction, etc.), work item (cost estimation) or a larger task that can be subdivided in smaller tasks."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "a task context"@en ;
-.
-cto:TaskMethod
-  rdf:type owl:Class ;
-  rdfs:comment "A task method description defines how a task should be or was executed, depending on the construction dataset context (planning or progress monitoring). The cto:hasTaskMethod property connects a task to instances of this class that in turn point to a task method described in text using the cto:hasSimpleTaskMethodDescription. If RDF-based task method descriptions are applied instead of text, they can be connected using cto:hasComplexTaskMethodDescription."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "a task (execution) method"@en ;
-.
-cto:afterFinishedTask
-  rdf:type owl:ObjectProperty ;
-  rdfs:comment "Connects the subject task to one ore more other tasks have to be finished before it is allowed to start."@en ;
-  rdfs:domain cto:Task ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "after finished task"@en ;
-  rdfs:range cto:Task ;
-.
-cto:hasComplexTaskMethodDescription
-  rdf:type owl:ObjectProperty ;
-  rdfs:comment """Property to connect a certain construction task (cto:Task) to the topnode of an RDF-based description of a task method. 
-Depending on the property level used, this property get's a different location. In case of L1, a task is directly connected with the task method description. When using L2, a task is first connected to an intermediate property node via cp:hasTaskMethod. The intermediate node is then connected using cp:hasComplexTaskMethodDescription. In case of L3, the first intermediate node from L2 receives an outgoing opm:hasPropertyState property. The property state node is then connected to the task method description using cp:hasComplexTaskMethodDescrription. A task method description contains a step-by-step description of the procedure, used materials and equipment."""@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "has complex task method description"@en ;
-.
-cto:hasSimpleTaskMethodDescription
-  rdf:type owl:DatatypeProperty ;
-  schema:rangeIncludes rdf:langString ;
-  schema:rangeIncludes xsd:anyURI ;
-  schema:rangeIncludes xsd:base64Binary ;
-  schema:rangeIncludes xsd:hexBinary ;
-  schema:rangeIncludes xsd:string ;
-  rdfs:comment "Property to connect a construction task method node to an RDF literal containing either a text description for human interpretation (rdf:langString with language tag) and/or embedded or referenced file content (diagrams, movies, webpages, etc.). In case of a referenced external file, the literal contain the reference is of datatype xsd:anyURI. When the content of a file is embedded in the literal and file format is text-based the xsd:string datatype is used. If the file format is binary, a binary-to-text encoded version is located inside the RDF literal combined with a datatype to indicate the encoding scheme (xsd:base64Binary, xsd:hexBinary, or a custom datatype for other encoding schemes)."@en ;
-  rdfs:domain cto:TaskMethod ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "has simple task method description"@en ;
-.
-cto:hasTaskContext
-  rdf:type owl:ObjectProperty ;
-  rdfs:comment "Connects a task to a task context that forms a group of tasks with shared properties."@en ;
-  rdfs:domain cto:Task ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "has task context"@en ;
-  rdfs:range cto:TaskContext ;
-.
-cto:hasTaskMethod
-  rdf:type owl:ObjectProperty ;
-  rdfs:comment "Property to connect a certain construction task (cto:Task) to an intermediate property node when applied on property level 2 or 3. The intermediate property node then connects to a task method description directly using cto:hasSimpleTaskMethodDescription or cto:hasComplexTaskMethodDescription (L2) or to a property state using opm:hasPropertyState (L3) to indicate a versioned task method description connected using cto:hasSimpleTaskMethodDescription or cto:hasComplexTaskMethodDescription. A task method description contains a step-by-step description of the procedure, used materials and equipment."@en ;
-  rdfs:domain cto:Task ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "has task method"@en ;
-.
-cto:isSubjectOfTask
-  rdf:type owl:ObjectProperty ;
-  schema:domainIncludes bot:Element ;
-  schema:domainIncludes bot:Zone ;
-  schema:domainIncludes dot:Damage ;
-  rdfs:comment "Connects a construction component (e.g. bot:Element instance), a spatial zone (e.g. bot:Zone instance) or a construction damage (e.g. dot:Damage instance) to a (planned or executed) task that is related to it."@en ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "is subject of task"@en ;
-  rdfs:range cto:Task ;
-.
-cto:resultsInAddedStatement
-  rdf:type owl:ObjectProperty ;
-  rdfs:comment "Connects a (planned or executed) task to a reified statement that is added to the construction description as a result of the task."@en ;
-  rdfs:domain cto:Task ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "results in added statement"@en ;
-  rdfs:range rdf:Statement ;
-  rdfs:subPropertyOf cto:resultsInStatement ;
-.
-cto:resultsInDeletedStatement
-  rdf:type owl:ObjectProperty ;
-  rdfs:comment "Connects a (planned or executed) task to a reified statement that is deleted from the construction description as a result of the task."@en ;
-  rdfs:domain cto:Task ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "results in deleted statement"@en ;
-  rdfs:range rdf:Statement ;
-  rdfs:subPropertyOf cto:resultsInStatement ;
-.
-cto:resultsInStatement
-  rdf:type owl:ObjectProperty ;
-  rdfs:comment "Connects a (planned or executed) task to a reified statement that is either added or deleted as a result of the task. The subproperties of this property (cto:resultsInAddedStatement and cto:resultsInDeletedStatement) should be used to express the consequence of the task to the statement. A cto:InstalmentTask and dot:Inspection task typically result in the use of cto:resultsInAddedStatement, a cto:RemovalTask typically results in the use of cto:resultsInDeletedStatement while a cto:ModificationTask results in the use of cto:resultsInAddedStatement and/or cto:resultsInDeletedStatement."@en ;
-  rdfs:domain cto:Task ;
-  rdfs:isDefinedBy <https://w3id.org/cto> ;
-  rdfs:label "results in statement"@en ;
-  rdfs:range rdf:Statement ;
-.
-dot:Damage
-  rdf:type owl:Class ;
-.
-dot:Inspection
-  rdf:type owl:Class ;
-.
+<https://w3id.org/cdrio> rdf:type owl:Ontology ;
+                          rdfs:comment "The risk ontology is a structured method for knowldge representation to support context-oriented risk identification when identifying the risk factors of onshore wind farm project" .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/cdrio#Cause
+:Cause rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty ;
+       owl:inverseOf :CausedBy ;
+       rdfs:domain :Risk_Driver ;
+       rdfs:range :Risk_Factor .
+
+
+###  https://w3id.org/cdrio#CausedBy
+:CausedBy rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Risk_Factor ;
+          rdfs:range :Risk_Driver .
+
+
+###  https://w3id.org/cdrio#OccuredIn
+:OccuredIn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Risk_Factor ;
+           rdfs:range :Project .
+
+
+###  https://w3id.org/cdrio#hasConsequenceOn
+:hasConsequenceOn rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :Risk_Factor ;
+                  rdfs:range :Project_Objective .
+
+
+###  https://w3id.org/cdrio#hasEffectOn
+:hasEffectOn rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Risk_Factor ;
+             rdfs:range :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#hasResponse
+:hasResponse rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Risk_Factor ;
+             rdfs:range :Response_Strategy .
+
+
+###  https://w3id.org/cdrio#hasType
+:hasType rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain :Risk_Factor ;
+         rdfs:range :Risk_Classification .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/cdrio#Affected_Area_Size
+:Affected_Area_Size rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :Land_Use ;
+                    rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Approval_Status
+:Approval_Status rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Regulatory ;
+                 rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/cdrio#Artifact_Name
+:Artifact_Name rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Archaeological_Heritage ;
+               rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Attitude_Toward_Project
+:Attitude_Toward_Project rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain :Social ;
+                         rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Average_Daily_Traffic
+:Average_Daily_Traffic rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:domain :Artificial_Road_Railway ;
+                       rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Average_Rainfall
+:Average_Rainfall rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Precipitation ;
+                  rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Average_Snowfall
+:Average_Snowfall rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Precipitation ;
+                  rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Average_Wind_Speed
+:Average_Wind_Speed rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :Wind ;
+                    rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Average_Winter_Temperature
+:Average_Winter_Temperature rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf owl:topDataProperty ;
+                            rdfs:domain :Temperature ;
+                            rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Botany_Name
+:Botany_Name rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Natural_Botany ;
+             rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Breed_in_Project_Area
+:Breed_in_Project_Area rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:domain :Natural_Zoology ;
+                       rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/cdrio#Clear_Responsibility
+:Clear_Responsibility rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Organizational_Structure ;
+                      rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/cdrio#Closest_Construction_Activity
+:Closest_Construction_Activity rdf:type owl:DatatypeProperty ;
+                               rdfs:subPropertyOf owl:topDataProperty ;
+                               rdfs:domain [ rdf:type owl:Class ;
+                                             owl:unionOf ( :Archaeological_Heritage
+                                                           :Artificial_Existing_Building
+                                                           :Artificial_Utility
+                                                           :Natural_Botany
+                                                           :Natural_Hydrography
+                                                           :Natural_Zoology
+                                                         )
+                                           ] ;
+                               rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Consultation_Participation
+:Consultation_Participation rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf owl:topDataProperty ;
+                            rdfs:domain :Social ;
+                            rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/cdrio#Cooperation_Level
+:Cooperation_Level rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :Organizational_Structure ;
+                   rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Distance_To_Closest_Activity
+:Distance_To_Closest_Activity rdf:type owl:DatatypeProperty ;
+                              rdfs:subPropertyOf owl:topDataProperty ;
+                              rdfs:domain [ rdf:type owl:Class ;
+                                            owl:unionOf ( :Archaeological_Heritage
+                                                          :Artificial_Existing_Building
+                                                          :Artificial_Utility
+                                                          :Natural_Botany
+                                                          :Natural_Hydrography
+                                                          :Natural_Zoology
+                                                        )
+                                          ] ;
+                              rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Groundwater_Level
+:Groundwater_Level rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :Soil ;
+                   rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Heritage_Significance
+:Heritage_Significance rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:domain [ rdf:type owl:Class ;
+                                     owl:unionOf ( :Archaeological_Heritage
+                                                   :Artificial_Existing_Building
+                                                 )
+                                   ] ;
+                       rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/cdrio#Magnitude
+:Magnitude rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Natural_Seismicity ;
+           rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Maximum_Rainfall
+:Maximum_Rainfall rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Precipitation ;
+                  rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Maximum_Snowfall
+:Maximum_Snowfall rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Precipitation ;
+                  rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Maximum_Wind_Speed
+:Maximum_Wind_Speed rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :Wind ;
+                    rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Maximum_Winter_Temperature
+:Maximum_Winter_Temperature rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf owl:topDataProperty ;
+                            rdfs:domain :Temperature ;
+                            rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Minimum_Winter_Temperature
+:Minimum_Winter_Temperature rdf:type owl:DatatypeProperty ;
+                            rdfs:subPropertyOf owl:topDataProperty ;
+                            rdfs:domain :Temperature ;
+                            rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Name
+:Name rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :Natural_Hydrography ;
+      rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Overall_Stability
+:Overall_Stability rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :Politic ;
+                   rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/cdrio#Permit_Name
+:Permit_Name rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Regulatory ;
+             rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Project_Duration
+:Project_Duration rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Project ;
+                  rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Project_Location
+:Project_Location rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Project ;
+                  rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Project_Name
+:Project_Name rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Project ;
+              rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Project_Size
+:Project_Size rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Project ;
+              rdfs:range xsd:float .
+
+
+###  https://w3id.org/cdrio#Purpose
+:Purpose rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Land_Use ;
+         rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Response_Description
+:Response_Description rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :Response_Strategy ;
+                      rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Responsible_Agency
+:Responsible_Agency rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :Regulatory ;
+                    rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Return_Period
+:Return_Period rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Natural_Seismicity ;
+               rdfs:range xsd:integer .
+
+
+###  https://w3id.org/cdrio#Risk_Attitude
+:Risk_Attitude rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Organizational_Structure ;
+               rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Road_Category
+:Road_Category rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Artificial_Road_Railway ;
+               rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Road_Name
+:Road_Name rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Artificial_Road_Railway ;
+           rdfs:range xsd:string .
+
+
+###  https://w3id.org/cdrio#Support_for_Project
+:Support_for_Project rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdfs:domain :Politic ;
+                     rdfs:range xsd:boolean .
+
+
+###  https://w3id.org/cdrio#Type
+:Type rdf:type owl:DatatypeProperty ;
+      rdfs:subPropertyOf owl:topDataProperty ;
+      rdfs:domain :Natural_Geology ;
+      rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/cdrio#Aboriginal_Community
+:Aboriginal_Community rdf:type owl:Class ;
+                      rdfs:subClassOf :Social ;
+                      owl:disjointWith :Local_Community .
+
+
+###  https://w3id.org/cdrio#Affected_Collection_System
+:Affected_Collection_System rdf:type owl:Class ;
+                            rdfs:subClassOf :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#Affected_Commissioning
+:Affected_Commissioning rdf:type owl:Class ;
+                        rdfs:subClassOf :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#Affected_Foundation
+:Affected_Foundation rdf:type owl:Class ;
+                     rdfs:subClassOf :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#Affected_PreConstruction_Work
+:Affected_PreConstruction_Work rdf:type owl:Class ;
+                               rdfs:subClassOf :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#Affected_Site_Preparation
+:Affected_Site_Preparation rdf:type owl:Class ;
+                           rdfs:subClassOf :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#Affected_Site_Rehabilitation
+:Affected_Site_Rehabilitation rdf:type owl:Class ;
+                              rdfs:subClassOf :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#Affected_Turbine_Assembly
+:Affected_Turbine_Assembly rdf:type owl:Class ;
+                           rdfs:subClassOf :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#Affected_Turbine_Delivery
+:Affected_Turbine_Delivery rdf:type owl:Class ;
+                           rdfs:subClassOf :Project_Workpackage .
+
+
+###  https://w3id.org/cdrio#Amphibian
+:Amphibian rdf:type owl:Class ;
+           rdfs:subClassOf :Natural_Zoology .
+
+
+###  https://w3id.org/cdrio#Archaeological_Heritage
+:Archaeological_Heritage rdf:type owl:Class ;
+                         rdfs:subClassOf :Natural_Designated_Area ;
+                         owl:disjointWith :Land_Use .
+
+
+###  https://w3id.org/cdrio#Artificial_Existing_Building
+:Artificial_Existing_Building rdf:type owl:Class ;
+                              rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Artificial_Road_Railway
+:Artificial_Road_Railway rdf:type owl:Class ;
+                         rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Artificial_Utility
+:Artificial_Utility rdf:type owl:Class ;
+                    rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Birds
+:Birds rdf:type owl:Class ;
+       rdfs:subClassOf :Natural_Zoology .
+
+
+###  https://w3id.org/cdrio#Cables
+:Cables rdf:type owl:Class ;
+        rdfs:subClassOf :Artificial_Utility ;
+        owl:disjointWith :Pipelines .
+
+
+###  https://w3id.org/cdrio#Canadian_Federal_Legislations
+:Canadian_Federal_Legislations rdf:type owl:Class ;
+                               rdfs:subClassOf :Regulatory .
+
+
+###  https://w3id.org/cdrio#Collection_System
+:Collection_System rdf:type owl:Class ;
+                   rdfs:subClassOf :Processes .
+
+
+###  https://w3id.org/cdrio#Commissioning
+:Commissioning rdf:type owl:Class ;
+               rdfs:subClassOf :Processes .
+
+
+###  https://w3id.org/cdrio#Consultants
+:Consultants rdf:type owl:Class ;
+             rdfs:subClassOf :Organizational_Structure .
+
+
+###  https://w3id.org/cdrio#Consumer_Price_Index
+:Consumer_Price_Index rdf:type owl:Class ;
+                      rdfs:subClassOf :Economic .
+
+
+###  https://w3id.org/cdrio#Contractor
+:Contractor rdf:type owl:Class ;
+            rdfs:subClassOf :Organizational_Structure .
+
+
+###  https://w3id.org/cdrio#Cost_Objective
+:Cost_Objective rdf:type owl:Class ;
+                rdfs:subClassOf :Project_Objective .
+
+
+###  https://w3id.org/cdrio#Earthquakes
+:Earthquakes rdf:type owl:Class ;
+             rdfs:subClassOf :Natural_Seismicity .
+
+
+###  https://w3id.org/cdrio#Economic
+:Economic rdf:type owl:Class ;
+          rdfs:subClassOf :External_Project_Environment .
+
+
+###  https://w3id.org/cdrio#Environmental_Objective
+:Environmental_Objective rdf:type owl:Class ;
+                         rdfs:subClassOf :Project_Objective .
+
+
+###  https://w3id.org/cdrio#Environmental_Related_Risk
+:Environmental_Related_Risk rdf:type owl:Class ;
+                            rdfs:subClassOf :Local_External_Risk .
+
+
+###  https://w3id.org/cdrio#Exchange_Rate
+:Exchange_Rate rdf:type owl:Class ;
+               rdfs:subClassOf :Economic .
+
+
+###  https://w3id.org/cdrio#External_Project_Environment
+:External_Project_Environment rdf:type owl:Class ;
+                              rdfs:subClassOf :Risk_Driver ;
+                              owl:disjointWith :Internal_Project_Environment .
+
+
+###  https://w3id.org/cdrio#Federal_Government
+:Federal_Government rdf:type owl:Class ;
+                    rdfs:subClassOf :Politic .
+
+
+###  https://w3id.org/cdrio#Financial_Project_Risk
+:Financial_Project_Risk rdf:type owl:Class ;
+                        rdfs:subClassOf :Internal_Risk_Factor .
+
+
+###  https://w3id.org/cdrio#Financial_Related_Risk
+:Financial_Related_Risk rdf:type owl:Class ;
+                        rdfs:subClassOf :Local_External_Risk .
+
+
+###  https://w3id.org/cdrio#First_Nations
+:First_Nations rdf:type owl:Class ;
+               rdfs:subClassOf :Organizational_Structure .
+
+
+###  https://w3id.org/cdrio#Fish
+:Fish rdf:type owl:Class ;
+      rdfs:subClassOf :Natural_Zoology .
+
+
+###  https://w3id.org/cdrio#Foundations
+:Foundations rdf:type owl:Class ;
+             rdfs:subClassOf :Processes .
+
+
+###  https://w3id.org/cdrio#Global_External_Risk
+:Global_External_Risk rdf:type owl:Class ;
+                      rdfs:subClassOf :Risk_Classification .
+
+
+###  https://w3id.org/cdrio#Inflation
+:Inflation rdf:type owl:Class ;
+           rdfs:subClassOf :Economic .
+
+
+###  https://w3id.org/cdrio#Insect
+:Insect rdf:type owl:Class ;
+        rdfs:subClassOf :Natural_Zoology .
+
+
+###  https://w3id.org/cdrio#Interest_Rate
+:Interest_Rate rdf:type owl:Class ;
+               rdfs:subClassOf :Economic .
+
+
+###  https://w3id.org/cdrio#Internal_Project_Environment
+:Internal_Project_Environment rdf:type owl:Class ;
+                              rdfs:subClassOf :Risk_Driver .
+
+
+###  https://w3id.org/cdrio#Internal_Risk_Factor
+:Internal_Risk_Factor rdf:type owl:Class ;
+                      rdfs:subClassOf :Risk_Classification .
+
+
+###  https://w3id.org/cdrio#Labour_Conditions
+:Labour_Conditions rdf:type owl:Class ;
+                   rdfs:subClassOf :Economic .
+
+
+###  https://w3id.org/cdrio#Land_Use
+:Land_Use rdf:type owl:Class ;
+          rdfs:subClassOf :Natural_Designated_Area .
+
+
+###  https://w3id.org/cdrio#Legal_Related_Risks
+:Legal_Related_Risks rdf:type owl:Class ;
+                     rdfs:subClassOf :Local_External_Risk .
+
+
+###  https://w3id.org/cdrio#Local_Community
+:Local_Community rdf:type owl:Class ;
+                 rdfs:subClassOf :Social .
+
+
+###  https://w3id.org/cdrio#Local_External_Risk
+:Local_External_Risk rdf:type owl:Class ;
+                     rdfs:subClassOf :Risk_Classification .
+
+
+###  https://w3id.org/cdrio#Mammals
+:Mammals rdf:type owl:Class ;
+         rdfs:subClassOf :Natural_Zoology .
+
+
+###  https://w3id.org/cdrio#Managerial_Related_Risk
+:Managerial_Related_Risk rdf:type owl:Class ;
+                         rdfs:subClassOf :Internal_Risk_Factor .
+
+
+###  https://w3id.org/cdrio#Muncipal
+:Muncipal rdf:type owl:Class ;
+          rdfs:subClassOf :Politic .
+
+
+###  https://w3id.org/cdrio#Muncipality_ByLaw
+:Muncipality_ByLaw rdf:type owl:Class ;
+                   rdfs:subClassOf :Regulatory .
+
+
+###  https://w3id.org/cdrio#Natural_Botany
+:Natural_Botany rdf:type owl:Class ;
+                rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Natural_Climate
+:Natural_Climate rdf:type owl:Class ;
+                 rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Natural_Designated_Area
+:Natural_Designated_Area rdf:type owl:Class ;
+                         rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Natural_Geology
+:Natural_Geology rdf:type owl:Class ;
+                 rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Natural_Hydrography
+:Natural_Hydrography rdf:type owl:Class ;
+                     rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Natural_Seismicity
+:Natural_Seismicity rdf:type owl:Class ;
+                    rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Natural_Zoology
+:Natural_Zoology rdf:type owl:Class ;
+                 rdfs:subClassOf :Physical .
+
+
+###  https://w3id.org/cdrio#Onshore_Wind_Farm_Risk_Identification
+:Onshore_Wind_Farm_Risk_Identification rdf:type owl:Class ;
+                                       rdfs:subClassOf owl:Thing .
+
+
+###  https://w3id.org/cdrio#Organizational_Structure
+:Organizational_Structure rdf:type owl:Class ;
+                          rdfs:subClassOf :Internal_Project_Environment ;
+                          owl:disjointWith :Processes .
+
+
+###  https://w3id.org/cdrio#Owner
+:Owner rdf:type owl:Class ;
+       rdfs:subClassOf :Organizational_Structure .
+
+
+###  https://w3id.org/cdrio#Physical
+:Physical rdf:type owl:Class ;
+          rdfs:subClassOf :External_Project_Environment .
+
+
+###  https://w3id.org/cdrio#Pipelines
+:Pipelines rdf:type owl:Class ;
+           rdfs:subClassOf :Artificial_Utility .
+
+
+###  https://w3id.org/cdrio#Politic
+:Politic rdf:type owl:Class ;
+         rdfs:subClassOf :External_Project_Environment .
+
+
+###  https://w3id.org/cdrio#Political_Related_Risk
+:Political_Related_Risk rdf:type owl:Class ;
+                        rdfs:subClassOf :Local_External_Risk .
+
+
+###  https://w3id.org/cdrio#PreConstruction_Work
+:PreConstruction_Work rdf:type owl:Class ;
+                      rdfs:subClassOf :Processes .
+
+
+###  https://w3id.org/cdrio#Precipitation
+:Precipitation rdf:type owl:Class ;
+               rdfs:subClassOf :Natural_Climate .
+
+
+###  https://w3id.org/cdrio#Processes
+:Processes rdf:type owl:Class ;
+           rdfs:subClassOf :Internal_Project_Environment .
+
+
+###  https://w3id.org/cdrio#Project
+:Project rdf:type owl:Class ;
+         rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
+
+
+###  https://w3id.org/cdrio#Project_Objective
+:Project_Objective rdf:type owl:Class ;
+                   rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
+
+
+###  https://w3id.org/cdrio#Project_Workpackage
+:Project_Workpackage rdf:type owl:Class ;
+                     rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
+
+
+###  https://w3id.org/cdrio#Provincial_Government
+:Provincial_Government rdf:type owl:Class ;
+                       rdfs:subClassOf :Politic .
+
+
+###  https://w3id.org/cdrio#Provincial_Legislations
+:Provincial_Legislations rdf:type owl:Class ;
+                         rdfs:subClassOf :Regulatory .
+
+
+###  https://w3id.org/cdrio#Quality_Objective
+:Quality_Objective rdf:type owl:Class ;
+                   rdfs:subClassOf :Project_Objective .
+
+
+###  https://w3id.org/cdrio#Regulatory
+:Regulatory rdf:type owl:Class ;
+            rdfs:subClassOf :External_Project_Environment .
+
+
+###  https://w3id.org/cdrio#Reptiles
+:Reptiles rdf:type owl:Class ;
+          rdfs:subClassOf :Natural_Zoology .
+
+
+###  https://w3id.org/cdrio#Response_Strategy
+:Response_Strategy rdf:type owl:Class ;
+                   rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
+
+
+###  https://w3id.org/cdrio#Risk_Acceptance
+:Risk_Acceptance rdf:type owl:Class ;
+                 rdfs:subClassOf :Response_Strategy .
+
+
+###  https://w3id.org/cdrio#Risk_Classification
+:Risk_Classification rdf:type owl:Class ;
+                     rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
+
+
+###  https://w3id.org/cdrio#Risk_Driver
+:Risk_Driver rdf:type owl:Class ;
+             rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification .
+
+
+###  https://w3id.org/cdrio#Risk_Eliminaion
+:Risk_Eliminaion rdf:type owl:Class ;
+                 rdfs:subClassOf :Response_Strategy .
+
+
+###  https://w3id.org/cdrio#Risk_Factor
+:Risk_Factor rdf:type owl:Class ;
+             rdfs:subClassOf :Onshore_Wind_Farm_Risk_Identification ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :CausedBy ;
+                               owl:someValuesFrom :Risk_Driver
+                             ] .
+
+
+###  https://w3id.org/cdrio#Risk_Reduction
+:Risk_Reduction rdf:type owl:Class ;
+                rdfs:subClassOf :Response_Strategy .
+
+
+###  https://w3id.org/cdrio#Risk_Retention
+:Risk_Retention rdf:type owl:Class ;
+                rdfs:subClassOf :Response_Strategy .
+
+
+###  https://w3id.org/cdrio#Risk_Transfer
+:Risk_Transfer rdf:type owl:Class ;
+               rdfs:subClassOf :Response_Strategy .
+
+
+###  https://w3id.org/cdrio#Safety_Objective
+:Safety_Objective rdf:type owl:Class ;
+                  rdfs:subClassOf :Project_Objective .
+
+
+###  https://w3id.org/cdrio#Site_Preparation
+:Site_Preparation rdf:type owl:Class ;
+                  rdfs:subClassOf :Processes .
+
+
+###  https://w3id.org/cdrio#Site_Rehabilitation
+:Site_Rehabilitation rdf:type owl:Class ;
+                     rdfs:subClassOf :Processes .
+
+
+###  https://w3id.org/cdrio#Site_Related_Risk
+:Site_Related_Risk rdf:type owl:Class ;
+                   rdfs:subClassOf :Internal_Risk_Factor .
+
+
+###  https://w3id.org/cdrio#Social
+:Social rdf:type owl:Class ;
+        rdfs:subClassOf :External_Project_Environment .
+
+
+###  https://w3id.org/cdrio#Social_Related_Risk
+:Social_Related_Risk rdf:type owl:Class ;
+                     rdfs:subClassOf :Local_External_Risk .
+
+
+###  https://w3id.org/cdrio#Soil
+:Soil rdf:type owl:Class ;
+      rdfs:subClassOf :Natural_Geology .
+
+
+###  https://w3id.org/cdrio#Technical_Related_Risk
+:Technical_Related_Risk rdf:type owl:Class ;
+                        rdfs:subClassOf :Internal_Risk_Factor .
+
+
+###  https://w3id.org/cdrio#Temperature
+:Temperature rdf:type owl:Class ;
+             rdfs:subClassOf :Natural_Climate .
+
+
+###  https://w3id.org/cdrio#Time_Objective
+:Time_Objective rdf:type owl:Class ;
+                rdfs:subClassOf :Project_Objective .
+
+
+###  https://w3id.org/cdrio#Turbine_Assembly
+:Turbine_Assembly rdf:type owl:Class ;
+                  rdfs:subClassOf :Processes .
+
+
+###  https://w3id.org/cdrio#Turbine_Delivery
+:Turbine_Delivery rdf:type owl:Class ;
+                  rdfs:subClassOf :Processes .
+
+
+###  https://w3id.org/cdrio#Wind
+:Wind rdf:type owl:Class ;
+      rdfs:subClassOf :Natural_Climate .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Affected_Collection_System
+                :Affected_Commissioning
+                :Affected_Foundation
+                :Affected_PreConstruction_Work
+                :Affected_Site_Preparation
+                :Affected_Site_Rehabilitation
+                :Affected_Turbine_Assembly
+                :Affected_Turbine_Delivery
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Amphibian
+                :Birds
+                :Fish
+                :Insect
+                :Mammals
+                :Reptiles
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Artificial_Existing_Building
+                :Artificial_Road_Railway
+                :Artificial_Utility
+                :Natural_Botany
+                :Natural_Climate
+                :Natural_Designated_Area
+                :Natural_Geology
+                :Natural_Hydrography
+                :Natural_Seismicity
+                :Natural_Zoology
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Canadian_Federal_Legislations
+                :Muncipality_ByLaw
+                :Provincial_Legislations
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Collection_System
+                :Commissioning
+                :Foundations
+                :PreConstruction_Work
+                :Site_Preparation
+                :Site_Rehabilitation
+                :Turbine_Assembly
+                :Turbine_Delivery
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Consultants
+                :Contractor
+                :First_Nations
+                :Owner
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Consumer_Price_Index
+                :Exchange_Rate
+                :Inflation
+                :Interest_Rate
+                :Labour_Conditions
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Cost_Objective
+                :Environmental_Objective
+                :Quality_Objective
+                :Safety_Objective
+                :Time_Objective
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Economic
+                :Physical
+                :Politic
+                :Regulatory
+                :Social
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Environmental_Related_Risk
+                :Financial_Related_Risk
+                :Legal_Related_Risks
+                :Political_Related_Risk
+                :Social_Related_Risk
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Federal_Government
+                :Muncipal
+                :Provincial_Government
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Financial_Project_Risk
+                :Managerial_Related_Risk
+                :Site_Related_Risk
+                :Technical_Related_Risk
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Global_External_Risk
+                :Internal_Risk_Factor
+                :Local_External_Risk
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Precipitation
+                :Temperature
+                :Wind
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Project
+                :Project_Objective
+                :Project_Workpackage
+                :Response_Strategy
+                :Risk_Classification
+                :Risk_Driver
+                :Risk_Factor
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Risk_Acceptance
+                :Risk_Eliminaion
+                :Risk_Reduction
+                :Risk_Retention
+                :Risk_Transfer
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
